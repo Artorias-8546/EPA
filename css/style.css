@@ -94,9 +94,14 @@ justify-content: center;
 gap: 350px;
 }
 .container-main .esquerda{
-    background-color: red;
-    height: 350px;
+    background-color: blue;
+    height: 400px;
     width: 500px;
+    border-radius: 7px;
+    color: #ffff;
+    text-align: center;
+    font-size: 42px;
+    padding: 1rem;
 }
 .container-main .direita{
     background-color: black;
