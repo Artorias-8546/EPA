@@ -5,7 +5,7 @@
     left:0;
     height: 300px;
     width: 100%;
-    background-color: #5F35E8;
+    background-color: #3cc24e;
 }
 .bloco-primario{
     height: 60px;
@@ -20,12 +20,12 @@
 
 /* HEADER */
 header{
-    height: 10vh;
+    height: 13vh;
     width: auto;
-    background-color: #5F35E8;
+    background-color: #3cc24e;
 }
 header .container-header{
-    height: 10vh;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
