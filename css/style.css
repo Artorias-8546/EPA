@@ -3,17 +3,17 @@
     position: fixed;
     bottom:0;
     left:0;
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #4735e8;
 }
 .bloco-primario{
-    height: 60px;
+    height: 100px;
     background-color: #4735e8;
     width: 100%;
 }
 .bloco-central{
-    height: 215px;
+    height: 220px;
     width: 100%;
     background-color: white;
 }
