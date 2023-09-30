@@ -3,10 +3,22 @@
     position: fixed;
     bottom:0;
     left:0;
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: #5F35E8;
 }
+.bloco-primario{
+    height: 60px;
+    background-color: #5F35E8;
+    width: 100%;
+}
+.bloco-central{
+    height: 215px;
+    width: 100%;
+    background-color: white;
+}
+
+/* HEADER */
 header{
     height: 10vh;
     width: auto;
