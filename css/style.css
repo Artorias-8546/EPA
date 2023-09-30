@@ -2,8 +2,13 @@
 .container-footer{
     
 }
-.header{
+header{
     height: 10vh;
     width: auto;
     background-color: #;
+}
+header .container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
