@@ -3,7 +3,7 @@
 
     </div>
     <div class="bloco-central">
-        <div class="text">
+        <div class="text-footer">
              O “Nome do app” é um aplicativo Web 
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
