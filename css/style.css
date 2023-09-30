@@ -41,6 +41,7 @@
 .text-footer-c{
     height: 100px;
     width: 300px;
+    text-align: center;
 }
 .text-footer-d{
     height: 100px;
@@ -51,8 +52,8 @@
     width: 100px;
 }
 .logo-footer{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 /* HEADER */
