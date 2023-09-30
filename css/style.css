@@ -47,3 +47,8 @@ header .container-header :hover{
     color: rgb(202, 165, 0);
 
 }
+
+header a{
+   border-radius: 50%;
+
+}
