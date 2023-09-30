@@ -5,10 +5,13 @@
 header{
     height: 10vh;
     width: auto;
-    background-color: #;
+    background-color: white;
 }
 header .container-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+header .container-header{
+
 }
