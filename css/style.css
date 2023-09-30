@@ -17,6 +17,13 @@
     width: 100%;
     background-color: white;
 }
+.text-footer{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* HEADER */
 header{
