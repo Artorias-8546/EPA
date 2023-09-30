@@ -1,6 +1,6 @@
 <footer class= "container-footer">
     <div class="bloco-primario">
-
+        <p>Começe agora!</p>
     </div>
     <div class="bloco-central">
         <div class="text-footer">
