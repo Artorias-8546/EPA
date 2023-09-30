@@ -1,8 +1,10 @@
 <footer class= "container-footer">
+
     <div class="bloco-primario">
         <div class="text-footer-a"> Começe agora!</div>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
+
     <div class="bloco-central">
         <div class="text-footer-c">
              O Boddy Healthy é um aplicativo Web 
@@ -22,5 +24,6 @@
                 Dicas
                 Tutoriais
         </div>
+        <img src="img/logo.jpg" alt="" class="logo-footer">
     </div>
 </footer>
