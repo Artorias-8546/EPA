@@ -2,12 +2,12 @@
 .container-footer{
     bottom:0;
     left:0;
-    height: 350px;
+    height: 360px;
     width: 100%;
     background-color: #4735e8;
 }
 .bloco-primario{
-    height: 100px;
+    height: 120px;
     background-color: #4735e8;
     width: 100%;
     display: flex;
@@ -30,15 +30,25 @@
     width: 100%;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    gap: 20px;
 }
 
-.text-footer{
+.text-footer-c{
     height: 100px;
     width: 300px;
-
+}
+.text-footer-d{
+    height: 100px;
+    width: 100px;
+}
+.text-footer-d-a{
+    font-size: 25px;
+    width: 100px;
 }
 
 /* HEADER */
