@@ -54,5 +54,6 @@ header .container-header :hover{
 header img{
    border-radius: 50%;
    height: 13vh;
+   margin-left: 2vh;
    
 }
