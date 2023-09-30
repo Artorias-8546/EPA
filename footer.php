@@ -1,6 +1,7 @@
 <footer class= "container-footer">
     <div class="bloco-primario">
-        <p>Começe agora!</p>
+        <div class="text-footer-a"> Começe agora!</div>
+        <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
     <div class="bloco-central">
         <div class="text-footer">
