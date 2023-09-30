@@ -65,3 +65,27 @@ header img{
    margin-left: 2vh;
    
 }
+.container-main{
+height: 70vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 350px;
+}
+.container-main .esquerda{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+}
+.container-main .direita{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+.container-main .container-esquerda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
