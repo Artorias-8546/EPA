@@ -13,4 +13,5 @@
         <div class="direita">
         </div>
     </div>
+    <hr class="barrinha">
 </main>
