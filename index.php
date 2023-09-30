@@ -10,6 +10,9 @@
     <title>Body Healty</title>
 </head>
 <body>
-   
+   <?php include 'header.php' ?>
+   <?php include 'main.php' ?>
+   <?php include 'footer.php' ?>
+   <?php include 'modal.php' ?>
 </body>
 </html>
