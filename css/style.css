@@ -1,4 +1,6 @@
-/* FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/*        FOOTER         */
 .container-footer{
     bottom:0;
     left:0;
@@ -16,12 +18,12 @@
     justify-content: center;
 }
 .text-footer-a{
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
 .text-footer-b{
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(214, 214, 214);
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -34,14 +36,20 @@
     justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
     padding-left: 300px;
-    padding-right: 200px;
+    padding-right: 300px;
     padding-top: 20px;
 }
-
 .text-footer-c{
     height: 100px;
     width: 300px;
     text-align: center;
+}
+.text-footer-c div{
+    font-size: 23px;
+}
+.text-footer-c div img{
+    height: 50px;
+    width: 50px;
 }
 .text-footer-d{
     height: 100px;
@@ -56,7 +64,7 @@
     width: 100px;
 }
 
-/* HEADER */
+/*         HEADER        */
 header{
     height: 15vh;
     width: auto;
