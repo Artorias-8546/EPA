@@ -1,6 +1,5 @@
 /* FOOTER */
 .container-footer{
-    position: fixed;
     bottom:0;
     left:0;
     height: 350px;
@@ -93,5 +92,5 @@ gap: 350px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
