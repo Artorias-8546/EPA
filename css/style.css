@@ -1,6 +1,11 @@
 /* FOOTER */
 .container-footer{
-    
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 200px;
+    width: 100%;
+    background-color: beige;
 }
 header{
     height: 10vh;
