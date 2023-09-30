@@ -47,9 +47,9 @@
 .text-footer-c div{
     font-size: 23px;
 }
-.text-footer-c div img{
-    height: 50px;
-    width: 50px;
+.text-footer-c div a img{
+    height: 70px;
+    width: 70px;
 }
 .text-footer-d{
     height: 100px;

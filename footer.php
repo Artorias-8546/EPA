@@ -12,7 +12,7 @@
             tecnologia e inovação. 
             <div>Siga nos</div>
             <div>
-                <a href=""><img src="img/facebook.jpg" alt=""></a>
+                <a href=""><img src="img/facebook.png" alt=""></a>
                 <a href=""><img src="img/instagram.jpg" alt=""></a>
                 <a href=""><img src="img/twiter.jpg" alt=""></a>
             </div>
