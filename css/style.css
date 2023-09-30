@@ -30,12 +30,12 @@
 
 /* HEADER */
 header{
-    height: 13vh;
+    height: 15vh;
     width: auto;
     background-color: #4735e8;
 }
 header .container-header{
-    height: 13vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,8 @@ header .container-header :hover{
 
 }
 
-header a{
+header img{
    border-radius: 50%;
-
+   height: 13vh;
+   
 }
