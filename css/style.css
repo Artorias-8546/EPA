@@ -2,7 +2,7 @@
 .container-footer{
     bottom:0;
     left:0;
-    height: 360px;
+    height: 380px;
     width: 100%;
     background-color: #4735e8;
 }
@@ -26,16 +26,16 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 .bloco-central{
-    height: 220px;
+    height: 240px;
     width: 100%;
     background-color: white;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 10px;
-    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
 }
 
 .text-footer-c{
@@ -44,7 +44,7 @@
 }
 .text-footer-d{
     height: 100px;
-    width: 100px;
+    width: 80px;
 }
 .text-footer-d-a{
     font-size: 25px;

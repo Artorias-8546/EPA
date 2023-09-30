@@ -11,10 +11,16 @@
         </div>
         <div class="text-footer-d">
             <div class="text-footer-d-a">Personal</div>
-            Rotina
-            Atividades
-            Alimentação
-            Exercicios
+                Rotina
+                Atividades
+                Alimentação
+                Exercicios
+        </div>
+        <div class="text-footer-d">
+            <div class="text-footer-d-a">Recursos</div>
+                Ajuda
+                Dicas
+                Tutoriais
         </div>
     </div>
 </footer>
