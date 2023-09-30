@@ -10,9 +10,10 @@
 header{
     height: 10vh;
     width: auto;
-    background-color: white;
+    background-color: red;
 }
 header .container-header{
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,7 +21,10 @@ header .container-header{
 header .container-header i{
     font-size: 40px;
     color: yellow;
+    padding-right:120px;
+    transition: all 1.5s;
 }
 header .container-header :hover{
-    
+    color: rgb(202, 165, 0);
+
 }
