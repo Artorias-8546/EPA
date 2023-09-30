@@ -5,12 +5,12 @@
     left:0;
     height: 200px;
     width: 100%;
-    background-color: beige;
+    background-color: #5F35E8;
 }
 header{
     height: 10vh;
     width: auto;
-    background-color: red;
+    background-color: #5F35E8;
 }
 header .container-header{
     height: 10vh;
