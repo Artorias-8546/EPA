@@ -7,9 +7,11 @@
 
     <div class="bloco-central">
         <div class="text-footer-c">
-             O Boddy Healthy é um aplicativo Web 
+             O Body Healthy é um aplicativo Web 
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
+            <div>Siga nos</div>
+            <div>img</div>
         </div>
         <div class="text-footer-d">
             <div class="text-footer-d-a">Personal</div>
