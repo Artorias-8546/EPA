@@ -4,11 +4,23 @@
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
     <div class="bloco-central">
-        <div class="text-footer">
-             O “Nome do app” é um aplicativo Web 
+        <div class="text-footer-c">
+             O Boddy Healthy é um aplicativo Web 
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
         </div>
-        <div><img src="logo.jpg" alt=""></div>
+        <div class="text-footer-d">
+            <div class="text-footer-d-a">Personal</div>
+                Rotina
+                Atividades
+                Alimentação
+                Exercicios
+        </div>
+        <div class="text-footer-d">
+            <div class="text-footer-d-a">Recursos</div>
+                Ajuda
+                Dicas
+                Tutoriais
+        </div>
     </div>
 </footer>
