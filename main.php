@@ -4,7 +4,9 @@
         <div class="container-esquerda">
             <div class="esquerda">
             </div>
-            <button type="submit">Começar agora!</button>
+            <div class="button-shadow">
+                <button type="submit">Começar agora!</button>
+            </div>
         </div>
 
         <div class="direita">

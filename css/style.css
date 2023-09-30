@@ -85,7 +85,7 @@ header img{
    
 }
 .container-main{
-height: 70vh;
+height: 80vh;
 width: 100%;
 display: flex;
 align-items: center;
@@ -94,7 +94,7 @@ gap: 350px;
 }
 .container-main .esquerda{
     background-color: red;
-    height: 500px;
+    height: 350px;
     width: 500px;
 }
 .container-main .direita{
@@ -106,5 +106,30 @@ gap: 350px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
+}
+.container-esquerda button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0;
+    border-style: none;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.5s;
+    font-size: 30px;
+}
+.button-shadow{
+    margin: 2.5rem;
+    background-color: white;
+    border-radius: 25px;
+    border-color: blue ;
+    border-width: 2px;
+    border-style: solid;
+}
+.container-esquerda button:hover{
+    background-color: rgb(28, 28, 184);
 
 }
