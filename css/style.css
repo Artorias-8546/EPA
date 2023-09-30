@@ -39,14 +39,17 @@
     padding-right: 300px;
     padding-top: 20px;
 }
-.text-footer-c div{
-    font-size: 23px;
-}
-
 .text-footer-c{
     height: 100px;
     width: 300px;
     text-align: center;
+}
+.text-footer-c div{
+    font-size: 23px;
+}
+.text-footer-c div img{
+    height: 50px;
+    width: 50px;
 }
 .text-footer-d{
     height: 100px;

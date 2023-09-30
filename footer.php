@@ -11,8 +11,10 @@
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
             <div>Siga nos</div>
-            <div><img src="" alt="">
-        
+            <div>
+                <img src="img/facebook.jpg" alt="">
+                <img src="img/instagram.jpg" alt="">
+                <img src="img/twiter.jpg" alt="">
             </div>
         </div>
         <div class="text-footer-d">
