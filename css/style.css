@@ -12,6 +12,10 @@ header .container-header{
     align-items: center;
     justify-content: space-between;
 }
-header .container-header{
-
+header .container-header i{
+    font-size: 40px;
+    color: yellow;
+}
+header .container-header :hover{
+    
 }
