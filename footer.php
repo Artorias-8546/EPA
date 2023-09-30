@@ -11,7 +11,9 @@
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
             <div>Siga nos</div>
-            <div>img</div>
+            <div><img src="" alt="">
+        
+            </div>
         </div>
         <div class="text-footer-d">
             <div class="text-footer-d-a">Personal</div>
