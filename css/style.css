@@ -93,6 +93,8 @@ header img{
    margin-left: 2vh;
    
 }
+
+/*        MAIN         */
 .container-main{
 height: 80vh;
 width: 100%;
@@ -112,8 +114,8 @@ gap: 350px;
     padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .container-main .direita{
-    background-color: black;
     height: 500px;
     width: 500px;
 }
@@ -154,6 +156,7 @@ gap: 350px;
 .container-esquerda button:active{
     margin: 0.4rem;
 }
+
 .barrinha{
     
 }

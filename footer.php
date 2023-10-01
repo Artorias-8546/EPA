@@ -1,7 +1,7 @@
 <footer class= "container-footer">
 
     <div class="bloco-primario">
-        <div class="text-footer-a"> Começe agora!</div>
+        <div class="text-footer-a" id = "C1"> Começe agora!</div>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
 
@@ -10,11 +10,11 @@
              O Body Healthy é um aplicativo Web 
             para sua saúde, somos uma impresa de
             tecnologia e inovação. 
-            <div>Siga nos</div>
+            <div>Siga-nos</div>
             <div>
                 <a href=""><img src="img/facebook.png" alt=""></a>
-                <a href=""><img src="img/instagram.jpg" alt=""></a>
-                <a href=""><img src="img/twiter.jpg" alt=""></a>
+                <a href=""><img src="img/instagram.jpeg" alt=""></a>
+                <a href=""><img src="img/twitter.png" alt=""></a>
             </div>
         </div>
         <div class="text-footer-d">
