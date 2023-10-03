@@ -64,6 +64,12 @@
     width: 100px;
 }
 
+.final-footer{
+    padding-block-end: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+}
+
 /*         HEADER        */
 header{
     height: 15vh;

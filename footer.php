@@ -32,4 +32,6 @@
         </div>
         <img src="img/logo.jpg" alt="" class="logo-footer">
     </div>
+    <hr class="">
+    <div class="final-footer"></div>
 </footer>
