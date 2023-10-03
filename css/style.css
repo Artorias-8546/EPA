@@ -6,16 +6,21 @@
     left:0;
     height: 380px;
     width: 100%;
-    background-color: #4735e8;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://wallpaperaccess.com/full/1120863.jpg");
+    background-position: auto;
+    background-repeat: no-repeat, no-repeat;
 }
 .bloco-primario{
     height: 120px;
-    background-color: #4735e8;
+
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ 
 }
 .text-footer-a{
     font-size: 35px;
@@ -48,8 +53,8 @@
     font-size: 23px;
 }
 .text-footer-c div a img{
-    height: 70px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
 }
 .text-footer-d{
     height: 100px;
@@ -62,6 +67,13 @@
 .logo-footer{
     height: 100px;
     width: 100px;
+}
+
+.final-footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
 }
 
 /*         HEADER        */
