@@ -32,6 +32,5 @@
         </div>
         <img src="img/logo.jpg" alt="" class="logo-footer">
     </div>
-    <hr class="">
-    <div class="final-footer"></div>
+        <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de temos de serviços</div>
 </footer>
