@@ -8,13 +8,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("https://wallpaperaccess.com/full/1120863.jpg");
-    background-position: auto;
-    background-repeat: no-repeat, no-repeat;
+    background-color: #4735e8
 }
 .bloco-primario{
-    height: 120px;
-
+    height: 130px;
+    background-color: #4735e8;
     width: 100%;
     display: flex;
     flex-direction: column;
