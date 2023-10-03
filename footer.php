@@ -1,5 +1,5 @@
 <footer class= "container-footer">
-
+<div class="img-footer">
     <div class="bloco-primario">
         <div class="text-footer-a" id = "C1"> Começe agora!</div>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
@@ -33,4 +33,5 @@
         <img src="img/logo.jpg" alt="" class="logo-footer">
     </div>
         <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de temos de serviços</div>
+</div>
 </footer>

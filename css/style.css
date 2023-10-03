@@ -4,23 +4,20 @@
 .container-footer{
     bottom:0;
     left:0;
-    height: 380px;
+    height: 385px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("https://wallpaperaccess.com/full/1120863.jpg");
-    background-position: auto;
-    background-repeat: no-repeat, no-repeat;
+    background-color: #4735e8
 }
 .bloco-primario{
     height: 120px;
-
+    background-color: #4735e8;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
 }
 .text-footer-a{
     font-size: 35px;
