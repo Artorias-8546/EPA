@@ -1,7 +1,6 @@
 <footer class= "container-footer">
     <div class="bloco-primario">
         <div class="text-footer-a" id = "C1"> Começe agora!</div>
-        <hr>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
 
