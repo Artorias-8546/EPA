@@ -6,14 +6,14 @@
 .container-footer{
     bottom:0;
     left:0;
-    height: 385px;
+    height: 375px;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #007792;
 }
 .bloco-primario{
-    height: 120px;
+    height: 150px;
     background-color: #00b0d9;
     width: 100%;
     display: flex;
@@ -23,7 +23,7 @@
 }
 .text-footer-a{
     font-size: 35px;
-    color: white;
+    color: #ffff;
     font-family: 'Josefin Sans', sans-serif;
 }
 .text-footer-b{
@@ -43,6 +43,10 @@
     padding-right: 350px;
     padding-top: 20px;
 }
+.bloco-central i:hover{
+    color: rgb(185, 0, 0);
+}
+
 .text-footer-c{
     height: 100px;
     width: 300px;
@@ -60,7 +64,7 @@
     width: 80px;
 }
 .text-footer-d-a{
-    font-size: 30px;
+    font-size: 25px;
     width: 100px;
 }
 .logo-footer{
@@ -68,14 +72,23 @@
     width: 100px;
     border-radius: 100%;
 }
-
 .final-footer{
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(165, 165, 165);
 }
-
+hr{
+    border-color:#ffff;
+    box-sizing:border-box;
+    width:100%;  
+}
+.bloco-primario hr{
+    border-color:#ffff;
+    box-sizing:border-box;
+    width:30%;
+    text-align: center; 
+}
 /*         HEADER        */
 header{
     height: 15vh;
@@ -183,7 +196,7 @@ gap: 350px;
 .barrinha{
     border-width: 5px;
     width: 90%;
-    
+    border-color: black;
 }
 .container-inputs{
     display: grid;
@@ -197,7 +210,6 @@ gap: 350px;
     margin-top: 4vh;
     margin-left: 21vh;
     margin-right: 20vh;
-    
 }
 
 .tooltip1{
@@ -235,7 +247,6 @@ gap: 350px;
 .tooltip1:hover .mensagem1{
     visibility: visible;
     background-color: rgb(6, 6, 234);
-    
 }
 
 .container-calcular{
@@ -248,7 +259,6 @@ gap: 350px;
     gap: 350px;
 
 }
-
 
 .container-calcular button{
     margin: 0.5rem  ;
