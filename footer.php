@@ -11,9 +11,9 @@
             tecnologia e inovação. 
             <div>Siga-nos</div>
             <div>
-                <a href=""><img src="img/facebook.png" alt=""></a>
-                <a href=""><img src="img/instagram.jpg" alt=""></a>
-                <a href=""><img src="img/twitter.png" alt=""></a>
+                <i class="ph ph-facebook-logo"></i>
+                <i class="ph ph-instagram-logo"></i>
+                <i class="ph ph-twitter-logo"></i>
             </div>
         </div>
         <div class="text-footer-d">
