@@ -6,19 +6,15 @@
 .container-footer{
     bottom:0;
     left:0;
-    height: 385px;
+    height: 375px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #4735e8;
-    background-image: url(../img/footer-wallpaper.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    background-color: #007792;
 }
 .bloco-primario{
-    height: 120px;
-
+    height: 150px;
+    background-color: #00b0d9;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -27,7 +23,7 @@
 }
 .text-footer-a{
     font-size: 35px;
-    color: white;
+    color: #ffff;
     font-family: 'Josefin Sans', sans-serif;
 }
 .text-footer-b{
@@ -47,6 +43,10 @@
     padding-right: 350px;
     padding-top: 20px;
 }
+.bloco-central i:hover{
+    color: rgb(185, 0, 0);
+}
+
 .text-footer-c{
     height: 100px;
     width: 300px;
@@ -64,7 +64,7 @@
     width: 80px;
 }
 .text-footer-d-a{
-    font-size: 30px;
+    font-size: 25px;
     width: 100px;
 }
 .logo-footer{
@@ -72,19 +72,28 @@
     width: 100px;
     border-radius: 100%;
 }
-
 .final-footer{
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
-    color: gray;
+    color: rgb(165, 165, 165);
 }
-
+hr{
+    border-color:#ffff;
+    box-sizing:border-box;
+    width:100%;  
+}
+.bloco-primario hr{
+    border-color:#ffff;
+    box-sizing:border-box;
+    width:30%;
+    text-align: center; 
+}
 /*         HEADER        */
 header{
     height: 15vh;
     width: auto;
-    background-color: #4735e8;
+    background-color: #00b0d9;
 }
 header .container-header{
     height: 15vh;
@@ -111,6 +120,13 @@ header img{
 }
 
 /*        MAIN         */
+.imagem-main{
+    height: 25em;
+    width: 36em;
+    background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container-main{
 height: 80vh;
 width: 100%;

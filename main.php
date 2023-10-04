@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="direita">
-            <img src = "img/logo.jpg" alt = "">
+            <div class="imagem-main"></div>
         </div>
     </div>
     <div class="hrr"> <hr class="barrinha"></div>

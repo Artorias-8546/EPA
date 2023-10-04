@@ -1,5 +1,4 @@
 <footer class= "container-footer">
-<div class="img-footer">
     <div class="bloco-primario">
         <div class="text-footer-a" id = "C1"> Começe agora!</div>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
@@ -12,9 +11,9 @@
             tecnologia e inovação. 
             <div>Siga-nos</div>
             <div>
-                <a href=""><img src="img/facebook.png" alt=""></a>
-                <a href=""><img src="img/instagram.jpg" alt=""></a>
-                <a href=""><img src="img/twitter.png" alt=""></a>
+                <i class="ph ph-facebook-logo"></i>
+                <i class="ph ph-instagram-logo"></i>
+                <i class="ph ph-twitter-logo"></i>
             </div>
         </div>
         <div class="text-footer-d">
@@ -32,6 +31,7 @@
         </div>
         <a href=""><img src="img/logo.jpg" alt="" class="logo-footer"></a>
     </div >
+
+    <hr>
         <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de temos de serviços</div>
-    </div>
 </footer>
