@@ -128,12 +128,12 @@ header img{
     background-size: cover;
 }
 .container-main{
-height: 80vh;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 350px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
 }
 .container-main .esquerda{
     background-color: blue;
