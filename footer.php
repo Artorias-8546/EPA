@@ -33,5 +33,5 @@
     </div >
 
     <hr>
-        <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de temos de serviços</div>
+        <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de termos de serviços</div>
 </footer>

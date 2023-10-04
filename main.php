@@ -3,7 +3,7 @@
     <div class="container-main">
         <div class="container-esquerda">
             <div class="esquerda">
-                Com nosso site, ajuda a você ter uma melhor rotina de atividades físicas, graças ao nosso programa de elaboração de exercícios!
+                Com nosso site, ajudamos você a ter uma melhor rotina de atividades físicas, graças ao nosso programa de elaboração de exercícios!
             </div>
             <div class="button-shadow">
             <a href = "#C1"><button type="submit">Começar agora!</button></a>
@@ -19,10 +19,10 @@
 
     <div class="container-inputs">
         <div class="quadrado-shadow">
-        <div class="tooltip1">
-            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
+            <div class="tooltip1">
+                <span class="mensagem1">Perda de peso</span>
+            </div>
         </div>
-    </div>
     <div class="quadrado-shadow">
         <div class="tooltip2">
             <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
@@ -88,5 +88,12 @@
             <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
     </div>
+    </div>
+    
+    <div class="container-calcular">
+        <div class="calc-esquerda">
+            <div class="button-shadow">
+                <button type="submit">Calcular meus exercícios</button>
+        </div>
     </div>
 </main>
