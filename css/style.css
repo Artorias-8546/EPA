@@ -43,6 +43,10 @@
     padding-right: 350px;
     padding-top: 20px;
 }
+.bloco-central i:hover{
+    color: rgb(185, 0, 0);
+}
+
 .text-footer-c{
     height: 100px;
     width: 300px;
@@ -60,7 +64,7 @@
     width: 80px;
 }
 .text-footer-d-a{
-    font-size: 30px;
+    font-size: 25px;
     width: 100px;
 }
 .logo-footer{
@@ -68,7 +72,6 @@
     width: 100px;
     border-radius: 100%;
 }
-
 .final-footer{
     display: flex;
     justify-content: center;
