@@ -183,30 +183,33 @@ gap: 350px;
     width: 90%;
     
 }
-.container-selects{
+.container-inputs{
     display: grid;
     width: auto;
-    height: 40vh;
+    height: 50vh;
+    width: 80%;
     margin: auto;
     grid-template-areas:
     "tooltip1 tooltip2 tooltip3 tooltip4 tooltip5 tooltip6 tooltip7"
     "tooltip8 tooltip9 tooltip10 tooltip11 tooltip12 tooltip13 tooltip14";
     gap: 1rem;
-    margin-top: 40px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-top:10vh;
+    margin-bottom: 80px;
+ 
     
 }
 
-.tooltip1{
-    width: 25vh;
-    height: 25vh;
+.tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
+.tooltip8,.tooltip9,.tooltip10.tooltip11,.tooltip12.tooltip13,.tooltip14{
+    margin-left: -3px;
+    margin-top: -20px;
+    width: 21vh;
+    height: 21vh;
     background-color: blue;
     grid-area: tooltip1;
     border-radius: 15%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
    
 }
@@ -222,15 +225,49 @@ gap: 350px;
     z-index: 1;
 
 }
+.tooltip2 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip3 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
 .quadrado-shadow{
-    background-color: black;
-    width: 220px;
-    height: 220px;
+    background-color: rgba(0, 0, 255, 0.308);
+    width: 23vh;
+    height: 21vh;
     border-radius: 15%;
     padding-bottom: 30px;
 }
 
 .tooltip1:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip2:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip3:hover .mensagem1{
     visibility: visible;
     background-color: rgb(6, 6, 234);
     
