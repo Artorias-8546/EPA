@@ -201,195 +201,6 @@ header img{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-inputs{
     display: grid;
     width: auto;
@@ -608,38 +419,6 @@ header img{
     background-color: rgb(6, 6, 234);
 }
 
-
-.container-calcular{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10vh;
-    gap: 350px;
-
-}
-
-.container-calcular button{
-    margin: 0.5rem  ;
-    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-width: 0;
-    border-style: none;
-    background-color: blue;
-    border-radius: 15px;
-    color: white;
-    transition: all 0.1s ease;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.container-calcular button:hover{
-    background-color: rgb(28, 28, 184);
-
-}
-
 .tooltip2:hover .mensagem1{
     visibility: visible;
     background-color: rgb(6, 6, 234);
@@ -708,4 +487,36 @@ header img{
     visibility: visible;
     background-color: rgb(6, 6, 234);
     
+}
+
+/*botao calcular*/
+.container-calcular{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    gap: 350px;
+
+}
+
+.container-calcular button{
+    margin: 0.5rem  ;
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0;
+    border-style: none;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.1s ease;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-calcular button:hover{
+    background-color: rgb(28, 28, 184);
+
 }
