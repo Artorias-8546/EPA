@@ -13,7 +13,7 @@
             <div>Siga-nos</div>
             <div>
                 <a href=""><img src="img/facebook.png" alt=""></a>
-                <a href=""><img src="img/instagram.jpeg" alt=""></a>
+                <a href=""><img src="img/instagram.jpg" alt=""></a>
                 <a href=""><img src="img/twitter.png" alt=""></a>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 Tutoriais
         </div>
         <a href=""><img src="img/logo.jpg" alt="" class="logo-footer"></a>
-    </div>
+    </div >
         <div class="final-footer">O uso do gratuito aplicativo está sujeito a aceitação de temos de serviços</div>
-</div>
+    </div>
 </footer>

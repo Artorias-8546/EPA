@@ -11,10 +11,14 @@
     display: flex;
     flex-direction: column;
     background-color: #4735e8;
+    background-image: url(../img/footer-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .bloco-primario{
     height: 120px;
-    background-color: #4735e8;
+
     width: 100%;
     display: flex;
     flex-direction: column;
