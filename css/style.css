@@ -190,12 +190,115 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
-.barrinha{
+.hrr .barrinha{
     border-width: 5px;
     width: 90%;
-    border-color: black;
+    border-color:rgba(0, 0, 0, 0.685) ;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -289,7 +392,7 @@ header img{
     width: auto;
     height: 80vh;
     height: 50vh;
-    width: 80%;
+    width: 90%;
     margin: auto;
     grid-template-areas:
     "tooltip1 tooltip2 tooltip3 tooltip4 tooltip5 tooltip6 tooltip7"
@@ -305,7 +408,7 @@ header img{
 }
 
 .tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
-.tooltip8,.tooltip9,.tooltip10.tooltip11,.tooltip12.tooltip13,.tooltip14{
+.tooltip8,.tooltip9,.tooltip10,.tooltip11,.tooltip12,.tooltip13,.tooltip14{
     margin-left: -3px;
     margin-top: -20px;
     width: 21vh;
@@ -354,13 +457,145 @@ header img{
     z-index: 1;
 
 }
+.tooltip4 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip5 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip6 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip7 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip8 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip9 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip10 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip11 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip12 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip13 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip14 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
 .quadrado-shadow{
     background-color: rgba(0, 0, 0, 0.288);
     width: 220px;
     height: 220px;
     background-color: rgba(0, 0, 255, 0.308);
-    width: 23vh;
-    height: 21vh;
+    width: 21.5vh;
+    height: 20vh;
     border-radius: 15%;
     padding-bottom: 30px;
 }
@@ -370,7 +605,77 @@ header img{
     background-color: rgb(6, 6, 234);
 }
 
+.tooltip2:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip3:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+}
+.tooltip4:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip5:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip6:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip7:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip8:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip9:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip10:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip11:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip12:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip1:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip13:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip14:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
 
+/*botao calcular*/
 .container-calcular{
     height: 10vh;
     width: 100%;
@@ -400,14 +705,4 @@ header img{
 .container-calcular button:hover{
     background-color: rgb(28, 28, 184);
 
-}
-
-.tooltip2:hover .mensagem1{
-    visibility: visible;
-    background-color: rgb(6, 6, 234);
-    
-}
-.tooltip3:hover .mensagem1{
-    visibility: visible;
-    background-color: rgb(6, 6, 234);
 }

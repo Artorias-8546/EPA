@@ -13,7 +13,9 @@
             <div class="imagem-main"></div>
         </div>
     </div>
-    <div class="hrr"> <hr class="barrinha"></div>
+    <div class="hrr">
+        <hr class="barrinha">
+    </div>
    
     <!-- interação -->
 
@@ -68,6 +70,7 @@
             <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
     </div>
+    
     <div class="quadrado-shadow">
         <div class="tooltip11" >
             <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
