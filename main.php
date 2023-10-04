@@ -23,61 +23,71 @@
                 <span class="mensagem1">Perda de peso</span>
             </div>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Fortelecimento Abdominal</span>
-            </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip2">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Manter a forma</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip3">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Treino de pantorrilha</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip4">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Treino de antebraço</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip5">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Equilíbrio do corpo</span>
-            </div>
-        </div><br>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Desenvolvimento de bíceps</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip6">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Treino de trapézio</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip7">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Aliviação de dores musculares</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip8">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Fortalecimento da coluna</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip9">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Treino de tórax</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip10">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
-        <div class="quadrado-shadow">
-            <div class="tooltip1">
-                <span class="mensagem1">Flexibilidade</span>
-            </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip11" >
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
         </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip12">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
+        </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip13">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
+        </div>
+    </div>
+    <div class="quadrado-shadow">
+        <div class="tooltip14">
+            <span class="mensagem1">O agachamento é um dos treinos indispensáveis quando o assunto é treino de perna</span>
+        </div>
+    </div>
     </div>
     
     <div class="container-calcular">

@@ -109,7 +109,6 @@ header .container-header i{
 }
 header .container-header :hover{
     color: rgb(202, 165, 0);
-
 }
 
 header img{
@@ -128,12 +127,12 @@ header img{
     background-size: cover;
 }
 .container-main{
-height: 80vh;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 350px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
 }
 .container-main .esquerda{
     background-color: blue;
@@ -198,10 +197,201 @@ gap: 350px;
     width: 90%;
     border-color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-inputs{
     display: grid;
     width: auto;
     height: 80vh;
+    height: 50vh;
+    width: 80%;
     margin: auto;
     grid-template-areas:
     "tooltip1 tooltip2 tooltip3 tooltip4 tooltip5 tooltip6 tooltip7"
@@ -210,17 +400,23 @@ gap: 350px;
     margin-top: 4vh;
     margin-left: 21vh;
     margin-right: 20vh;
+    margin-top:10vh;
+    margin-bottom: 80px;
+ 
+    
 }
 
-.tooltip1{
-    width: 25vh;
-    height: 25vh;
+.tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
+.tooltip8,.tooltip9,.tooltip10.tooltip11,.tooltip12.tooltip13,.tooltip14{
+    margin-left: -3px;
+    margin-top: -20px;
+    width: 21vh;
+    height: 21vh;
     background-color: blue;
     grid-area: tooltip1;
     border-radius: 15%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
    
 }
@@ -236,10 +432,37 @@ gap: 350px;
     z-index: 1;
 
 }
+.tooltip2 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltip3 .mensagem1{
+    visibility: hidden;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
 .quadrado-shadow{
     background-color: rgba(0, 0, 0, 0.288);
     width: 220px;
     height: 220px;
+    background-color: rgba(0, 0, 255, 0.308);
+    width: 23vh;
+    height: 21vh;
     border-radius: 15%;
     padding-bottom: 30px;
 }
@@ -248,6 +471,7 @@ gap: 350px;
     visibility: visible;
     background-color: rgb(6, 6, 234);
 }
+
 
 .container-calcular{
     height: 10vh;
@@ -278,4 +502,15 @@ gap: 350px;
 .container-calcular button:hover{
     background-color: rgb(28, 28, 184);
 
+}
+
+.tooltip2:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
+}
+.tooltip3:hover .mensagem1{
+    visibility: visible;
+    background-color: rgb(6, 6, 234);
+    
 }
