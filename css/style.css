@@ -120,8 +120,8 @@ header img{
 
 /*        MAIN         */
 .imagem-main{
-    height: 25em;
-    width: 36em;
+    height: 30em;
+    width: 43em;
     background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1");
     background-repeat: no-repeat;
     background-size: cover;
@@ -512,5 +512,4 @@ header img{
 .tooltip3:hover .mensagem1{
     visibility: visible;
     background-color: rgb(6, 6, 234);
-    
 }
