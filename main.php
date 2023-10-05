@@ -21,8 +21,10 @@
 
     <div class="container-inputs">
         <div class="quadrado-shadow">
+            <!-- <div class="mensagem" for="t-button"></div> -->
             <input type="checkbox" id="t-button" class="input-t">
             <label for="t-button" class="tooltip1" id="t-label">
+                <img src="img/perda_de_peso.png" alt="" width ="230vh" >
                 <span class="mensagem1">Perda de peso</span>
             </label>
             </div>
