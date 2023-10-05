@@ -199,6 +199,8 @@ header img{
   
 }
 
+/*inputs check-list*/
+
 .container-inputs{
     display: grid;
     width: auto;
@@ -214,7 +216,12 @@ header img{
  
     
 }
-
+.tooltip1{
+ grid-area:'tooltip1' ;
+}
+.tooltip2{
+    grid-area:'tooltip2' ;
+}
 .tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
 .tooltip8,.tooltip9,.tooltip10,.tooltip11,.tooltip12,.tooltip13,.tooltip14{
     margin-left: -3px;
@@ -229,6 +236,7 @@ header img{
     align-items: center;
    
 }
+
 .tooltip1 .mensagem1{
     visibility: hidden;
     width: 20vh;

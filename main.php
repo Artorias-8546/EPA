@@ -32,6 +32,42 @@
                 <span class="mensagem1">Perda de peso</span>
             </label>
             </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button3" class="input-t">
+            <label for="t-button3" class="tooltip1" id="t-label3">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button4" class="input-t">
+            <label for="t-button4" class="tooltip1" id="t-label4">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button5" class="input-t">
+            <label for="t-button5" class="tooltip1" id="t-label5">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button6" class="input-t">
+            <label for="t-button6" class="tooltip1" id="t-label6">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button7" class="input-t">
+            <label for="t-button7" class="tooltip1" id="t-label7">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button8" class="input-t">
+            <label for="t-button8" class="tooltip1" id="t-label8">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
+            </div>
         </div>
         
     
