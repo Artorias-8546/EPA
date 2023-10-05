@@ -187,3 +187,35 @@ if (tButton14.checked) {
 }
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const modal = document.querySelector(".modal");
+
+function exibirModal(){
+    modal.classList.toggle("aberto");
+}
