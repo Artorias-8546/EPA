@@ -14,6 +14,7 @@
                 <i class="ph ph-facebook-logo"></i>
                 <i class="ph ph-instagram-logo"></i>
                 <i class="ph ph-twitter-logo"></i>
+                <i class="ph ph-discord-logo"></i>
             </div>
         </div>
         <div class="text-footer-d">
