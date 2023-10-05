@@ -131,12 +131,11 @@ if (tButton8.checked) {
 }
 });
 
-tButton2.addEventListener('change', function() {
-if (tButton2.checked) {
-    tLabel2.classList.add('checked');
-    console.log(r);
+tButton9.addEventListener('change', function() {
+if (tButton9.checked) {
+    tLabel9.classList.add('checked');
 } else{
-    tLabel2.classList.remove('checked');
+    tLabel9.classList.remove('checked');
 }
 });
 
