@@ -157,3 +157,12 @@ btncalc.addEventListener('click', function(){
   }
 
 });
+
+
+/*modal*/
+const modal = document.querySelector(".modal");
+
+function exibirModal(){
+    modal.classList.toggle("aberto");
+}
+

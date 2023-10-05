@@ -2,6 +2,7 @@
 *{
     margin: 0%;
 }
+
 /*        FOOTER         */
 .container-footer{
     bottom:0;
@@ -89,6 +90,31 @@ hr{
     width:30%;
     text-align: center; 
 }
+/*         MODAL         */
+.modal{
+    width: 500px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: gray;
+    transition: 900ms;
+    transform: translateX(100%);
+}
+.aberto{
+    transform: translateX(0%);
+}
+.modal a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+.modal a:hover{
+    color: black;
+}
+
+
 /*         HEADER        */
 header{
     height: 15vh;
