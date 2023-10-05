@@ -229,7 +229,7 @@ header img{
     align-items: center;
    
 }
-.custom-t .mensagem1{
+.tooltip1 .mensagem1{
     visibility: hidden;
     width: 180px;
     background-color: blue;
