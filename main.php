@@ -21,14 +21,19 @@
 
     <div class="container-inputs">
         <div class="quadrado-shadow">
-
             <input type="checkbox" id="t-button" class="input-t">
             <label for="t-button" class="tooltip1" id="t-label">
                 <span class="mensagem1">Perda de peso</span>
             </label>
-                
+            </div>
+            <div class="quadrado-shadow">
+            <input type="checkbox" id="t-button2" class="input-t">
+            <label for="t-button2" class="tooltip1" id="t-label2">
+                <span class="mensagem1">Perda de peso</span>
+            </label>
             </div>
         </div>
+        
     
     
     <div class="container-calcular">
