@@ -121,7 +121,7 @@ if (tButton4.checked) {
 
 tButton5.addEventListener('change', function() {
 if (tButton5.checked) {
-    tLabel5.classList.add('checked');5
+    tLabel5.classList.add('checked');
 } else{
     tLabel5.classList.remove('checked');
 }
