@@ -10,7 +10,7 @@
     
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script src=""></script>
+    <script src="js/script.js" defer></script>
     <title>Body Healty</title>
     
 </head>
