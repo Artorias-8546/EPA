@@ -44,6 +44,14 @@ const tLabel14 = document.getElementById('t-label14');
 
 
 // variaveis
+// pp = perda peso
+// cr = corrida
+// b = braço
+// p = perna
+// y = yoga
+// t = torax
+
+
 var i =0;
 
 
@@ -139,30 +147,43 @@ if (tButton9.checked) {
 }
 });
 
-tButton2.addEventListener('change', function() {
-if (tButton2.checked) {
-    tLabel2.classList.add('checked');
-    console.log(r);
+tButton10.addEventListener('change', function() {
+if (tButton10.checked) {
+    tLabel10.classList.add('checked');
 } else{
-    tLabel2.classList.remove('checked');
+    tLabel10.classList.remove('checked');
 }
 });
 
-tButton2.addEventListener('change', function() {
-    if (tButton2.checked) {
-      tLabel2.classList.add('checked');
-      console.log(r);
+tButton11.addEventListener('change', function() {
+    if (tButton11.checked) {
+      tLabel11.classList.add('checked');
     } else{
-      tLabel2.classList.remove('checked');
+      tLabel11.classList.remove('checked');
+    }
+});
+
+tButton12.addEventListener('change', function() {
+    if (tButton12.checked) {
+      tLabel12.classList.add('checked');
+    } else{
+      tLabel12.classList.remove('checked');
     }
   });
 
-tButton2.addEventListener('change', function() {
-    if (tButton2.checked) {
-      tLabel2.classList.add('checked');
-      console.log(r);
-    } else{
-      tLabel2.classList.remove('checked');
-    }
-  });
+tButton13.addEventListener('change', function() {
+if (tButton13.checked) {
+    tLabel13.classList.add('checked');
+} else{
+    tLabel13.classList.remove('checked');
+}
+});
+
+tButton14.addEventListener('change', function() {
+if (tButton14.checked) {
+    tLabel14.classList.add('checked');
+} else{
+    tLabel14.classList.remove('checked');
+}
+});
 
