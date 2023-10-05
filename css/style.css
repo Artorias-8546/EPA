@@ -117,23 +117,19 @@ hr{
 
 /*         HEADER        */
 header{
-    height: 15vh;
-    width: auto;
     background-color: #00b0d9;
-}
-header .container-header{
     height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-header .container-header i{
+header a{
     font-size: 40px;
     color: yellow;
     padding-right:120px;
     transition: all 1.5s;
 }
-header .container-header :hover{
+header a:hover{
     color: rgb(202, 165, 0);
 }
 
