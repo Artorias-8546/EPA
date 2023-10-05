@@ -1,6 +1,9 @@
+function $(id){
+  return document.getElementById(id);
+}
 // constantes
-const tButton = document.getElementById('t-button');
-const tLabel = document.getElementById('t-label');
+const tButton = $('t-button');
+const tLabel = $('t-label');
 
 const tButton2 = document.getElementById('t-button2');
 const tLabel2 = document.getElementById('t-label2');
@@ -41,8 +44,8 @@ const tLabel13 = document.getElementById('t-label13');
 const tButton14 = document.getElementById('t-button14');
 const tLabel14 = document.getElementById('t-label14');
 
-
-
+const btncalc = $("btn-calc");
+const testa= $('test');
 // variaveis
 // pp = perda peso
 // cr = corrida
@@ -52,7 +55,12 @@ const tLabel14 = document.getElementById('t-label14');
 // t = torax
 
 
-var i =0;
+var pp =0;
+var cr =0;
+var b =0;
+var p =0;
+var y =0;
+var t =0;
 
 
 
@@ -74,12 +82,16 @@ var i =0;
 tButton.addEventListener('change', function() {
   if (tButton.checked) {
     tLabel.classList.add('checked');
-    i = i+1;
-    console.log(i);
+    cr = cr+15;
+    pp = pp+15;
+    console.log(cr);
+    console.log(pp);
   } else {
     tLabel.classList.remove('checked');
-    i = i-1;
-    console.log(i);
+    cr = cr-15;
+    pp = pp-15;
+    console.log(cr);
+    console.log(pp);
   }
 });
  
@@ -139,51 +151,9 @@ if (tButton8.checked) {
 }
 });
 
-tButton9.addEventListener('change', function() {
-if (tButton9.checked) {
-    tLabel9.classList.add('checked');
-} else{
-    tLabel9.classList.remove('checked');
-}
+btncalc.addEventListener('click', function(){
+  if(pp>10 && cr>5){
+    testa.classList.add('most');
+  }
+
 });
-
-tButton10.addEventListener('change', function() {
-if (tButton10.checked) {
-    tLabel10.classList.add('checked');
-} else{
-    tLabel10.classList.remove('checked');
-}
-});
-
-tButton11.addEventListener('change', function() {
-    if (tButton11.checked) {
-      tLabel11.classList.add('checked');
-    } else{
-      tLabel11.classList.remove('checked');
-    }
-});
-
-tButton12.addEventListener('change', function() {
-    if (tButton12.checked) {
-      tLabel12.classList.add('checked');
-    } else{
-      tLabel12.classList.remove('checked');
-    }
-  });
-
-tButton13.addEventListener('change', function() {
-if (tButton13.checked) {
-    tLabel13.classList.add('checked');
-} else{
-    tLabel13.classList.remove('checked');
-}
-});
-
-tButton14.addEventListener('change', function() {
-if (tButton14.checked) {
-    tLabel14.classList.add('checked');
-} else{
-    tLabel14.classList.remove('checked');
-}
-});
-

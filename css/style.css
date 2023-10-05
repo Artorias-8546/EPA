@@ -253,7 +253,7 @@ header img{
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
     width: 21.5vh;
-    height: 19vh;
+    height: 19.5vh;
     border-radius: 15%;
     padding-bottom: 30px;
 }
@@ -308,4 +308,14 @@ header img{
 .container-calcular button:hover{
     background-color: rgb(28, 28, 184);
 
+}
+.test{
+background-color: red;
+width: 20vh;
+height: 20vh;
+display: none;
+}
+.test.most{
+    display: flex;
+    
 }
