@@ -221,7 +221,11 @@
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
+<<<<<<< HEAD
+        
+=======
 <!-- 10 -->
+>>>>>>> 4890ee4bc66c69e494924f307c9db5977476f79a
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh" id="myImg10">
 
