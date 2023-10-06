@@ -227,7 +227,7 @@ btncalc.addEventListener('click', function(){
 });
 
 
-/*modal*/
+/*modal-header*/
 const modal = document.querySelector(".modal");
 
 function exibirModal(){

@@ -133,7 +133,6 @@
 
     <div class="container-exercicios">
         <div class="img-exercicios" id="flexao">
-
             <img src="img/flexao.png" alt="" width="300vh" id="myImg">
 
             <div id="myModal" class="modal-main">
@@ -146,8 +145,8 @@
         <div class="img-exercicios2" id="caminhada">
             <img src="img/caminhada.png" alt="" width="300vh" id=myImg>
         </div>
-        <div class="img-exercicios3" id="agachamentos">
-            <img src="img/agachamentos.png" alt="" width="300vh">
+        <div class="img-exercicios3" id="agachamento">
+            <img src="img/agachamento.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios4" id="yoga">
             <img src="img/yoga.png" alt="" width="300vh">
