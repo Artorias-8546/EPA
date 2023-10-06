@@ -142,31 +142,23 @@
             <div id="caption"></div>
         </div>
 
-        <div class="img-exercicios" id="flexao">
-
-<img id="myImg" src="img/flexao.png" alt="Flexão" width="300vh">
-
-<div id="myModal" class="modal-main">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-<div id="caption"></div>
-</div>
+      
 
 
         <div class="img-exercicios2" id="caminhada">
             <img src="img/caminhada.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios3" id="agachamentos">
+        <div class="img-exercicios3" id="agachamento">
             <img src="img/agachamento.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios4" id="">
-            <img src="img/" alt="" width="300vh">
+        <div class="img-exercicios4" id="yoga">
+            <img src="img/yoga.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios5" id="">
-            <img src="img/" alt="" width="300vh">
+        <div class="img-exercicios5" id="polichinelo">
+            <img src="img/polichinelo.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios6" id="">
-            <img src="img/" alt="" width="300vh">
+        <div class="img-exercicios6" id="pulacorda">
+            <img src="img/pular_corda.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios7" id="">
             <img src="img/" alt="" width="300vh">

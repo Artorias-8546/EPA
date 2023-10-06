@@ -46,9 +46,12 @@ const tLabel14 = document.getElementById('t-label14');
 
 const btncalc = $("btn-calc");
 
-const flexao= $('flexao');
-const caminhada= $('caminhada');
-const agachamentos= $('agachamentos');
+const flexao = $('flexao');
+const caminhada = $('caminhada');
+const agachamento = $('agachamento');
+const yoga = $('yoga');
+const polichinelo = $('polichinelo');
+const pulacorda = $('pulacorda');
 
 // variaveis
 // pp = perda peso
@@ -215,7 +218,10 @@ btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
     caminhada.classList.add('most');
-    agachamentos.classList.add('most');
+    agachamento.classList.add('most');
+    yoga.classList.add('most');
+    polichinelo.classList.add('most');
+    pulacorda.classList.add('most');
   }
 
 });
