@@ -52,6 +52,8 @@ const agachamento = $('agachamento');
 const yoga = $('yoga');
 const polichinelo = $('polichinelo');
 const pulacorda = $('pulacorda');
+const alongamento = $('alongamento');
+
 
 // variaveis
 // pp = perda peso
@@ -222,6 +224,7 @@ btncalc.addEventListener('click', function(){
     yoga.classList.add('most');
     polichinelo.classList.add('most');
     pulacorda.classList.add('most');
+    alongamento.classList.add('most');
   }
 
 });

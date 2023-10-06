@@ -158,8 +158,8 @@
         <div class="img-exercicios6" id="pulacorda">
             <img src="img/pular_corda.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios7" id="">
-            <img src="img/" alt="" width="300vh">
+        <div class="img-exercicios7" id="alongamento">
+            <img src="img/alongamento.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios8" id="">
             <img src="img/" alt="" width="300vh">
