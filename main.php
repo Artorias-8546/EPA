@@ -221,6 +221,7 @@
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
+        
 <!-- 10 -->
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh" id="myImg10">
