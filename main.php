@@ -135,14 +135,50 @@
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="300vh">
+        <div class="img-exercicios2" id="caminhada">
+            <img src="img/caminhada.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="300vh">
+        <div class="img-exercicios3" id="agachamentos">
+            <img src="img/agachamentos.png" alt="" width="300vh">
         </div>
-        <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="300vh">
+        <div class="img-exercicios4" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios5" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios6" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios7" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios8" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios9" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios10" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios11" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios12" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios13" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios14" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios15" id="">
+            <img src="img/" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios16" id="">
+            <img src="img/" alt="" width="300vh">
         </div>
     </div>
     

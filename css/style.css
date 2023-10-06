@@ -360,13 +360,29 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 1rem;
 }
-.img-exercicios{
+.img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
+.img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
+.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
-    
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
 }
-.img-exercicios.most{
-    display: flex;
-    
-}
+.img-exercicios.most{display: flex;}
+.img-exercicios2.most{display: flex;}
+.img-exercicios3.most{display: flex;}
+.img-exercicios4.most{display: flex;}
+.img-exercicios5.most{display: flex;}
+.img-exercicios6.most{display: flex;}
+.img-exercicios7.most{display: flex;}
+.img-exercicios8.most{display: flex;}
+.img-exercicios9.most{display: flex;}
+.img-exercicios10.most{display: flex;}
+.img-exercicios11.most{display: flex;}
+.img-exercicios12.most{display: flex;}
+.img-exercicios13.most{display: flex;}
+.img-exercicios14.most{display: flex;}
+.img-exercicios15.most{display: flex;}
+.img-exercicios16.most{display: flex;}

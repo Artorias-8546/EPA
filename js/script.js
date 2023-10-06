@@ -47,6 +47,7 @@ const tLabel14 = document.getElementById('t-label14');
 const btncalc = $("btn-calc");
 
 const flexao= $('flexao');
+const caminhada= $('caminhada');
 
 // variaveis
 // pp = perda peso
@@ -212,6 +213,7 @@ tButton14.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
+    caminhada.classList.add('most');
   }
 
 });
