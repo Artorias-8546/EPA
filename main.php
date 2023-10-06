@@ -154,7 +154,7 @@
             <img src="img/polichinelo.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" alt="" width="250vh">
+            <img src="img/pular_corda.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios7" id="alongamento">
             <img src="img/alongamentoo.png" alt="" width="200vh">
