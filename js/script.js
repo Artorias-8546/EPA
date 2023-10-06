@@ -54,6 +54,7 @@ const polichinelo = $('polichinelo');
 const pulacorda = $('pulacorda');
 const alongamento = $('alongamento');
 const ponte = $('ponte');
+const abdominal = $('abdominal');
 
 
 // variaveis
@@ -227,6 +228,7 @@ btncalc.addEventListener('click', function(){
     pulacorda.classList.add('most');
     alongamento.classList.add('most');
     ponte.classList.add('most');
+    ponte.classList.add('abdominal');
     
   }
 
@@ -241,20 +243,36 @@ function exibirModal(){
 }
 
 
+
+
+
+
 /*modal*/
 const modal_main = document.querySelector(".modal-main");
-
-var modalmain = document.getElementById("myModal");
+const modal_main2 = document.querySelector(".modal-main2");
 
 var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
+var img2 = document.getElementById("myImg2");
+
 img.onclick = function(){
   modal_main.style.display = "block";
   modalImg.src = this.src;
 }
 
-var span = document.getElementsByClassName("close")[0];
+img2.onclick = function(){
+  modal_main2.style.display = "block";
+  modalImg.src = this.src;
+}
 
+
+var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal_main.style.display = "none";
 }
+
+var span = document.getElementsByClassName("close2")[0];
+
+span.onclick = function() {
+  modal_main2.style.display = "none";
+}
+

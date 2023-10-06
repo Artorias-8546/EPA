@@ -137,13 +137,19 @@
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
-                <div class="modal-content" id="img01">a</div>
+                <div class="modal-content" id="">a</div>
             </div>
         </div>
  
         <div class="img-exercicios2" id="caminhada">
-            <img src="img/caminhada.png" alt="" width="250vh">
+            <img src="img/caminhada.png" alt="" width="250vh" id="myImg2">
+
+            <div id="myModal" class="modal-main2">
+                <span class="close2">&times;</span>
+                <div class="modal-content" id="">b</div>
+            </div>
         </div>
+
         <div class="img-exercicios3" id="agachamento">
             <img src="img/agachamento.png" alt="" width="300vh">
         </div>
