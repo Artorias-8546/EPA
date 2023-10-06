@@ -150,8 +150,8 @@
             </div>
         </div>
 
-        <div class="img-exercicios3" id="agachamento">
-            <img src="img/agachamento.png" width="300vh">
+        <div class="img-exercicios3" id="agachamento" >
+            <img src="img/agachamento.png" width="300vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -160,7 +160,7 @@
         </div>
 
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.gif" width="250vh">
+            <img src="img/yoga.gif" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -169,7 +169,7 @@
         </div>
 
         <div class="img-exercicios5" id="polichinelo">
-            <img src="img/polichinelo.png" width="250vh">
+            <img src="img/polichinelo.png" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -178,7 +178,7 @@
         </div>
 
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" width="300vh">
+            <img src="img/pular_corda.png" width="300vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -187,7 +187,7 @@
         </div>
 
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamentoo.png" width="155vh">
+            <img src="img/alongamentoo.png" width="155vh" id="myImg"> 
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -196,7 +196,7 @@
         </div>
 
         <div class="img-exercicios8" id="ponte">
-            <img src="img/pontee.png" width="250vh">
+            <img src="img/pontee.png" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -206,7 +206,7 @@
 
 
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.gif" width="250vh">
+            <img src="img/abdominal.gif" width="250vh" id="myImg">
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
                 <div class="modal-content" id="">a</div>
@@ -214,7 +214,7 @@
         </div>
 
         <div class="img-exercicios10" id="">
-            <img src="img/" alt="" width="250vh">
+            <img src="img/" alt="" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
