@@ -133,7 +133,7 @@
 
     <div class="container-exercicios">
         <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="300vh" id="myImg">
+            <img src="img/flexao.png" alt="" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -142,55 +142,55 @@
         </div>
  
         <div class="img-exercicios2" id="caminhada">
-            <img src="img/caminhada.png" alt="" width="300vh" id="myImg">
+            <img src="img/caminhada.png" alt="" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
                 <div class="modal-content" id="img01"></div>
             </div>
         </div>
-        
+
         <div class="img-exercicios3" id="agachamento">
-            <img src="img/agachamento.png" alt="" width="300vh">
+            <img src="img/agachamento.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.png" alt="" width="300vh">
+            <img src="img/yoga.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios5" id="polichinelo">
-            <img src="img/polichinelo.png" alt="" width="300vh">
+            <img src="img/polichinelo.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" alt="" width="300vh">
+            <img src="img/pular_corda.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamento.png" alt="" width="300vh">
+            <img src="img/alongamento.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios8" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios9" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios10" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios11" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios12" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios13" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios14" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios15" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
         <div class="img-exercicios16" id="">
-            <img src="img/" alt="" width="300vh">
+            <img src="img/" alt="" width="250vh">
         </div>
     </div>
 
