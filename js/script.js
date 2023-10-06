@@ -219,6 +219,6 @@ btncalc.addEventListener('click', function(){
 const modal = document.querySelector(".modal");
 
 function exibirModal(){
-    modal.classList.toggle("aberto");
+  modal.classList.toggle("abrir-modal");
 }
 
