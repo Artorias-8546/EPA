@@ -132,10 +132,20 @@
     </div>
 
     <div class="container-exercicios">
-    <div class="img-exercicios" id="flexao">
-        <img src="img/flexao.png" alt="">
+        <div class="img-exercicios" id="flexao">
+            <img src="img/flexao.png" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios" id="flexao">
+            <img src="img/flexao.png" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios" id="flexao">
+            <img src="img/flexao.png" alt="" width="300vh">
+        </div>
+        <div class="img-exercicios" id="flexao">
+            <img src="img/flexao.png" alt="" width="300vh">
+        </div>
     </div>
-    </div>
+    
    
     
 

@@ -357,15 +357,14 @@ header img{
 }
 
 .container-exercicios{
-    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .img-exercicios{
-    width: 20vh;
-    height: 20vh;
     display: none;
+    
 }
 .img-exercicios.most{
     display: flex;
