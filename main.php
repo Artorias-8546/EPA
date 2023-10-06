@@ -143,10 +143,10 @@
         </div>
 
         <div class="img-exercicios2" id="caminhada">
-            <img src="img/caminhada.png" alt="" width="300vh">
+            <img src="img/caminhada.gif" alt="" width="300vh">
         </div>
         <div class="img-exercicios3" id="agachamentos">
-            <img src="img/agachamentos.png" alt="" width="300vh">
+            <img src="img/agachamento.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios4" id="">
             <img src="img/" alt="" width="300vh">
