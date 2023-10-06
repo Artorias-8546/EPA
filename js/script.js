@@ -244,6 +244,7 @@ function exibirModal(){
 
 
 
+
 /*modal*/
 const modal_main = document.querySelector(".modal-main");
 const modal_main2 = document.querySelector(".modal-main2");
