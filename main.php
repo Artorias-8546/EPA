@@ -145,8 +145,8 @@
             <img src="img/flexao.png" alt="" width="300vh">
         </div>
     </div>
-    
-   
-    
 
+
+
+    
 </main>
