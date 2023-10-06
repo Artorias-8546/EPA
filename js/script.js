@@ -151,6 +151,62 @@ if (tButton8.checked) {
 }
 });
 
+tButton8.addEventListener('change', function() {
+  if (tButton8.checked) {
+      tLabel8.classList.add('checked');
+  } else{
+      tLabel8.classList.remove('checked');
+  }
+});
+
+tButton9.addEventListener('change', function() {
+  if (tButton9.checked) {
+      tLabel9.classList.add('checked');
+  } else{
+      tLabel9.classList.remove('checked');
+  }
+});
+
+tButton10.addEventListener('change', function() {
+  if (tButton10.checked) {
+      tLabel10.classList.add('checked');
+  } else{
+      tLabel10.classList.remove('checked');
+  }
+});
+  
+tButton11.addEventListener('change', function() {
+  if (tButton11.checked) {
+      tLabel11.classList.add('checked');
+  } else{
+      tLabel11.classList.remove('checked');
+  }
+});
+
+tButton12.addEventListener('change', function() {
+  if (tButton12.checked) {
+      tLabel12.classList.add('checked');
+  } else{
+      tLabel12.classList.remove('checked');
+  }
+});
+
+tButton13.addEventListener('change', function() {
+  if (tButton13.checked) {
+      tLabel13.classList.add('checked');
+  } else{
+      tLabel13.classList.remove('checked');
+  }
+});
+
+tButton14.addEventListener('change', function() {
+  if (tButton14.checked) {
+      tLabel14.classList.add('checked');
+  } else{
+      tLabel14.classList.remove('checked');
+  }
+});
+
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     testa.classList.add('most');

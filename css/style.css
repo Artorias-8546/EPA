@@ -8,6 +8,7 @@
     --cor-botao:;
 }
 
+
 /*        FOOTER         */
 
 .container-footer{
@@ -158,11 +159,11 @@ header img{
 }
 .container-main{
     height: 80vh;
-    width: 100%;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 350px;
+    gap: 30vw;
 }
 .container-main .esquerda{
     background-color: var(--cor-primaria);
