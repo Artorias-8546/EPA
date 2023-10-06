@@ -151,7 +151,7 @@
             <img src="img/yoga.gif" alt="" width="250vh">
         </div>
         <div class="img-exercicios5" id="polichinelo">
-            <img src="img/polichinelo.png" alt="" width="250vh">
+            <img src="img/polichinelo.jpg" alt="" width="250vh">
         </div>
         <div class="img-exercicios6" id="pulacorda">
             <img src="img/pular_corda.png" alt="" width="300vh">
