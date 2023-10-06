@@ -241,6 +241,7 @@ btncalc.addEventListener('click', function(){
     alongamento.classList.remove('most');
     ponte.classList.remove('most');
     abdominal.classList.remove('most');
+    
   }
 
 });
