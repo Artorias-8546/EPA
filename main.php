@@ -151,25 +151,25 @@
         </div>
 
         <div class="img-exercicios3" id="agachamento">
-            <img src="img/agachamento.png" alt="" width="300vh">
+            <img src="img/agachamento.png" width="300vh">
         </div>
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.gif" alt="" width="250vh">
+            <img src="img/yoga.gif" width="250vh">
         </div>
         <div class="img-exercicios5" id="polichinelo">
-            <img src="img/polichinelo.jpg" alt="" width="250vh">
+            <img src="img/polichinelo.jpg" width="250vh">
         </div>
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" alt="" width="300vh">
+            <img src="img/pular_corda.png" width="300vh">
         </div>
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamentoo.png" alt="" width="200vh">
+            <img src="img/alongamentoo.png" width="200vh">
         </div>
         <div class="img-exercicios8" id="ponte">
-            <img src="img/pontee.png" alt="" width="250vh">
+            <img src="img/pontee.png" width="250vh">
         </div>
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.jpg" alt="" width="250vh">
+            <img src="img/abdominal.jpg" width="250vh">
         </div>
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh">
