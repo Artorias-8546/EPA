@@ -173,17 +173,15 @@
         </div>
 
 <!-- 5 -->
+
         <div class="img-exercicios5" id="polichinelo">
-<<<<<<< HEAD
-            <img src="img/polichinelo.png" width="300vh">
-=======
+
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
 
             <div id="myModal" class="modal-main5">
                 <span class="close5">&times;</span>
                 <div class="modal-content" id="">a</div>
             </div>
->>>>>>> 0051541f18bf9b6b09d951d9725240bf8277c18f
         </div>
 
 <!-- 6 -->
