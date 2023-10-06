@@ -133,7 +133,7 @@
 
     <div class="container-exercicios">
         <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="250vh" id="myImg">
+            <img src="img/flexao.gif" alt="" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
