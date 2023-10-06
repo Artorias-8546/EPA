@@ -3,10 +3,17 @@
     margin: 0%;
 }
 :root{
+<<<<<<< HEAD
     --cor-primaria: #4169E1;
     --cor-secundaria: #2f4b9e;
     --cor-terciaria:  #808080;
+=======
+    --cor-primaria: #4169E1 ;
+    --cor-secundaria: ;
+    --cor-botao:;
+>>>>>>> fefaa00eb231105e9f20993cabaa20561ed44790
 }
+
 
 /*        FOOTER         */
 header span{
@@ -163,11 +170,11 @@ header img{
 }
 .container-main{
     height: 80vh;
-    width: 100%;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 350px;
+    gap: 30vw;
 }
 .container-main .esquerda{
     background-color: var(--cor-primaria);
@@ -278,12 +285,13 @@ header img{
 .tooltip1 .mensagem1{
     align-self: flex-end;
     visibility: hidden;
-    width: 20vh;
+    width: 19.8vh;
+    margin-bottom: 5px;
     background-color: blue;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    border-radius: 15%;
+    padding: 9px 0;
+    border-radius: 14%;
     position:absolute;
     z-index: 1;
     -webkit-text-stroke: 0.77px black ;
