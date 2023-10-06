@@ -90,6 +90,7 @@ hr{
     width:30%;
     text-align: center; 
 }
+
 /*         MODAL         */
 .modal{
     width: 500px;
@@ -128,6 +129,7 @@ header a{
     color: yellow;
     padding-right:120px;
     transition: all 1.5s;
+    text-decoration: none;
 }
 header a:hover{
     color: rgb(202, 165, 0);
@@ -263,16 +265,17 @@ header img{
     border-radius: 20px;
 }
 .tooltip1 .mensagem1{
+    align-self: flex-end;
     visibility: hidden;
     width: 20vh;
     background-color: blue;
     color: white;
     text-align: center;
     padding: 10px 0;
-    border-radius: 6px;
+    border-radius: 15%;
     position:absolute;
     z-index: 1;
-    -webkit-text-stroke: 0.5px black ;
+    -webkit-text-stroke: 0.77px black ;
     font-size: 22px;
     font-weight: bold;
 }
@@ -287,7 +290,7 @@ header img{
 
 .tooltip1:hover .mensagem1{
     visibility: visible;
-    background-color: rgba(6, 6, 234, 0.226);
+    background-color: rgba(7, 7, 149, 0.48);
 }
 
 .input-t{
