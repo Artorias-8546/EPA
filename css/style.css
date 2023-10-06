@@ -11,11 +11,11 @@
 
 /*        FOOTER         */
 header span{
-    padding-right: 39em;
-    padding-top: 2.5em;
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    justify-content: space-around;
+    margin-right: 68.5vw;
+    flex-direction:column;
+    align-items: center;
     font-size: 35px;
     font-family: 'Mooli', sans-serif;
     color: white;
