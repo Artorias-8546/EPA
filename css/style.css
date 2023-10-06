@@ -367,7 +367,7 @@ header img{
 .img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
     background-color: blue;
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 10px;
 }
 .img-exercicios.most{display: flex;}

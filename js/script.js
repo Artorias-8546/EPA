@@ -48,6 +48,7 @@ const btncalc = $("btn-calc");
 
 const flexao= $('flexao');
 const caminhada= $('caminhada');
+const agachamentos= $('agachamentos');
 
 // variaveis
 // pp = perda peso
@@ -214,6 +215,7 @@ btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
     caminhada.classList.add('most');
+    agachamentos.classList.add('most');
   }
 
 });
