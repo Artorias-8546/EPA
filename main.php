@@ -173,7 +173,9 @@
         </div>
 
 <!-- 5 -->
+
         <div class="img-exercicios5" id="polichinelo">
+
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
 
             <div id="myModal" class="modal-main5">
