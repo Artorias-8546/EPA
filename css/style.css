@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 *{
     margin: 0%;
 }
@@ -8,13 +9,16 @@
     --cor-terciaria:  #808080;
 }
 
-
 /*        FOOTER         */
 header span{
-
+    padding-right: 39em;
+    padding-top: 2.5em;
     display: flex;
     flex-direction: column;
     align-items: end;
+    font-size: 35px;
+    font-family: 'Mooli', sans-serif;
+    color: white;
 }
 .container-footer{
     bottom:0;
@@ -114,7 +118,7 @@ hr{
     transition: 900ms;
     transform: translateX(100%);
 }
-.aberto{
+.abrir-modal{
     transform: translateX(0%);
 }
 .modal a{
@@ -351,6 +355,7 @@ header img{
     background-color: rgb(28, 28, 184);
 
 }
+
 .container-exercicios{
     height: 20vh;
     display: flex;
@@ -358,13 +363,9 @@ header img{
     align-items: center;
 }
 .img-exercicios{
-
-width: 20vh;
-height: 20vh;
-display: none;
-}
-.calc-baixo{
-    
+    width: 20vh;
+    height: 20vh;
+    display: none;
 }
 .img-exercicios.most{
     display: flex;
