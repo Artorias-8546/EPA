@@ -360,13 +360,100 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 2rem;
 }
-.img-exercicios{
+.img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
+.img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
+.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
-    
+    background-color: blue;
+    border-radius: 25px;
+    padding: 10px;
 }
-.img-exercicios.most{
-    display: flex;
-    
+.img-exercicios.most{display: flex;}
+.img-exercicios2.most{display: flex;}
+.img-exercicios3.most{display: flex;}
+.img-exercicios4.most{display: flex;}
+.img-exercicios5.most{display: flex;}
+.img-exercicios6.most{display: flex;}
+.img-exercicios7.most{display: flex;}
+.img-exercicios8.most{display: flex;}
+.img-exercicios9.most{display: flex;}
+.img-exercicios10.most{display: flex;}
+.img-exercicios11.most{display: flex;}
+.img-exercicios12.most{display: flex;}
+.img-exercicios13.most{display: flex;}
+.img-exercicios14.most{display: flex;}
+.img-exercicios15.most{display: flex;}
+.img-exercicios16.most{display: flex;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-main{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
 }
