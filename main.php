@@ -133,7 +133,7 @@
 
     <div class="container-exercicios">
         <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.gif" alt="" width="250vh" id="myImg">
+            <img src="img/flexao.png" alt="" width="250vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -142,13 +142,13 @@
         </div>
  
         <div class="img-exercicios2" id="caminhada">
-            <img src="img/caminhada.png" alt="" width="300vh">
+            <img src="img/caminhada.png" alt="" width="250vh">
         </div>
-        <div class="img-exercicios3" id="agachamentos">
-            <img src="img/agachamentos.png" alt="" width="300vh">
+        <div class="img-exercicios3" id="agachamento">
+            <img src="img/agachamento.png" alt="" width="300vh">
         </div>
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.png" alt="" width="250vh">
+            <img src="img/yoga.gif" alt="" width="250vh">
         </div>
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" alt="" width="250vh">
