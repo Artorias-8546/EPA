@@ -80,43 +80,43 @@
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button9" class="input-t">
             <label for="t-button9" class="tooltip1" id="t-label9">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+            <img src="img/aliviacao_dores_musculares.png" alt="" width ="140vh">
+                <span class="mensagem1">Aliviação das dores musculares</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button10" class="input-t">
             <label for="t-button10" class="tooltip1" id="t-label10">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+            <img src="img/fortalecimento_da_coluna001.png" alt="" width ="135vh">
+                <span class="mensagem1">Fortalecimento da coluna</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button11" class="input-t">
             <label for="t-button11" class="tooltip1" id="t-label11">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+            <img src="img/treino_de_torax.gif" alt="" width ="155vh">
+                <span class="mensagem1">Treino de Tórax</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button12" class="input-t">
             <label for="t-button12" class="tooltip1" id="t-label12">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+            <img src="img/flexibilidade2.gif" alt="" width ="180vh">
+                <span class="mensagem1">Flexibilidade</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button13" class="input-t">
             <label for="t-button13" class="tooltip1" id="t-label13">
             <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+                <span class="mensagem1"></span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button14" class="input-t">
             <label for="t-button14" class="tooltip1" id="t-label14">
             <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1">Treino de trapézio</span>
+                <span class="mensagem1"></span>
             </label>
             </div>
         </div>
