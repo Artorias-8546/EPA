@@ -3,7 +3,7 @@
     margin: 0%;
 }
 :root{
-    --cor-primaria: ;
+    --cor-primaria: #04AA6D ;
     --cor-secundaria: ;
 }
 
@@ -123,7 +123,7 @@ hr{
 
 /*         HEADER        */
 header{
-    background-color: #00b0d9;
+    background-color:var(--cor-primaria);
     height: 15vh;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ header img{
     gap: 350px;
 }
 .container-main .esquerda{
-    background-color: blue;
+    background-color: var(--cor-primaria);
     height: 400px;
     width: 500px;
     border-radius: 7px;
