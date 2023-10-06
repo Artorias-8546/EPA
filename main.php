@@ -6,7 +6,7 @@
                 Com nosso site, ajudamos você a ter uma melhor rotina de atividades físicas, graças ao nosso programa de elaboração de exercícios!
             </div>
             <div class="button-shadow">
-            <a href = "#C1"><button type="submit">Começar agora!</button></a>
+            <a href = "#tlabel1"><button type="submit">Começar agora!</button></a>
             </div>
         </div>
         <div class="direita">
@@ -124,12 +124,19 @@
     
     
     <div class="container-calcular">
-        <div class="calc-esquerda">
+        <div class="calc-baixo">
             <div class="button-shadow">
                 <button type="submit" id="btn-calc">Calcular meus exercícios</button>
         </div>
     </div>
+    </div>
 
-    <div class="test" id="test"></div>
+    <div class="container-exercicios">
+    <div class="img-exercicios" id="flexao">
+        <img src="img/flexao.png" alt="">
+    </div>
+    </div>
+   
+    
 
 </main>

@@ -323,13 +323,12 @@ header img{
 
 /*botao calcular*/
 .container-calcular{
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 10vh;
-    gap: 350px;
+    align-items: center;
+    margin-bottom: 5vh;
 
 }
 
@@ -352,13 +351,22 @@ header img{
     background-color: rgb(28, 28, 184);
 
 }
-.test{
-background-color: red;
+.container-exercicios{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-exercicios{
+
 width: 20vh;
 height: 20vh;
 display: none;
 }
-.test.most{
+.calc-baixo{
+    
+}
+.img-exercicios.most{
     display: flex;
     
 }
