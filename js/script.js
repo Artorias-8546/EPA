@@ -45,7 +45,9 @@ const tButton14 = document.getElementById('t-button14');
 const tLabel14 = document.getElementById('t-label14');
 
 const btncalc = $("btn-calc");
-const testa= $('test');
+
+const flexao= $('flexao');
+
 // variaveis
 // pp = perda peso
 // cr = corrida
@@ -209,7 +211,7 @@ tButton14.addEventListener('change', function() {
 
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
-    testa.classList.add('most');
+    flexao.classList.add('most');
   }
 
 });
@@ -219,6 +221,6 @@ btncalc.addEventListener('click', function(){
 const modal = document.querySelector(".modal");
 
 function exibirModal(){
-    modal.classList.toggle("aberto");
+  modal.classList.toggle("abrir-modal");
 }
 

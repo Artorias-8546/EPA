@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 *{
     margin: 0%;
 }
 :root{
-    --cor-primaria: #4169E1 ;
-    --cor-secundaria: ;
-    --cor-botao:;
+    --cor-primaria: #4169E1;
+    --cor-secundaria: #2f4b9e;
+    --cor-terciaria:  #808080;
 }
 
-
 /*        FOOTER         */
-
+header span{
+    padding-right: 39em;
+    padding-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 35px;
+    font-family: 'Mooli', sans-serif;
+    color: white;
+}
 .container-footer{
     bottom:0;
     left:0;
@@ -18,11 +27,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #007792;
+    background-color: var(--cor-secundaria);
 }
 .bloco-primario{
     height: 150px;
-    background-color: #00b0d9;
+    background-color: var(--cor-primaria);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -109,7 +118,7 @@ hr{
     transition: 900ms;
     transform: translateX(100%);
 }
-.aberto{
+.abrir-modal{
     transform: translateX(0%);
 }
 .modal a{
@@ -318,13 +327,12 @@ header img{
 
 /*botao calcular*/
 .container-calcular{
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 10vh;
-    gap: 350px;
+    align-items: center;
+    margin-bottom: 5vh;
 
 }
 
@@ -347,13 +355,18 @@ header img{
     background-color: rgb(28, 28, 184);
 
 }
-.test{
-background-color: red;
-width: 20vh;
-height: 20vh;
-display: none;
+
+.container-exercicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.test.most{
+.img-exercicios{
+    display: none;
+    
+}
+.img-exercicios.most{
     display: flex;
     
 }
