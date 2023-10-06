@@ -2,6 +2,10 @@
 *{
     margin: 0%;
 }
+:root{
+    --cor-primaria: ;
+    --cor-secundaria: ;
+}
 
 /*        FOOTER         */
 
@@ -280,10 +284,7 @@ header img{
     font-size: 22px;
     font-weight: bold;
 }
-:root{
-    --cor-primaria: ;
-    --cor-secundaria: ;
-}
+
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
     width: 21.5vh;
