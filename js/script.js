@@ -228,8 +228,19 @@ btncalc.addEventListener('click', function(){
     pulacorda.classList.add('most');
     alongamento.classList.add('most');
     ponte.classList.add('most');
-    ponte.classList.add('abdominal');
+    abdominal.classList.add('most');
     
+  }
+  else{
+    flexao.classList.remove('most');
+    caminhada.classList.remove('most');
+    agachamento.classList.remove('most');
+    yoga.classList.remove('most');
+    polichinelo.classList.remove('most');
+    pulacorda.classList.remove('most');
+    alongamento.classList.remove('most');
+    ponte.classList.remove('most');
+    abdominal.classList.remove('most');
   }
 
 });
