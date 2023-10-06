@@ -160,7 +160,7 @@
             <img src="img/alongamentoo.png" alt="" width="200vh">
         </div>
         <div class="img-exercicios8" id="ponte">
-            <img src="img/ponte.png" alt="" width="250vh">
+            <img src="img/pontee.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios9" id="abdominal">
             <img src="img/abdominal.png" alt="" width="250vh">
