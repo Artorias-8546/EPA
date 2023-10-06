@@ -408,7 +408,7 @@ header img{
 
 
 
-.modal-main{
+.modal-main, .modal-main2, .modal-main3, .modal-main4{
     display: none; 
     position: fixed;
     padding-top: 20vh;
@@ -419,161 +419,6 @@ header img{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.9);
 }
-.modal-main2{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main3{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main4{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main5{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main6{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main7{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main8{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main9{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main10{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main11{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main12{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main13{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main14{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-.modal-main15{
-    display: none; 
-    position: fixed;
-    padding-top: 20vh;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-
 .modal-content {
     margin: auto;
     display: block;
@@ -586,7 +431,7 @@ header img{
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-.close {
+.close, .close2, .close3, . .close4{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -596,29 +441,12 @@ header img{
     transition: 0.3s;
 }
   
-.close:hover,
-.close:focus {
+.close:hover, .close:focus, .close2:hover, .close2:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-}
-
-.close2 {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
 }
   
-.close2:hover,
-.close2:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
 @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
