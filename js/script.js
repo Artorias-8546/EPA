@@ -223,6 +223,6 @@ btncalc.addEventListener('click', function(){
 const modal = document.querySelector(".modal");
 
 function exibirModal(){
-  modal.classList.toggle("abrir-modal");
+    modal.classList.toggle("abrir-modal");
 }
 
