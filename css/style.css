@@ -367,9 +367,13 @@ header img{
 .img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
 .img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border-radius: 25px;
     padding: 10px;
+    height: 30vh;
+    width: 30vh;
 }
 .img-exercicios.most{display: flex;}
 .img-exercicios2.most{display: flex;}

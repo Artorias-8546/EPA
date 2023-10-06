@@ -163,7 +163,7 @@
             <img src="img/pular_corda.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamento.png" alt="" width="250vh">
+            <img src="img/alongamentoo.png" alt="" width="200vh">
         </div>
         <div class="img-exercicios8" id="">
             <img src="img/" alt="" width="250vh">
