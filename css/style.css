@@ -2,6 +2,12 @@
 *{
     margin: 0%;
 }
+:root{
+    --cor-primaria: #4169E1 ;
+    --cor-secundaria: ;
+    --cor-botao:;
+}
+
 
 /*        FOOTER         */
 
@@ -119,7 +125,7 @@ hr{
 
 /*         HEADER        */
 header{
-    background-color: #00b0d9;
+    background-color:var(--cor-primaria);
     height: 15vh;
     display: flex;
     align-items: center;
@@ -153,14 +159,14 @@ header img{
 }
 .container-main{
     height: 80vh;
-    width: 100%;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 350px;
+    gap: 30vw;
 }
 .container-main .esquerda{
-    background-color: blue;
+    background-color: var(--cor-primaria);
     height: 400px;
     width: 500px;
     border-radius: 7px;
@@ -281,10 +287,7 @@ header img{
     font-size: 22px;
     font-weight: bold;
 }
-:root{
-    --cor-primaria: ;
-    --cor-secundaria: ;
-}
+
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
     width: 21.5vh;
