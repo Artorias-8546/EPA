@@ -263,7 +263,6 @@ img2.onclick = function(){
 }
 
 
-
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal_main.style.display = "none";
