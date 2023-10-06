@@ -171,8 +171,8 @@
         <div class="img-exercicios9" id="abdominal">
             <img src="img/abdominal.gif" width="250vh">
         </div>
-        <div class="img-exercicios10" id="">
-            <img src="img/" alt="" width="250vh">
+        <div class="img-exercicios10" id="pull-up">
+            <img src="img/pull-up" alt="" width="250vh">
         </div>
        
     </div>
