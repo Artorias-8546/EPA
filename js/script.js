@@ -250,29 +250,139 @@ function exibirModal(){
 /*modal*/
 const modal_main = document.querySelector(".modal-main");
 const modal_main2 = document.querySelector(".modal-main2");
+const modal_main3 = document.querySelector(".modal-main3");
+const modal_main4 = document.querySelector(".modal-main4");
+const modal_main5 = document.querySelector(".modal-main5");
+const modal_main6 = document.querySelector(".modal-main6");
+const modal_main7 = document.querySelector(".modal-main7");
+const modal_main8 = document.querySelector(".modal-main8");
+const modal_main9 = document.querySelector(".modal-main9");
+const modal_main10 = document.querySelector(".modal-main10");
+const modal_main11 = document.querySelector(".modal-main11");
+const modal_main12 = document.querySelector(".modal-main12");
+const modal_main13 = document.querySelector(".modal-main13");
+const modal_main14 = document.querySelector(".modal-main14");
+const modal_main15 = document.querySelector(".modal-main15");
 
 var img = document.getElementById("myImg");
 var img2 = document.getElementById("myImg2");
+var img3 = document.getElementById("myImg3");
+var img4 = document.getElementById("myImg4");
+var img5 = document.getElementById("myImg5");
+var img6 = document.getElementById("myImg6");
+var img7 = document.getElementById("myImg7");
+var img8 = document.getElementById("myImg8");
+var img9 = document.getElementById("myImg9");
+var img10 = document.getElementById("myImg10");
+var img11 = document.getElementById("myImg11");
+var img12 = document.getElementById("myImg12");
+var img13 = document.getElementById("myImg13");
+var img14 = document.getElementById("myImg14");
+var img15 = document.getElementById("myImg15");
 
 img.onclick = function(){
-  modal_main.style.display = "block";
-  modalImg.src = this.src;
-}
+  modal_main.style.display = "block";}
 
 img2.onclick = function(){
-  modal_main2.style.display = "block";
-  modalImg.src = this.src;
-}
+  modal_main2.style.display = "block";}
+
+img3.onclick = function(){
+  modal_main3.style.display = "block";}
+
+img4.onclick = function(){
+  modal_main4.style.display = "block";}
+
+img5.onclick = function(){
+  modal_main5.style.display = "block";}
+  
+img6.onclick = function(){
+  modal_main6.style.display = "block";}
+
+img7.onclick = function(){
+  modal_main7.style.display = "block";}
+
+img8.onclick = function(){
+  modal_main8.style.display = "block";}
+
+img9.onclick = function(){
+  modal_main9.style.display = "block";}
+          
+img10.onclick = function(){
+  modal_main10.style.display = "block";}
+
+img11.onclick = function(){
+  modal_main11.style.display = "block";}
+
+img12.onclick = function(){
+  modal_main12.style.display = "block";}
+
+img13.onclick = function(){
+  modal_main13.style.display = "block";}
+
+img14.onclick = function(){
+  modal_main14.style.display = "block";}
+
+img15.onclick = function(){
+  modal_main15.style.display = "block";}
 
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
-  modal_main.style.display = "none";
-}
+  modal_main.style.display = "none";}
 
 var span = document.getElementsByClassName("close2")[0];
-
 span.onclick = function() {
-  modal_main2.style.display = "none";
-}
+  modal_main2.style.display = "none";}
+
+var span = document.getElementsByClassName("close3")[0];
+span.onclick = function() {
+  modal_main3.style.display = "none";}
+
+var span = document.getElementsByClassName("close4")[0];
+span.onclick = function() {
+  modal_main4.style.display = "none";}
+
+var span = document.getElementsByClassName("close5")[0];
+span.onclick = function() {
+  modal_main5.style.display = "none";}
+
+var span = document.getElementsByClassName("close6")[0];
+span.onclick = function() {
+  modal_main6.style.display = "none";}
+
+var span = document.getElementsByClassName("close7")[0];
+span.onclick = function() {
+  modal_main7.style.display = "none";}
+
+var span = document.getElementsByClassName("close8")[0];
+span.onclick = function() {
+  modal_main8.style.display = "none";}
+
+var span = document.getElementsByClassName("close9")[0];
+span.onclick = function() {
+  modal_main9.style.display = "none";}
+
+var span = document.getElementsByClassName("close10")[0];
+span.onclick = function() {
+  modal_main10.style.display = "none";}
+
+var span = document.getElementsByClassName("close11")[0];
+span.onclick = function() {
+  modal_main11.style.display = "none";}
+
+var span = document.getElementsByClassName("clos12e")[0];
+span.onclick = function() {
+  modal_main12.style.display = "none";}
+
+var span = document.getElementsByClassName("close13")[0];
+span.onclick = function() {
+  modal_main13.style.display = "none";}
+
+var span = document.getElementsByClassName("close14")[0];
+span.onclick = function() {
+  modal_main14.style.display = "none";}
+
+var span = document.getElementsByClassName("close15")[0];
+span.onclick = function() {
+  modal_main15.style.display = "none";}
 
