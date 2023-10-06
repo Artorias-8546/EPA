@@ -53,6 +53,7 @@ const yoga = $('yoga');
 const polichinelo = $('polichinelo');
 const pulacorda = $('pulacorda');
 const alongamento = $('alongamento');
+const ponte = $('ponte');
 
 
 // variaveis
@@ -225,6 +226,8 @@ btncalc.addEventListener('click', function(){
     polichinelo.classList.add('most');
     pulacorda.classList.add('most');
     alongamento.classList.add('most');
+    ponte.classList.add('most');
+    
   }
 
 });

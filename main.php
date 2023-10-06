@@ -159,8 +159,8 @@
         <div class="img-exercicios7" id="alongamento">
             <img src="img/alongamentoo.png" alt="" width="200vh">
         </div>
-        <div class="img-exercicios8" id="">
-            <img src="img/" alt="" width="250vh">
+        <div class="img-exercicios8" id="ponte">
+            <img src="img/ponte.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios9" id="">
             <img src="img/" alt="" width="250vh">
@@ -168,24 +168,7 @@
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh">
         </div>
-        <div class="img-exercicios11" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
-        <div class="img-exercicios12" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
-        <div class="img-exercicios13" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
-        <div class="img-exercicios14" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
-        <div class="img-exercicios15" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
-        <div class="img-exercicios16" id="">
-            <img src="img/" alt="" width="250vh">
-        </div>
+       
     </div>
 
 
