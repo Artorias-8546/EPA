@@ -46,9 +46,14 @@ const tLabel14 = document.getElementById('t-label14');
 
 const btncalc = $("btn-calc");
 
-const flexao= $('flexao');
-const caminhada= $('caminhada');
-const agachamentos= $('agachamentos');
+const flexao = $('flexao');
+const caminhada = $('caminhada');
+const agachamento = $('agachamento');
+const yoga = $('yoga');
+const polichinelo = $('polichinelo');
+const pulacorda = $('pulacorda');
+const alongamento = $('alongamento');
+
 
 // variaveis
 // pp = perda peso
@@ -215,42 +220,38 @@ btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
     caminhada.classList.add('most');
-    agachamentos.classList.add('most');
+    agachamento.classList.add('most');
+    yoga.classList.add('most');
+    polichinelo.classList.add('most');
+    pulacorda.classList.add('most');
+    alongamento.classList.add('most');
   }
 
 });
 
 
-/*modal*/
+/*modal-header*/
 const modal = document.querySelector(".modal");
 
 function exibirModal(){
     modal.classList.toggle("abrir-modal");
 }
 
+
 /*modal*/
 const modal_main = document.querySelector(".modal-main");
 
-function exibirModal(){
-  modal_main.classList.toggle("abrir-modal");
-}
-
 var modalmain = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal_main.style.display = "block";
   modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal_main.style.display = "none";
 }

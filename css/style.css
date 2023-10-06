@@ -360,15 +360,20 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 .img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
 .img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
 .img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border-radius: 25px;
     padding: 10px;
+    height: 30vh;
+    width: 30vh;
 }
 .img-exercicios.most{display: flex;}
 .img-exercicios2.most{display: flex;}
@@ -421,6 +426,7 @@ header img{
     display: block;
     width: 80%;
     max-width: 700px;
+    background-color: white;
 }
 #caption {
     margin: auto;
