@@ -3,9 +3,17 @@
     margin: 0%;
 }
 :root{
+<<<<<<< HEAD
     --cor-primaria: #4169E1;
     --cor-secundaria: #2f4b9e;
     --cor-terciaria:  #808080;
+=======
+
+    --cor-primaria: #4169E1;
+    --cor-secundaria: #2f4b9e;
+    --cor-terciaria:  #808080;
+
+>>>>>>> eebe96db827642596c49d342990e71b29731430e
 }
 
 
