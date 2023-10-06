@@ -169,7 +169,7 @@
             <img src="img/pontee.png" alt="" width="250vh">
         </div>
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.png" alt="" width="250vh">
+            <img src="img/abdominal.jpg" alt="" width="250vh">
         </div>
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh">
