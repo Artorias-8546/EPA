@@ -3,16 +3,27 @@
     margin: 0%;
 }
 :root{
+<<<<<<< HEAD
+    --cor-primaria: #4169E1;
+    --cor-secundaria: #2f4b9e;
+    --cor-terciaria:  #808080;
+=======
     --cor-primaria: #4169E1 ;
     --cor-secundaria: ;
 
     
     --cor-botao:;
+>>>>>>> fefaa00eb231105e9f20993cabaa20561ed44790
 }
 
 
 /*        FOOTER         */
+header span{
 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 .container-footer{
     bottom:0;
     left:0;
@@ -20,11 +31,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #007792;
+    background-color: var(--cor-secundaria);
 }
 .bloco-primario{
     height: 150px;
-    background-color: #00b0d9;
+    background-color: var(--cor-primaria);
     width: 100%;
     display: flex;
     flex-direction: column;
