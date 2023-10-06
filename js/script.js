@@ -54,6 +54,7 @@ const polichinelo = $('polichinelo');
 const pulacorda = $('pulacorda');
 const alongamento = $('alongamento');
 const ponte = $('ponte');
+const abdominal = $('abdominal');
 
 
 // variaveis
@@ -227,6 +228,7 @@ btncalc.addEventListener('click', function(){
     pulacorda.classList.add('most');
     alongamento.classList.add('most');
     ponte.classList.add('most');
+    ponte.classList.add('abdominal');
     
   }
 
