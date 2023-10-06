@@ -132,6 +132,7 @@
     </div>
 
     <div class="container-exercicios">
+        <!-- 1 -->
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="250vh" id="myImg">
 
@@ -140,7 +141,8 @@
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
- 
+
+ <!-- 2 -->
         <div class="img-exercicios2" id="caminhada">
             <img src="img/caminhada.png" alt="" width="250vh" id="myImg2">
 
@@ -150,6 +152,7 @@
             </div>
         </div>
 
+<!-- 3 -->
         <div class="img-exercicios3" id="agachamento" >
             <img src="img/agachamento.png" width="300vh" id="myImg">
 
@@ -159,6 +162,7 @@
             </div>
         </div>
 
+<!-- 4 -->
         <div class="img-exercicios4" id="yoga">
             <img src="img/yoga.gif" width="250vh" id="myImg">
 
@@ -168,6 +172,7 @@
             </div>
         </div>
 
+<!-- 5 -->
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" width="250vh" id="myImg">
 
@@ -177,6 +182,7 @@
             </div>
         </div>
 
+<!-- 6 -->
         <div class="img-exercicios6" id="pulacorda">
             <img src="img/pular_corda.png" width="300vh" id="myImg">
 
@@ -186,6 +192,7 @@
             </div>
         </div>
 
+<!-- 7 -->
         <div class="img-exercicios7" id="alongamento">
             <img src="img/alongamentoo.png" width="155vh" id="myImg"> 
 
@@ -194,7 +201,8 @@
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
-
+        
+<!-- 8 -->
         <div class="img-exercicios8" id="ponte">
             <img src="img/pontee.png" width="250vh" id="myImg">
 
@@ -204,7 +212,7 @@
             </div>
         </div>
 
-
+<!-- 9 -->
         <div class="img-exercicios9" id="abdominal">
             <img src="img/abdominal.gif" width="250vh" id="myImg">
             <div id="myModal" class="modal-main">
@@ -213,6 +221,7 @@
             </div>
         </div>
 
+<!-- 10 -->
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh" id="myImg">
 
