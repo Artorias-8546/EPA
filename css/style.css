@@ -421,6 +421,7 @@ header img{
     display: block;
     width: 80%;
     max-width: 700px;
+    background-color: white;
 }
 #caption {
     margin: auto;
