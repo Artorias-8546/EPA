@@ -133,14 +133,24 @@
 
     <div class="container-exercicios">
         <div class="img-exercicios" id="flexao">
-            
-            <img id="myImg" src="img/flexao.png" alt="snow" width="300vh">
+
+            <img id="myImg" src="img/flexao.png" alt="Flexão" width="300vh">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
                 <img class="modal-content" id="img01">
             <div id="caption"></div>
         </div>
+
+        <div class="img-exercicios" id="flexao">
+
+<img id="myImg" src="img/flexao.png" alt="Flexão" width="300vh">
+
+<div id="myModal" class="modal-main">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+<div id="caption"></div>
+</div>
 
 
         <div class="img-exercicios2" id="caminhada">
