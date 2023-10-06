@@ -215,14 +215,24 @@
 <!-- 9 -->
         <div class="img-exercicios9" id="abdominal">
             <img src="img/abdominal.gif" width="250vh" id="myImg9">
+
             <div id="myModal" class="modal-main9">
                 <span class="close9">&times;</span>
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
+<<<<<<< HEAD
         
+=======
+<!-- 10 -->
+>>>>>>> 4890ee4bc66c69e494924f307c9db5977476f79a
         <div class="img-exercicios10" id="">
-            <img src="img/" alt="" width="250vh">
+            <img src="img/" alt="" width="250vh" id="myImg10">
+
+            <div id="myModal" class="modal-main10">
+                <span class="close10">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
        
     </div>
