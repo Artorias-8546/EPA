@@ -163,13 +163,13 @@
             <img src="img/pular_corda.png" width="300vh">
         </div>
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamentoo.png" width="200vh">
+            <img src="img/alongamentoo.png" width="155vh">
         </div>
         <div class="img-exercicios8" id="ponte">
             <img src="img/pontee.png" width="250vh">
         </div>
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.jpg" width="250vh">
+            <img src="img/abdominal.gif" width="250vh">
         </div>
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="250vh">
