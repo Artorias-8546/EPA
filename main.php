@@ -122,7 +122,7 @@
         </div>
         
     
-    
+<!-- botão para calcular resultados -->
     <div class="container-calcular">
         <div class="calc-baixo">
             <div class="button-shadow">
@@ -132,6 +132,7 @@
     </div>
 
     <div class="container-exercicios">
+<!-- 1 -->
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="250vh" id="myImg">
 
@@ -140,7 +141,8 @@
                 <div class="modal-content" id="">a</div>
             </div>
         </div>
- 
+
+ <!-- 2 -->
         <div class="img-exercicios2" id="caminhada">
             <img src="img/caminhada.png" alt="" width="250vh" id="myImg2">
 
@@ -150,29 +152,76 @@
             </div>
         </div>
 
-        <div class="img-exercicios3" id="agachamento">
-            <img src="img/agachamento.png" width="300vh">
+<!-- 3 -->
+        <div class="img-exercicios3" id="agachamento" >
+            <img src="img/agachamento.png" width="300vh" id="myImg3">
+
+            <div id="myModal" class="modal-main3">
+                <span class="close3">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 4 -->
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.gif" width="250vh">
+            <img src="img/yoga.gif" width="250vh" id="myImg4">
+
+            <div id="myModal" class="modal-main4">
+                <span class="close4">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 5 -->
         <div class="img-exercicios5" id="polichinelo">
-            <img src="img/polichinelo.png" width="250vh">
+            <img src="img/polichinelo.png" width="250vh" id="myImg5">
+
+            <div id="myModal" class="modal-main5">
+                <span class="close5">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 6 -->
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" width="300vh">
+            <img src="img/pular_corda.png" width="300vh" id="myImg6">
+
+            <div id="myModal" class="modal-main6">
+                <span class="close6">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 7 -->
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamentoo.png" width="155vh">
+            <img src="img/alongamentoo.png" width="155vh" id="myImg7"> 
+
+            <div id="myModal" class="modal-main7">
+                <span class="close7">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 8 -->
         <div class="img-exercicios8" id="ponte">
-            <img src="img/pontee.png" width="250vh">
+            <img src="img/pontee.png" width="250vh" id="myImg8">
+
+            <div id="myModal" class="modal-main8">
+                <span class="close8">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
+
+<!-- 9 -->
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.gif" width="250vh">
+            <img src="img/abdominal.gif" width="250vh" id="myImg9">
+            <div id="myModal" class="modal-main9">
+                <span class="close9">&times;</span>
+                <div class="modal-content" id="">a</div>
+            </div>
         </div>
-        <div class="img-exercicios10" id="pull-up">
-            <img src="img/pull-up" alt="" width="250vh">
+        <div class="img-exercicios10" id="">
+            <img src="img/" alt="" width="250vh">
         </div>
        
     </div>
