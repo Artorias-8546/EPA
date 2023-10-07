@@ -4,7 +4,8 @@
     margin: 0%;
 }
 :root{
-    --cor-primaria: #4169E1;
+    --cor-primaria: blue;
+    --cor-primaria01: #4169E1;
     --cor-secundaria: #2f4b9e;
     --cor-terciaria:  #808080;
 }
@@ -175,7 +176,7 @@ header img{
     gap: 30vw;
 }
 .container-main .esquerda{
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-primaria01);
     height: 400px;
     width: 500px;
     border-radius: 7px;
@@ -431,7 +432,7 @@ header img{
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-.close, .close2, .close3, . .close4{
+.close, .close2, .close3, .close4{
     position: absolute;
     top: 15px;
     right: 35px;
