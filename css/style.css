@@ -14,8 +14,8 @@
 header span{
     display: flex;
     justify-content: space-around;
-    margin-right: 68.5vw;
-    flex-direction:column;
+    margin-right: 65vw;
+    flex-direction: column;
     align-items: center;
     font-size: 35px;
     font-family: 'Mooli', sans-serif;
@@ -161,8 +161,14 @@ header img{
 
 /*        MAIN         */
 .imagem-main{
-    height: 60vh;
-    width:60vw;
+    height: 67vh;
+    width:40vw; 
+    padding-top: 1.5vh;
+    padding-left: 4.5vw;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 255, 0.476);
+    border-style: solid;
     /* background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1"); */
     background-repeat: no-repeat;
   
@@ -173,7 +179,7 @@ header img{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15vw;
+    gap: 10vw;
 }
 .container-main .esquerda{
     background-color: var(--cor-primaria01);
@@ -189,7 +195,10 @@ header img{
 
 .container-main .direita{
     height: 70vh;
-    width: 50vh;
+    width: 25vw;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: blue;
 }
 .container-main .container-esquerda{
     display: flex;

@@ -10,7 +10,10 @@
             </div>
         </div>
         <div class="direita">
-            <div class="imagem-main"></div>
+            <div class="imagem-main">
+                <img src = "img/exerciciosFisicos.jpg" alt = "" width="500vh">
+            </div>
+        </div>
         </div>
     </div>
     <div class="hrr">
