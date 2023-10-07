@@ -44,6 +44,27 @@ const tLabel13 = document.getElementById('t-label13');
 const tButton14 = document.getElementById('t-button14');
 const tLabel14 = document.getElementById('t-label14');
 
+const tButton15 = document.getElementById('t-button15');
+const tLabel15 = document.getElementById('t-label15');
+
+const tButton16 = document.getElementById('t-button16');
+const tLabel16 = document.getElementById('t-label16');
+
+const tButton17 = document.getElementById('t-button17');
+const tLabel17 = document.getElementById('t-label17');
+
+const tButton18 = document.getElementById('t-button18');
+const tLabel18 = document.getElementById('t-label18');
+
+const tButton19 = document.getElementById('t-button19');
+const tLabel19 = document.getElementById('t-label19');
+
+const tButton20 = document.getElementById('t-button20');
+const tLabel20 = document.getElementById('t-label20');
+
+const tButton21 = document.getElementById('t-button21');
+const tLabel21 = document.getElementById('t-label21');
+
 const btncalc = $("btn-calc");
 
 const flexao = $('flexao');
@@ -63,22 +84,20 @@ const abdominal = $('abdominal');
 // b = braço
 // p = perna
 // y = yoga
-// t = torax
-
+// tx = torax
+// pt = peitoral
+// cs = costas
+// ec = equilibrio corporal
 
 var pp =0;
 var cr =0;
 var b =0;
 var p =0;
 var y =0;
-var t =0;
-
-
-
-
-
-
-
+var tx =0;
+var pt = 0;
+var cs = 0;
+var ec = 0;
 
 
 
@@ -93,56 +112,164 @@ var t =0;
 tButton.addEventListener('change', function() {
   if (tButton.checked) {
     tLabel.classList.add('checked');
-    cr = cr+15;
-    pp = pp+15;
-    console.log(cr);
+    pp = pp + 10;
+    p = p + 3.34;
+    cr = cr + 10;
+    b = b + 3.34; 
+    tx = tx + 3.34;
+    pt = pt + 3.34;
+    cs = cs + 3.34;
+
     console.log(pp);
+    console.log(p);
+    console.log(cr);
+    console.log(b);
+    console.log(tx);
+    console.log(pt);
+    console.log(cs);
   } else {
     tLabel.classList.remove('checked');
-    cr = cr-15;
-    pp = pp-15;
-    console.log(cr);
+    pp = pp - 10;
+    p = p - 3.34;
+    cr = cr - 10;
+    b = b - 3.34; 
+    tx = tx - 3.34;
+    pt = pt - 3.34;
+    cs = cs - 3.34;
+
     console.log(pp);
+    console.log(p);
+    console.log(cr);
+    console.log(b);
+    console.log(tx);
+    console.log(pt);
+    console.log(cs);
   }
 });
  
 tButton2.addEventListener('change', function() {
     if (tButton2.checked) {
       tLabel2.classList.add('checked');
+ 
+      tx = tx + 3.34;
+      pt = pt + 3.34;
+
+      console.log(tx);
+      console.log(pt);
+     
     } else{
       tLabel2.classList.remove('checked');
+      tx = tx - 3.34;
+      pt = pt - 3.34;
+      
+      console.log(tx);
+      console.log(pt);
     }
 });
 
 tButton3.addEventListener('change', function() {
     if (tButton3.checked) {
       tLabel3.classList.add('checked');
+      pp = pp + 3.34;
+      p = p + 3.34;
+      cr = cr + 5;
+      b = b + 2; 
+      tx = tx + 3.34;
+      pt = pt + 3.34;
+      ec = ec + 3.34;
+      cs = cs + 3.34;
+
+      console.log(pp);
+      console.log(p);
+      console.log(cr);
+      console.log(b);
+      console.log(tx);
+      console.log(pt);
+      console.log(ec);
+      console.log(cs);
     } else{
       tLabel3.classList.remove('checked');
+      pp = pp - 3.34;
+      p = p - 3.34;
+      cr = cr - 5;
+      b = b - 2; 
+      tx = tx - 3.34;
+      pt = pt - 3.34;
+      ec = ec - 3.34;
+      cs = cs - 3.34;
+
+      console.log(pp);
+      console.log(p);
+      console.log(cr);
+      console.log(b);
+      console.log(tx);
+      console.log(pt);
+      console.log(ec);
+      console.log(cs);
     }
 });
 
 tButton4.addEventListener('change', function() {
 if (tButton4.checked) {
     tLabel4.classList.add('checked');
+
+    p = p + 10;
+    cr = cr + 10;
+   
+    console.log(p);
+    console.log(cr);
+    
 } else{
     tLabel4.classList.remove('checked');
+
+    p = p - 10;
+    cr = cr - 10;
+   
+    console.log(p);
+    console.log(cr);
 }
 });
 
 tButton5.addEventListener('change', function() {
 if (tButton5.checked) {
     tLabel5.classList.add('checked');
+
+    b = b + 5; 
+
+    console.log(b);
+  
 } else{
     tLabel5.classList.remove('checked');
+    b = b - 5; 
+
+    console.log(b);
 }
 });
 
 tButton6.addEventListener('change', function() {
 if (tButton6.checked) {
     tLabel6.classList.add('checked');
+    pp = pp + 5;
+    cr = cr + 3.34;
+    y = y + 5;
+    ec = ec + 3.34;
+
+    console.log(pp);
+    console.log(cr);
+    console.log(y);
+    console.log(ec);
+
 } else{
     tLabel6.classList.remove('checked');
+    pp = pp - 5;
+    cr = cr - 3.34;
+    y = y - 5;
+    ec = ec - 3.34;
+
+    console.log(pp);
+    console.log(cr);
+    console.log(y);
+    console.log(ec);
 }
 });
 
@@ -218,6 +345,61 @@ tButton14.addEventListener('change', function() {
   }
 });
 
+tButton15.addEventListener('change', function() {
+  if (tButton15.checked) {
+      tLabel15.classList.add('checked');
+  } else{
+      tLabel15.classList.remove('checked');
+  }
+});
+
+tButton16.addEventListener('change', function() {
+  if (tButton16.checked) {
+      tLabel16.classList.add('checked');
+  } else{
+      tLabel16.classList.remove('checked');
+  }
+});
+
+tButton17.addEventListener('change', function() {
+  if (tButton17.checked) {
+      tLabel17.classList.add('checked');
+  } else{
+      tLabel17.classList.remove('checked');
+  }
+});
+
+tButton18.addEventListener('change', function() {
+  if (tButton18.checked) {
+      tLabel18.classList.add('checked');
+  } else{
+      tLabel18.classList.remove('checked');
+  }
+});
+
+tButton19.addEventListener('change', function() {
+  if (tButton19.checked) {
+      tLabel19.classList.add('checked');
+  } else{
+      tLabel19.classList.remove('checked');
+  }
+});
+
+tButton20.addEventListener('change', function() {
+  if (tButton20.checked) {
+      tLabel20.classList.add('checked');
+  } else{
+      tLabel20.classList.remove('checked');
+  }
+});
+
+tButton21.addEventListener('change', function() {
+  if (tButton21.checked) {
+      tLabel21.classList.add('checked');
+  } else{
+      tLabel21.classList.remove('checked');
+  }
+});
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
