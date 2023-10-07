@@ -161,11 +161,11 @@ header img{
 
 /*        MAIN         */
 .imagem-main{
-    height: 30em;
-    width: 43em;
-    background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1");
+    height: 60vh;
+    width:60vw;
+    /* background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1"); */
     background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 .container-main{
     height: 80vh;
@@ -173,7 +173,7 @@ header img{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30vw;
+    gap: 15vw;
 }
 .container-main .esquerda{
     background-color: var(--cor-primaria01);
@@ -188,8 +188,8 @@ header img{
 }
 
 .container-main .direita{
-    height: 500px;
-    width: 500px;
+    height: 70vh;
+    width: 50vh;
 }
 .container-main .container-esquerda{
     display: flex;
