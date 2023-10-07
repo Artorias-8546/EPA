@@ -187,7 +187,7 @@
     <div class="container-exercicios">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
-            <img src="img/flexao.png" alt="" width="250vh" id="myImg">
+            <img src="img/flexao.png" alt="" width="200vh" id="myImg">
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
@@ -197,7 +197,7 @@
 
  <!-- 2 -->
         <div class="img-exercicios2" id="caminhada">
-            <img src="img/caminhada.png" alt="" width="250vh" id="myImg2">
+            <img src="img/caminhada.png" alt="" width="200vh" id="myImg2">
 
             <div id="myModal" class="modal-main2">
                 <span class="close2">&times;</span>
@@ -207,7 +207,7 @@
 
 <!-- 3 -->
         <div class="img-exercicios3" id="agachamento" >
-            <img src="img/agachamento.png" width="300vh" id="myImg3">
+            <img src="img/agachamento.png" width="250vh" id="myImg3">
 
             <div id="myModal" class="modal-main3">
                 <span class="close3">&times;</span>
@@ -217,7 +217,7 @@
 
 <!-- 4 -->
         <div class="img-exercicios4" id="yoga">
-            <img src="img/yoga.gif" width="250vh" id="myImg4">
+            <img src="img/yoga.gif" width="200vh" id="myImg4">
 
             <div id="myModal" class="modal-main4">
                 <span class="close4">&times;</span>
@@ -228,9 +228,7 @@
 <!-- 5 -->
 
         <div class="img-exercicios5" id="polichinelo">
-
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
-
             <div id="myModal" class="modal-main5">
                 <span class="close5">&times;</span>
                 <div class="modal-content" id="">a</div>
@@ -239,7 +237,7 @@
 
 <!-- 6 -->
         <div class="img-exercicios6" id="pulacorda">
-            <img src="img/pular_corda.png" width="300vh" id="myImg6">
+            <img src="img/pular_corda.png" width="250vh" id="myImg6">
 
             <div id="myModal" class="modal-main6">
                 <span class="close6">&times;</span>
@@ -249,7 +247,7 @@
 
 <!-- 7 -->
         <div class="img-exercicios7" id="alongamento">
-            <img src="img/alongamentoo.png" width="155vh" id="myImg7"> 
+            <img src="img/alongamentoo.png" width="150vh" id="myImg7"> 
 
             <div id="myModal" class="modal-main7">
                 <span class="close7">&times;</span>
@@ -259,7 +257,7 @@
 
 <!-- 8 -->
         <div class="img-exercicios8" id="ponte">
-            <img src="img/pontee.png" width="250vh" id="myImg8">
+            <img src="img/pontee.png" width="200vh" id="myImg8">
 
             <div id="myModal" class="modal-main8">
                 <span class="close8">&times;</span>
@@ -269,7 +267,7 @@
 
 <!-- 9 -->
         <div class="img-exercicios9" id="abdominal">
-            <img src="img/abdominal.gif" width="250vh" id="myImg9">
+            <img src="img/abdominal.gif" width="200vh" id="myImg9">
 
             <div id="myModal" class="modal-main9">
                 <span class="close9">&times;</span>
@@ -279,7 +277,7 @@
         
 <!-- 10 -->
         <div class="img-exercicios10" id="">
-            <img src="img/" alt="" width="250vh" id="myImg10">
+            <img src="img/" alt="" width="200vh" id="myImg10">
 
             <div id="myModal" class="modal-main10">
                 <span class="close10">&times;</span>
