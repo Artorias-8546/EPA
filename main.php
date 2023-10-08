@@ -11,7 +11,7 @@
         </div>
         <div class="direita">
             <div class="imagem-main">
-                <img src = "img/exerciciosFisicos.jpg" alt = "" width="500vh">
+                <img src = "img/exercicioFisico2.avif" alt = "" width="500vh">
             </div>
         </div>
         </div>

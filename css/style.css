@@ -14,7 +14,7 @@
 header span{
     display: flex;
     justify-content: space-around;
-    margin-right: 65vw;
+    margin-right: 62vw;
     flex-direction: column;
     align-items: center;
     font-size: 35px;
@@ -144,27 +144,49 @@ header{
 }
 header a{
     font-size: 40px;
-    color: yellow;
     padding-right:120px;
     transition: all 1.5s;
     text-decoration: none;
 }
-header a:hover{
-    color: rgb(202, 165, 0);
-}
 
-header img{
+header #logo{
    border-radius: 50%;
    height: 13vh;
    margin-left: 2vh;
-   
+}
+
+header #estrela{
+    border-radius: 50%;
+    height: 5.5vh;
+    margin-top: 4.5vh;
+}
+
+.mensagem-estrela{
+    margin: auto;
+}
+
+header a .mensagem-estrela{
+    align-self: flex-end;
+    visibility: hidden;
+    background-color: #F8ED56;
+    text-shadow: #726b05 2px 2px 2px;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2.5vh;
+}
+
+header a:hover .mensagem-estrela{
+    visibility: visible;
 }
 
 /*        MAIN         */
 .imagem-main{
     height: 67vh;
     width:40vw; 
-    padding-top: 1.5vh;
     padding-left: 4.5vw;
     border-width: 2px;
     border-radius: 20px;
@@ -303,7 +325,7 @@ header img{
     border-radius: 14%;
     position:absolute;
     z-index: 1;
-    -webkit-text-stroke: 0.77px black ;
+    -webkit-text-stroke: 0.77px black;
     font-size: 22px;
     font-weight: bold;
 }
@@ -439,7 +461,7 @@ header img{
     display: grid;
     width: 120vh;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5%;
     grid-template-areas: 
     "it1 it2"
     "it3 it4"
@@ -510,8 +532,7 @@ header img{
     width: 60vh;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    text-align: justify;
+    justify-content: justify;
     margin-right: 10vh;
 }
 .item-resultado{
@@ -524,7 +545,6 @@ header img{
     justify-content: center;
     margin: auto;
     background-color: #bbb;
-    border-radius: 20px;
     text-align: center;
     margin-block-end: 5px;
 }
