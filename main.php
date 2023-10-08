@@ -191,7 +191,17 @@
 
             <div id="myModal" class="modal-main">
                 <span class="close">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                    <div class="item-simbolo"><img src="img/flexao.png" width="100vh"></div>
+                    <div class="item-nome">Flexão</div>
+                    <div class="item-desc">
+                        <p>Fortalesce:</p>
+                        <ul><li> Peitoral maior</li><li>deltóide</li><li>tricepes</li></ul>
+                        <p>Vezes ao dia: 10 flexoes por dia</p>
+                    </div>
+                    <div class="item-oqe">A flexão é a ação e o efeito de dobrar o corpo ou algum dos seus membros. Trata-se de um movimento de aproximação entre partes do corpo através da ação dos músculos.</div>
+                    <div class="item-resultado">Melhora a força e a resistência dos membros superiores; Melhora da capacidade de estabilização da coluna; Promove ativação dos músculos abdominais, lombares e que envolvem o quadril.</div>
+                </div>
             </div>
         </div>
 
@@ -201,7 +211,16 @@
 
             <div id="myModal" class="modal-main2">
                 <span class="close2">&times;</span>
-                <div class="modal-content" id="">b</div>
+                <div class="modal-content" id="">
+                    <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc"></div>
+                        <p>Fortalesce:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Vezes ao dia: </p>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
