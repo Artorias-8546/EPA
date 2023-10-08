@@ -192,7 +192,7 @@
             <div id="myModal" class="modal-main">
 
                 <div class="modal-content" id="">
-                    <span class="close"><i class="ph ph-x-circle"></i></span>
+                    <span class="close"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/flexao.png"></div>
                     <div class="item-nome">Flexão</div>
@@ -213,7 +213,7 @@
 
             <div id="myModal" class="modal-main2">
                 <div class="modal-content" id="">
-                    <span class="close2"><i class="ph ph-x-circle"></i></span>
+                    <span class="close2"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/caminhada.png"></div>
                     <div class="item-nome">Caminhada</div>
@@ -233,7 +233,7 @@
 
             <div id="myModal" class="modal-main3">
                 <div class="modal-content" id="">
-                    <span class="close3"><i class="ph ph-x-circle"></i></span>
+                    <span class="close3"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -253,7 +253,7 @@
 
             <div id="myModal" class="modal-main4">
                 <div class="modal-content" id="">
-                    <span class="close4"><i class="ph ph-x-circle"></i></span>
+                    <span class="close4"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -273,7 +273,7 @@
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
             <div id="myModal" class="modal-main5">
                 <div class="modal-content" id="">
-                    <span class="close5"><i class="ph ph-x-circle"></i></span>
+                    <span class="close5"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -293,7 +293,7 @@
 
             <div id="myModal" class="modal-main6">
                 <div class="modal-content" id="">
-                <span class="close6"><i class="ph ph-x-circle"></i></span>
+                <span class="close6"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -313,7 +313,7 @@
 
             <div id="myModal" class="modal-main7">
                 <div class="modal-content" id="">
-                <span class="close7"><i class="ph ph-x-circle"></i></span>
+                <span class="close7"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -333,7 +333,7 @@
 
             <div id="myModal" class="modal-main8">
                 <div class="modal-content" id="">
-                <span class="close8"><i class="ph ph-x-circle"></i></span>
+                <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -353,7 +353,7 @@
 
             <div id="myModal" class="modal-main9">
                 <div class="modal-content" id="">
-                <span class="close9"><i class="ph ph-x-circle"></i></span>
+                <span class="close9"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
@@ -373,7 +373,7 @@
 
             <div id="myModal" class="modal-main10">
                 <div class="modal-content" id="">
-                <span class="close10"><i class="ph ph-x-circle"></i></span>
+                <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
