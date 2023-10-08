@@ -24,7 +24,7 @@ header span{
 .container-footer{
     bottom:0;
     left:0;
-    margin-top: 10vh;
+    margin-top: 20vh;
     height: 375px;
     width: 100%;
     display: flex;
@@ -492,6 +492,13 @@ header a:hover .mensagem-estrela{
       width: 100%;
     }
 }
+
+
+
+
+
+
+
 
 
 /* conteudo do modal aberto */

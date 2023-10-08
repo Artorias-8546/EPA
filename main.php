@@ -189,8 +189,7 @@
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="200vh" id="myImg">
 
-            <div id="myModal" class="modal-main">
-
+            <div class="modal-main">
                 <div class="modal-content" id="">
                     <span class="close"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -211,7 +210,7 @@
         <div class="img-exercicios2" id="caminhada">
             <img src="img/caminhada.png" alt="" width="200vh" id="myImg2">
 
-            <div id="myModal" class="modal-main2">
+            <div class="modal-main2">
                 <div class="modal-content" id="">
                     <span class="close2"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -231,7 +230,7 @@
         <div class="img-exercicios3" id="agachamento" >
             <img src="img/agachamento.png" width="250vh" id="myImg3">
 
-            <div id="myModal" class="modal-main3">
+            <div class="modal-main3">
                 <div class="modal-content" id="">
                     <span class="close3"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -251,7 +250,7 @@
         <div class="img-exercicios4" id="yoga">
             <img src="img/yoga.gif" width="200vh" id="myImg4">
 
-            <div id="myModal" class="modal-main4">
+            <div class="modal-main4">
                 <div class="modal-content" id="">
                     <span class="close4"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -271,7 +270,8 @@
 
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
-            <div id="myModal" class="modal-main5">
+
+            <div class="modal-main5">
                 <div class="modal-content" id="">
                     <span class="close5"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -291,7 +291,7 @@
         <div class="img-exercicios6" id="pulacorda">
             <img src="img/pular_corda.png" width="250vh" id="myImg6">
 
-            <div id="myModal" class="modal-main6">
+            <div class="modal-main6">
                 <div class="modal-content" id="">
                 <span class="close6"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -311,7 +311,7 @@
         <div class="img-exercicios7" id="alongamento">
             <img src="img/alongamentoo.png" width="150vh" id="myImg7"> 
 
-            <div id="myModal" class="modal-main7">
+            <div class="modal-main7">
                 <div class="modal-content" id="">
                 <span class="close7"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -331,7 +331,7 @@
         <div class="img-exercicios8" id="ponte">
             <img src="img/pontee.png" width="200vh" id="myImg8">
 
-            <div id="myModal" class="modal-main8">
+            <div class="modal-main8">
                 <div class="modal-content" id="">
                 <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -351,7 +351,7 @@
         <div class="img-exercicios9" id="abdominal">
             <img src="img/abdominal.gif" width="200vh" id="myImg9">
 
-            <div id="myModal" class="modal-main9">
+            <div class="modal-main9">
                 <div class="modal-content" id="">
                 <span class="close9"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
@@ -371,7 +371,7 @@
         <div class="img-exercicios10" id="">
             <img src="img/" alt="" width="200vh" id="myImg10">
 
-            <div id="myModal" class="modal-main10">
+            <div class="modal-main10">
                 <div class="modal-content" id="">
                 <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
