@@ -197,7 +197,7 @@
                     <div class="item-desc">
                         <p>Fortalesce:</p>
                         <ul><li> Peitoral maior</li><li>deltóide</li><li>tricepes</li></ul>
-                        <p>Vezes ao dia: 10 flexoes por dia</p>
+                        <p>Vezes ao dia: 10 flexões por dia</p>
                     </div>
                     <div class="item-oqe">A flexão é a ação e o efeito de dobrar o corpo ou algum dos seus membros. Trata-se de um movimento de aproximação entre partes do corpo através da ação dos músculos.</div>
                     <div class="item-resultado">Melhora a força e a resistência dos membros superiores; Melhora da capacidade de estabilização da coluna; Promove ativação dos músculos abdominais, lombares e que envolvem o quadril.</div>
