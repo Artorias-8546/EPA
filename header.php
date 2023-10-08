@@ -4,5 +4,6 @@
     <a href="javascript:exibirModal()">
         <img src = "img/estrela.png" id = "estrela">
         <span class="mensagem-estrela">Favoritos</span>
+        
     </a>
 </header>
