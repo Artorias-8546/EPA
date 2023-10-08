@@ -156,11 +156,15 @@ header #logo{
 }
 
 header #estrela{
-    border-radius: 50%;
     height: 5.5vh;
     margin-top: 4.5vh;
+    margin-left: 2vh;
+    visibility: visible;
 }
 
+#estrela:hover{
+    visibility: hidden;
+}
 .mensagem-estrela{
     margin: auto;
 }
@@ -172,11 +176,10 @@ header a .mensagem-estrela{
     text-shadow: #726b05 2px 2px 2px;
     color: white;
     text-align: center;
-    padding: 6px;
+    padding: 0.55vw;
     border-radius: 5%;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 2.5vh;
 }
 
 header a:hover .mensagem-estrela{
