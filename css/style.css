@@ -497,13 +497,13 @@ header a:hover .mensagem-estrela{
 /* conteudo do modal aberto */
 
 .item-simbolo img{
-    height: 40vh;
-    width: 40vh;
+    height: 36vh;
+    width: 36vh;
     background-color: blue;
     border-radius: 100%;
     grid-area: it1;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 2.5vh;
+    margin-top: 2.5vh;
 }
 .item-nome{
     grid-area: it2;
