@@ -24,6 +24,7 @@ header span{
 .container-footer{
     bottom:0;
     left:0;
+    margin-top: 10vh;
     height: 375px;
     width: 100%;
     display: flex;
@@ -343,8 +344,10 @@ header img{
     justify-content: center;
     align-items: center;
     margin-bottom: 5vh;
-
 }
+
+
+
 
 .container-calcular button{
     margin: 0.5rem  ;
@@ -358,7 +361,7 @@ header img{
     color: white;
     transition: all 0.1s ease;
     font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mooli';
 }
 
 .container-calcular button:hover{
@@ -434,8 +437,7 @@ header img{
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
     display: grid;
-    width: 80%;
-    max-width: 600px;
+    width: 120vh;
     background-color: white;
     border-radius: 10px;
     grid-template-areas: 
@@ -445,26 +447,21 @@ header img{
     ;
     gap: 2rem;
 }
-.modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
 .close, .close2, .close3, .close4, .close5
-, .close6, .close7, .close8, .close9, .close10, .close11{
+, .close6, .close7, .close8, .close9, .close10, .close11, i{
     position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+    top: 5px;
+    right: 5px;
+    color: black;
+    font-size: 50px;
+    transition: 0.2s;
 }
   
-.close:hover, .close:focus, .close2:hover, .close2:focus .close3:hover, .close3:focus, .close4:hover, .close4:focus, 
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, 
 .close5:hover, .close5:focus, .close6:hover, .close6:focus, .close7:hover, .close7:focus, .close8:hover, .close8:focus, 
-.close9:hover, .close9:focus, .close10:hover, .close10:focus, .close11:hover, .close11:focus{
-    color: #bbb;
-    text-decoration: none;
+.close9:hover, .close9:focus, .close10:hover, .close10:focus, .close11:hover, .close11:focus, i:hover, i:focus{
+    background-color: rgb(198, 1, 1);
+    border-radius: 100%;
     cursor: pointer;
 }
   
@@ -483,17 +480,20 @@ header img{
     background-color: blue;
     border-radius: 100%;
     grid-area: it1;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 .item-nome{
     grid-area: it2;
     height: 40vh;
-
     width: 50vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: end;
     font-size: 10vh;
+    text-decoration: underline;
+    text-align: center;
 }
 .item-desc{
     grid-area: it3;
@@ -503,20 +503,20 @@ header img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 .item-oqe{
     grid-area: it4;
     height: 20vh;
-    width: 50vh;
+    width: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: auto;
+    text-align: justify;
+    margin-right: 10vh;
 }
 .item-resultado{
     grid-area: it5;
-    height: 20vh;
+    height: 15vh;
     width: 90vh;
     display: flex;
     flex-direction: column;
@@ -525,4 +525,25 @@ header img{
     margin: auto;
     background-color: #bbb;
     border-radius: 20px;
+    text-align: center;
+    margin-block-end: 5px;
+}
+.item-hr, .item-hr-b{
+    position: absolute;
+    border-color:black;
+    width: 96%; 
+    float: left;
+    left: 2%;
+    right: 2%;
+}
+
+.item-hr{top: 74%;}
+.item-hr-b{top: 45%;}
+
+.item-linha{
+    position: absolute;
+    height: 150px;
+    border-left: 1px solid;
+    left: 35%;
+    top: 48.5%;
 }

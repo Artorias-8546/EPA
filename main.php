@@ -190,14 +190,16 @@
             <img src="img/flexao.png" alt="" width="200vh" id="myImg">
 
             <div id="myModal" class="modal-main">
-                <span class="close">&times;</span>
+
                 <div class="modal-content" id="">
-                    <div class="item-simbolo"><img src="img/flexao.png" width="100vh"></div>
+                    <span class="close"><i class="ph ph-x-circle"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/flexao.png"></div>
                     <div class="item-nome">Flexão</div>
                     <div class="item-desc">
-                        <p>Fortalesce:</p>
+                        <p>Fortalece:</p>
                         <ul><li> Peitoral maior</li><li>deltóide</li><li>tricepes</li></ul>
-                        <p>Vezes ao dia: 10 flexoes por dia</p>
+                        <p>Recomendado: 10 flexoes por dia</p>
                     </div>
                     <div class="item-oqe">A flexão é a ação e o efeito de dobrar o corpo ou algum dos seus membros. Trata-se de um movimento de aproximação entre partes do corpo através da ação dos músculos.</div>
                     <div class="item-resultado">Melhora a força e a resistência dos membros superiores; Melhora da capacidade de estabilização da coluna; Promove ativação dos músculos abdominais, lombares e que envolvem o quadril.</div>
@@ -210,16 +212,17 @@
             <img src="img/caminhada.png" alt="" width="200vh" id="myImg2">
 
             <div id="myModal" class="modal-main2">
-                <span class="close2">&times;</span>
                 <div class="modal-content" id="">
-                    <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
-                    <div class="item-desc"></div>
-                        <p>Fortalesce:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Vezes ao dia: </p>
+                    <span class="close2"><i class="ph ph-x-circle"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/caminhada.png"></div>
+                    <div class="item-nome">Caminhada</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li>Musculos</li><li>Articulações</li><li>Ossos</li></ul>
+                        <p>Recomendado: 1 vez ao dia</p></div>
                     <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                    <div class="item-resultado">A caminhada durante o dia faz com que o nosso corpo tenha um pico na produção de substâncias estimulantes, como a adrenalina.</div>
                 </div>
             </div>
         </div>
@@ -229,8 +232,18 @@
             <img src="img/agachamento.png" width="250vh" id="myImg3">
 
             <div id="myModal" class="modal-main3">
-                <span class="close3">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                    <span class="close3"><i class="ph ph-x-circle"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -239,8 +252,18 @@
             <img src="img/yoga.gif" width="200vh" id="myImg4">
 
             <div id="myModal" class="modal-main4">
-                <span class="close4">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                    <span class="close4"><i class="ph ph-x-circle"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -249,8 +272,18 @@
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
             <div id="myModal" class="modal-main5">
-                <span class="close5">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                    <span class="close5"><i class="ph ph-x-circle"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -259,8 +292,18 @@
             <img src="img/pular_corda.png" width="250vh" id="myImg6">
 
             <div id="myModal" class="modal-main6">
-                <span class="close6">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                <span class="close6"><i class="ph ph-x-circle"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -269,8 +312,18 @@
             <img src="img/alongamentoo.png" width="150vh" id="myImg7"> 
 
             <div id="myModal" class="modal-main7">
-                <span class="close7">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                <span class="close7"><i class="ph ph-x-circle"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -279,8 +332,18 @@
             <img src="img/pontee.png" width="200vh" id="myImg8">
 
             <div id="myModal" class="modal-main8">
-                <span class="close8">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                <span class="close8"><i class="ph ph-x-circle"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
 
@@ -289,8 +352,18 @@
             <img src="img/abdominal.gif" width="200vh" id="myImg9">
 
             <div id="myModal" class="modal-main9">
-                <span class="close9">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                <span class="close9"><i class="ph ph-x-circle"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
         
@@ -299,8 +372,18 @@
             <img src="img/" alt="" width="200vh" id="myImg10">
 
             <div id="myModal" class="modal-main10">
-                <span class="close10">&times;</span>
-                <div class="modal-content" id="">a</div>
+                <div class="modal-content" id="">
+                <span class="close10"><i class="ph ph-x-circle"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
             </div>
         </div>
        
