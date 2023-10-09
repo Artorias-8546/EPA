@@ -3,7 +3,6 @@
         <div class="text-footer-a" id = "tlabel1"> Começe agora!</div>
         <div class="text-footer-b"> Capacitamos você a criar conquistas</div>
     </div>
-
     <div class="bloco-central">
         <div class="text-footer-c">
              O Body Healthy é um aplicativo Web 
