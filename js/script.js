@@ -527,6 +527,7 @@ const modal_main9 = document.querySelector(".modal-main9");
 const modal_main10 = document.querySelector(".modal-main10");
 const modal_main11 = document.querySelector(".modal-main11");
 const modal_main12 = document.querySelector(".modal-main12");
+const modal_main13 = document.querySelector(".modal-main13");
 const modal_estrela = document.querySelector(".modal-estrela");
 
 var img = document.getElementById("myImg");
@@ -541,6 +542,7 @@ var img9 = document.getElementById("myImg9");
 var img10 = document.getElementById("myImg10");
 var img11 = document.getElementById("myImg11");
 var img12 = document.getElementById("myImg12");
+var img13 = document.getElementById("myImg13");
 var imgEstrela = document.getElementById("myEstrela");
 
 imgEstrela.onclick = function(){
@@ -581,7 +583,9 @@ img11.onclick = function(){
 
 img12.onclick = function(){
   modal_main12.style.display = "block";}
-  
+
+img13.onclick = function(){
+  modal_main13.style.display = "block";}
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
@@ -630,6 +634,10 @@ span.onclick = function() {
 var span = document.getElementsByClassName("close12")[0];
 span.onclick = function() {
   modal_main12.style.display = "none";}
+
+var span = document.getElementsByClassName("close13")[0];
+span.onclick = function() {
+  modal_main13.style.display = "none";}
 
   var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
