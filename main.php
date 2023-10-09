@@ -391,7 +391,7 @@
         <div class="img-exercicios11" id="montanha">
             <img src="img/montanha_exercicio.png" alt="" width="230vh" id="myImg11">
             <div class="modal-main11">
-                <div class="modal-content" id="montanha">
+                <div class="modal-content" id="monanha">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/montanha_exercicio.png"></div>
@@ -405,9 +405,29 @@
                 </div>
             </div>
         </div>
-       
+
+        <!-- 12 -->
+        <div class="img-exercicios12" id="lunge">
+            <img src="img/lunge-auternado.png" alt="" width="230vh" id="myImg12">
+            <div class="modal-main12">
+                <div class="modal-content" id="lunge">
+                <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/lunge-auternado.png"></div>
+                    <div class="item-nome">Lunge Auternado</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
+    
+
+
+
     </div>
-
-
 
 </main>
