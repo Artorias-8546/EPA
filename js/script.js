@@ -76,6 +76,8 @@ const pulacorda = $('pulacorda');
 const alongamento = $('alongamento');
 const ponte = $('ponte');
 const abdominal = $('abdominal');
+const soconoar = $('soconoar');
+const montanha = $('montanha');
 
 
 // variaveis
@@ -479,6 +481,8 @@ btncalc.addEventListener('click', function(){
     alongamento.classList.add('most');
     ponte.classList.add('most');
     abdominal.classList.add('most');
+    soconoar.classList.add('most');
+    montanha.classList.add('most');
     
   }
   else{
@@ -491,6 +495,8 @@ btncalc.addEventListener('click', function(){
     alongamento.classList.remove('most');
     ponte.classList.remove('most');
     abdominal.classList.remove('most');
+    soconoar.classList.remove('most');
+    montanha.classList.remove('most');
     
   }
 
