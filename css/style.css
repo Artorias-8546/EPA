@@ -126,7 +126,6 @@ hr{
     top: 0;
     width: 100%;
     height: 100%;
-    transition: all 0.5s;
 }
 .close-estrela, .close-e {
     position: absolute;
@@ -137,7 +136,7 @@ hr{
     transition: 0.2s;
 }
 
-.close-estrela:hover, .close-estrela:focus{
+.close-estrela:hover, .close-estrela:focus, .close-e:hover, .close-e:focus{
     background-color: rgba(255, 0, 0, 0.961);
     border-radius: 100%;
     cursor: pointer;
