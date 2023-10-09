@@ -254,14 +254,14 @@
                 <div class="modal-content" id="">
                     <span class="close4"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                    <div class="item-simbolo"><img src="img/yoga.gif"></div>
+                    <div class="item-nome">Yoga</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Musculatura</li></ul>
+                        <p>Recomendado: 2 vezes por semana</p></div>
+                    <div class="item-oqe">A Yoga tem como objetivo trabalhar o corpo e a mente de forma interligada, realizando exercícios que auxiliam no controle da ansiedade, dores no corpo e estresse.</div>
+                    <div class="item-resultado">Melhora da digestão e saúde geral do intestino. Redução da dor e rigidez nas articulações e músculos. Reduz a pressão arterial e melhora a saúde cardiovascular.</div>
                 </div>
             </div>
         </div>
@@ -275,14 +275,14 @@
                 <div class="modal-content" id="">
                     <span class="close5"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                    <div class="item-simbolo"><img src="img/polichinelo.png"></div>
+                    <div class="item-nome">Polichinelo</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Capacidade cardiorrespiratoria</li><li>Coordenação motora</li></ul>
+                        <p>Recomendado: 50 repetições por dia </p></div>
+                    <div class="item-oqe">Polichinelo é um exercício físico, usado principalmente para alongar e aquecer os músculos dos membros posteriores e inferiores. Salte de forma sincronizada, abrindo e fechando braços e pernas.</div>
+                    <div class="item-resultado">Por ser um exercício simples e que não exige equipamentos, ele pode ser feito em qualquer lugar e é ideal para quem deseja estimular o metabolismo e aumentar a resistência física, o que contribui para a queima de calorias e constância da atividade.</div>
                 </div>
             </div>
         </div>
@@ -295,14 +295,14 @@
                 <div class="modal-content" id="">
                 <span class="close6"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/pular_corda.png"></div>
+                    <div class="item-nome">Pular corda</div>
                     <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <p>Fortalece: </p>
+                        <ul><li>Braços</li><li>Ombros</li><li>Abdômen</li><li>Peitoral</li></ul>
+                        <p>Recomendado: 30 minutos por dia</p></div>
+                    <div class="item-oqe">O Pular corda ou saltar corda é uma brincadeira tradicional que envolve grande atividade física e coordenação motora.</div>
+                    <div class="item-resultado">Aumento da agilidade e concentração, estimulação dos músculos flexores, baixo impacto para as articulações.</div>
                 </div>
             </div>
         </div>
@@ -315,14 +315,14 @@
                 <div class="modal-content" id="">
                 <span class="close7"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/alongamentoo.png"></div>
+                    <div class="item-nome">Alongamento</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Articulação</li></ul>
+                        <p>Recomendado: 3 vezes por semana</p></div>
+                    <div class="item-oqe">O alongamento é uma forma de exercício físico em que um músculo ou tendão específico é deliberadamente flexionado ou alongado para melhorar a elasticidade sentida do músculo e obter um tônus muscular confortável. </div>
+                    <div class="item-resultado">Reduzem as tensões musculares, relaxam o corpo, deixam os movimentos mais soltos e leves previnem lesões, preparam o corpo para atividades físicas.</div>
                 </div>
             </div>
         </div>
@@ -336,7 +336,7 @@
                 <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                    <div class="item-nome">Ponte</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li></ul>
@@ -389,7 +389,7 @@
 
         <div class="img-exercicios11" id="">
             <img src="img/soco_no_ar.png" alt="" width="200vh" id="myImg11">
-<!-- 10 -->
+<!-- 11 -->
             <div class="modal-main11">
                 <div class="modal-content" id="">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>

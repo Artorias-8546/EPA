@@ -523,6 +523,7 @@ header #logo{
 .item-simbolo img{
     height: 36vh;
     width: 36vh;
+    padding: 1vh;
     background-color: blue;
     border-radius: 100%;
     grid-area: it1;
@@ -532,7 +533,7 @@ header #logo{
 .item-nome{
     grid-area: it2;
     height: 40vh;
-    width: 50vh;
+    width: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -584,12 +585,12 @@ header #logo{
     right: 2%;
 }
 
-.item-hr{top: 74%;}
+.item-hr{top: 75%;}
 .item-hr-b{top: 45%;}
 
 .item-linha{
     position: absolute;
-    height: 22vh;
+    height: 23.5vh;
     border-left: 1px solid;
     left: 35%;
     top: 48.5%;
