@@ -4,8 +4,9 @@
 :root{
     --cor-primaria: blue;
     --cor-primaria01: #4169E1;
-    --cor-secundaria: #2f4b9e;
+    --cor-secundaria: #264191;
     --cor-terciaria:  #808080;
+    --cor-quatenaria: #004c7e;
 }
 
 /*        FOOTER         */
@@ -318,7 +319,7 @@ header #logo{
     margin-top: -20px;
     width: 21vh;
     height: 21vh;
-    background-color: blue;
+    background-color: var(--cor-quatenaria); /* :? */
     grid-area: tooltip1;
     border-radius: 15%;
     display: flex;
@@ -571,7 +572,7 @@ header #logo{
     margin: auto;
     background-color: #bbb;
     text-align: center;
-    margin-block-end: 5px;
+    margin-block-end: 1vh;
     font-size: 2.4vh;
 }
 .item-hr, .item-hr-b{
@@ -588,7 +589,7 @@ header #logo{
 
 .item-linha{
     position: absolute;
-    height: 21.5vh;
+    height: 22vh;
     border-left: 1px solid;
     left: 35%;
     top: 48.5%;
