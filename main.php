@@ -167,8 +167,8 @@
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button21" class="input-t">
             <label for="t-button21" class="tooltip1" id="t-label21">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/isquiotibiais.png" alt="" width ="155vh">
+                <span class="mensagem1">Treino de isquiotibiais</span>
             </label>
             </div>
 
