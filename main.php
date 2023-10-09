@@ -368,8 +368,8 @@
         </div>
         
 <!-- 10 -->
-        <div class="img-exercicios10" id="">
-            <img src="img/soco_no_ar.png" alt="" width="200vh" id="myImg10">
+        <div class="img-exercicios10" id="soconoar">
+            <img src="img/soco_no_ar.png" alt="" width="150vh" id="myImg10">
 
             <div class="modal-main10">
                 <div class="modal-content" id="soconoar">
@@ -387,12 +387,11 @@
             </div>
         </div>
 
-<!-- 11 -->
-        <div class="img-exercicios11" id="">
-            <img src="img/" alt="" width="200vh" id="myImg11">
-
+        <!-- 11 -->
+        <div class="img-exercicios11" id="montanha">
+            <img src="img/montanha_exercicio.png" alt="" width="230vh" id="myImg11">
             <div class="modal-main11">
-                <div class="modal-content" id="">
+                <div class="modal-content" id="montanha">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
