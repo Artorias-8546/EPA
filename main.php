@@ -433,7 +433,7 @@
                 <span class="close13"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/pull_up.png"></div>
-                    <div class="item-nome">Lunge Auternado</div>
+                    <div class="item-nome">Pull-UP</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li><li> </li></ul>
