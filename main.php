@@ -389,7 +389,7 @@
 
         <!-- 11 -->
         <div class="img-exercicios11" id="montanha">
-            <img src="img/" alt="" width="200vh" id="myImg11">
+            <img src="img/" alt="" width="230vh" id="myImg11">
             <div class="modal-main11">
                 <div class="modal-content" id="montanha">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
