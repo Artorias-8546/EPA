@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
-*{
-    margin: 0%;
-}
+
 :root{
     --cor-primaria: blue;
     --cor-primaria01: #4169E1;
@@ -14,7 +12,7 @@
 header span{
     display: flex;
     justify-content: space-around;
-    margin-right: 62vw;
+    margin-right: 78vw;
     flex-direction: column;
     align-items: center;
     font-size: 35px;
@@ -109,29 +107,53 @@ hr{
     text-align: center; 
 }
 
+
+
+
+
+
 /*         MODAL         */
-.modal{
-    width: 500px;
-    height: 100%;
+.modal-star{
+    position: absolute;
+    top: 4vh;
+    right: 10vh;
+    cursor: pointer;
+}
+.modal-estrela{
+    display: none; 
     position: fixed;
-    right: 0;
+    left: 0;
     top: 0;
-    background-color: gray;
-    transition: 900ms;
-    transform: translateX(100%);
-}
-.abrir-modal{
-    transform: translateX(0%);
-}
-.modal a{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 40px;
+    width: 100%;
+    height: 100%;
     transition: all 0.5s;
 }
-.modal a:hover{
+.close-estrela, .close-e {
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
     color: black;
+    font-size: 50px;
+    transition: 0.2s;
 }
+
+.close-estrela:hover, .close-estrela:focus{
+    background-color: rgba(255, 0, 0, 0.961);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.modal-content-estrela{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 70%;
+    width: 80vh; /*width: auto*/
+    height: 60vh; /*height: auto*/
+    background-color: rgb(175, 175, 175);
+    border-radius: 0.7vh;
+}
+
+
+
+
 
 
 /*         HEADER        */
@@ -142,12 +164,6 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header a{
-    font-size: 40px;
-    padding-right:120px;
-    transition: all 1.5s;
-    text-decoration: none;
-}
 
 header #logo{
    border-radius: 50%;
@@ -155,18 +171,12 @@ header #logo{
    margin-left: 2vh;
 }
 
-header #estrela{
-    border-radius: 50%;
-    height: 5.5vh;
-    margin-top: 4.5vh;
-}
-
 .mensagem-estrela{
     margin: auto;
 }
 
-header a .mensagem-estrela{
-    align-self: flex-end;
+.modal-star .mensagem-estrela{
+    align-self: flex-start;
     visibility: hidden;
     background-color: #F8ED56;
     text-shadow: #726b05 2px 2px 2px;
@@ -176,12 +186,16 @@ header a .mensagem-estrela{
     border-radius: 5%;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 2.5vh;
 }
 
-header a:hover .mensagem-estrela{
+.modal-star:hover .mensagem-estrela{
     visibility: visible;
 }
+
+
+
+
+
 
 /*        MAIN         */
 .imagem-main{
