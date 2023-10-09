@@ -111,15 +111,15 @@
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button13" class="input-t">
             <label for="t-button13" class="tooltip1" id="t-label13">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/treino_de_perna.png" alt="" width ="135vh">
+                <span class="mensagem1">Treino de pernas</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button14" class="input-t">
             <label for="t-button14" class="tooltip1" id="t-label14">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/cintura.png" alt="" width ="155vh">
+                <span class="mensagem1">Definição de cintura</span>
             </label>
             </div>
             <div class="quadrado-shadow">
