@@ -207,7 +207,7 @@ header #logo{
     padding-left: 4.5vw;
     border-width: 2px;
     border-radius: 20px;
-    border-color: rgba(0, 0, 255, 0.476);
+    border-color: rgba(0, 0, 206, 0.459);
     border-style: solid;
     /* background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1"); */
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ header #logo{
     gap: 10vw;
 }
 .container-main .esquerda{
-    background-color: var(--cor-primaria01);
+    background-color: rgb(91, 46, 255);
     height: 400px;
     width: 500px;
     border-radius: 7px;
@@ -270,7 +270,7 @@ header #logo{
     border-style: solid;
 }
 .container-esquerda button:hover{
-    background-color: rgb(28, 28, 184);
+    background-color: rgba(17, 17, 185, 0.904);
 }
 .container-esquerda button:active{
     margin: 0.4rem;
@@ -404,7 +404,7 @@ header #logo{
 }
 
 .container-calcular button:hover{
-    background-color: rgb(28, 28, 184);
+    background-color: rgba(28, 28, 184, 0.938);
 
 }
 
