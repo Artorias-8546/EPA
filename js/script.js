@@ -85,7 +85,7 @@ const abdominal = $('abdominal');
 // p = perna
 // y = yoga
 // tx = torax
-// pt = peitoral
+// ab = peitoral
 // cs = costas
 // ec = equilibrio corporal
 
@@ -95,7 +95,7 @@ var b =0;
 var p =0;
 var y =0;
 var tx =0;
-var pt = 0;
+var ab = 0;
 var cs = 0;
 var ec = 0;
 
@@ -117,7 +117,7 @@ tButton.addEventListener('change', function() {
     cr = cr + 10;
     b = b + 3.34; 
     tx = tx + 3.34;
-    pt = pt + 3.34;
+    ab = ab + 3.34;
     cs = cs + 3.34;
 
     console.log(pp);
@@ -125,7 +125,7 @@ tButton.addEventListener('change', function() {
     console.log(cr);
     console.log(b);
     console.log(tx);
-    console.log(pt);
+    console.log(ab);
     console.log(cs);
   } else {
     tLabel.classList.remove('checked');
@@ -134,7 +134,7 @@ tButton.addEventListener('change', function() {
     cr = cr - 10;
     b = b - 3.34; 
     tx = tx - 3.34;
-    pt = pt - 3.34;
+    ab = ab - 3.34;
     cs = cs - 3.34;
 
     console.log(pp);
@@ -152,18 +152,18 @@ tButton2.addEventListener('change', function() {
       tLabel2.classList.add('checked');
  
       tx = tx + 3.34;
-      pt = pt + 3.34;
+      ab = ab + 3.34;
 
       console.log(tx);
-      console.log(pt);
+      console.log(ab);
      
     } else{
       tLabel2.classList.remove('checked');
       tx = tx - 3.34;
-      pt = pt - 3.34;
+      ab = ab - 3.34;
       
       console.log(tx);
-      console.log(pt);
+      console.log(ab);
     }
 });
 
@@ -175,7 +175,7 @@ tButton3.addEventListener('change', function() {
       cr = cr + 5;
       b = b + 2; 
       tx = tx + 3.34;
-      pt = pt + 3.34;
+      ab = ab + 3.34;
       ec = ec + 3.34;
       cs = cs + 3.34;
 
@@ -184,7 +184,7 @@ tButton3.addEventListener('change', function() {
       console.log(cr);
       console.log(b);
       console.log(tx);
-      console.log(pt);
+      console.log(ab);
       console.log(ec);
       console.log(cs);
     } else{
@@ -194,7 +194,7 @@ tButton3.addEventListener('change', function() {
       cr = cr - 5;
       b = b - 2; 
       tx = tx - 3.34;
-      pt = pt - 3.34;
+      ab = ab - 3.34;
       ec = ec - 3.34;
       cs = cs - 3.34;
 
@@ -203,7 +203,7 @@ tButton3.addEventListener('change', function() {
       console.log(cr);
       console.log(b);
       console.log(tx);
-      console.log(pt);
+      console.log(ab);
       console.log(ec);
       console.log(cs);
     }
@@ -276,56 +276,124 @@ if (tButton6.checked) {
 tButton7.addEventListener('change', function() {
 if (tButton7.checked) {
     tLabel7.classList.add('checked');
+    b = b+10;
+    console.log(b);
 } else{
     tLabel7.classList.remove('checked');
+    b = b-10;
+    console.log(b);
 }
 });
 
 tButton8.addEventListener('change', function() {
 if (tButton8.checked) {
     tLabel8.classList.add('checked');
+    ab = ab +2;
+    cs = cs +5;
+    console.log(ab);
+    console.log(cs);
 } else{
     tLabel8.classList.remove('checked');
+    ab = ab -2;
+    cs = cs -5;
+    console.log(ab);
+    console.log(cs);
 }
-});
-
-tButton8.addEventListener('change', function() {
-  if (tButton8.checked) {
-      tLabel8.classList.add('checked');
-  } else{
-      tLabel8.classList.remove('checked');
-  }
 });
 
 tButton9.addEventListener('change', function() {
   if (tButton9.checked) {
       tLabel9.classList.add('checked');
+      y = y + 10;
+      ec = ec + 5;
+      console.log(y);
+      console.log(ec);
   } else{
       tLabel9.classList.remove('checked');
+      y = y - 10;
+      ec = ec - 5;
+      console.log(y);
+      console.log(ec);
   }
 });
 
 tButton10.addEventListener('change', function() {
   if (tButton10.checked) {
       tLabel10.classList.add('checked');
+      
+      b = b + 2; 
+      tx = tx + 2;
+      ab = ab + 2;
+      ec = ec + 5;
+      cs = cs + 5;
+      y = y + 5;
+
+      console.log(b);
+      console.log(tx);
+      console.log(ab);
+      console.log(ec);
+      console.log(cs);
+      console.log(y);
   } else{
       tLabel10.classList.remove('checked');
+
+      b = b - 2; 
+      tx = tx - 2;
+      ab = ab - 2;
+      ec = ec - 5;
+      cs = cs - 5;
+      y = y - 5;
+
+      console.log(b);
+      console.log(tx);
+      console.log(ab);
+      console.log(ec);
+      console.log(cs);
+      console.log(y);
   }
 });
   
 tButton11.addEventListener('change', function() {
   if (tButton11.checked) {
       tLabel11.classList.add('checked');
+      b = b + 3.34; 
+      tx = tx + 10;
+      ab = ab + 3.34;
+      
+
+      console.log(b);
+      console.log(tx);
+      console.log(ab);
+      
   } else{
       tLabel11.classList.remove('checked');
+      b = b - 3.34; 
+      tx = tx - 10;
+      ab = ab - 3.34;
+      
+      console.log(b);
+      console.log(tx);
+      console.log(ab);
+     
   }
 });
 
 tButton12.addEventListener('change', function() {
   if (tButton12.checked) {
       tLabel12.classList.add('checked');
+      ec = ec + 10; 
+      y = y + 10;
+      
+      console.log(ec);
+      console.log(y);
+
   } else{
       tLabel12.classList.remove('checked');
+      ec = ec + 10; 
+      y = y + 10;
+      
+      console.log(ec);
+      console.log(y);
   }
 });
 
