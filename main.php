@@ -335,14 +335,14 @@
                 <div class="modal-content" id="">
                 <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
+                <div class="item-simbolo"><img src="img/pontee.png"></div>
                     <div class="item-nome">Ponte</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Glúteos</li><li>Musculos</li><li>Coxa</li></ul>
+                        <p>Recomendado: 1 minuto por dia</p></div>
+                    <div class="item-oqe">A ponte é um dos principais exercícios com essa finalidade. Em poucas palavras, é uma posição em que deitamos no chão, de barriga para cima, e mantemos nosso quadril suspenso com os joelhos flexionados em 90 graus </div>
+                    <div class="item-resultado">Exercício de ponte é indicado para fortalecer a coluna, os músculos das pernas e os glúteos. Para alongar a coluna, alinhar as costas e fortalecer os músculos das pernas e os glúteos, o exercício ponte é um dos mais indicados.</div>
                 </div>
             </div>
         </div>
@@ -355,14 +355,14 @@
                 <div class="modal-content" id="">
                 <span class="close9"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/abdominal.gif"></div>
+                    <div class="item-nome">Abdominal</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Barriga</li><li>Postura</li></ul>
+                        <p>Recomendado: 4 vezes por semana</p></div>
+                    <div class="item-oqe">O abdominal é um exercício que trabalha o músculo reto abdominal. Ele permite construir abdominais e apertar a barriga.</div>
+                    <div class="item-resultado">Contribuem para evitar dores nas costas, melhorar a postura, ajudar na respiração e na performance física e ainda reduzem o risco de lesões durante a prática de esportes.</div>
                 </div>
             </div>
         </div>
@@ -375,8 +375,8 @@
                 <div class="modal-content" id="soconoar">
                 <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/soco_no_ar.png"></div>
+                    <div class="item-nome">Soco no ar</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li></ul>
@@ -387,10 +387,9 @@
             </div>
         </div>
 
-<!-- 11 -->
+        <!-- 11 -->
         <div class="img-exercicios11" id="montanha">
-            <img src="img/montanha_exercicio.png" alt="" width="230vh" id="myImg11">
-
+            <img src="img/" alt="" width="200vh" id="myImg11">
             <div class="modal-main11">
                 <div class="modal-content" id="montanha">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
