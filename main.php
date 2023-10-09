@@ -379,10 +379,10 @@
                     <div class="item-nome">Soco no ar</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Braço</li><li>Musculos</li></ul>
+                        <p>Recomendado: 60 socos por dia</p></div>
+                    <div class="item-oqe">Os movimentos ritmados do esporte torneiam membros superiores e inferiores. Os benefícios ultrapassam a estética e também favorecem a saúde dos praticantes.</div>
+                    <div class="item-resultado">Além disso, desenvolvem a musculatura dos braços e das pernas, tonificam o abdômen, melhoram a flexibilidade, a coordenação motora, a agilidade e a concentração. </div>
                 </div>
             </div>
         </div>
