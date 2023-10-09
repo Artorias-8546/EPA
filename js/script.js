@@ -79,6 +79,7 @@ const abdominal = $('abdominal');
 const soconoar = $('soconoar');
 const montanha = $('montanha');
 const lunge = $('lunge');
+const pullup = $('pullup');
 
 
 // variaveis
@@ -486,6 +487,7 @@ btncalc.addEventListener('click', function(){
     soconoar.classList.add('most');
     montanha.classList.add('most');
     lunge.classList.add('most');
+    pullup.classList.add('most');
     
   }
   else{
@@ -501,6 +503,7 @@ btncalc.addEventListener('click', function(){
     soconoar.classList.remove('most');
     montanha.classList.remove('most');
     lunge.classList.remove('most');
+    pullup.classList.remove('most');
     
   }
 
