@@ -375,8 +375,8 @@
                 <div class="modal-content" id="soconoar">
                 <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/soco_no_ar.png"></div>
+                    <div class="item-nome">Soco no ar</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li></ul>
@@ -387,9 +387,10 @@
             </div>
         </div>
 
+<!-- 11 -->
         <div class="img-exercicios11" id="">
             <img src="img/" alt="" width="200vh" id="myImg11">
-<!-- 11 -->
+
             <div class="modal-main11">
                 <div class="modal-content" id="">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
