@@ -424,6 +424,7 @@
                 </div>
             </div>
         </div>
+        
 <!-- 13 -->
         <div class="img-exercicios13" id="pullup">
             <img src="img/pull_up.png" alt="" width="180vh" id="myImg13">
