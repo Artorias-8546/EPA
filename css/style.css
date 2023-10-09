@@ -498,7 +498,8 @@ header #logo{
   
 .close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, 
 .close5:hover, .close5:focus, .close6:hover, .close6:focus, .close7:hover, .close7:focus, .close8:hover, .close8:focus, 
-.close9:hover, .close9:focus, .close10:hover, .close10:focus, .close11:hover, .close11:focus, .close12:hover, .close12:focus, .close13:hover, .close13:focus, .close-i:hover, .close-i:focus{
+.close9:hover, .close9:focus, .close10:hover, .close10:focus, .close11:hover, .close11:focus, .close12:hover, .close12:focus, 
+.close13:hover, .close13:focus, .close-i:hover, .close-i:focus{
     background-color: rgba(255, 0, 0, 0.961);
     border-radius: 100%;
     cursor: pointer;

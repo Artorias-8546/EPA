@@ -431,7 +431,7 @@
                 <div class="modal-content" id="pullup">
                 <span class="close13"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pull_up.png" width="150vh"></div>
+                <div class="item-simbolo"><img src="img/pull_up.png"></div>
                     <div class="item-nome">Pull up</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
