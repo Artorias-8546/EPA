@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
 :root{
-    --cor-primaria: blue;
+    --cor-primaria: rgb(0, 38, 255);
     --cor-primaria01: #4169E1;
     --cor-secundaria: #264191;
     --cor-terciaria:  #808080;
@@ -319,7 +319,7 @@ header #logo{
     margin-top: -20px;
     width: 21vh;
     height: 21vh;
-    background-color: blue; /* :? */
+    background-color: var(--cor-primaria); /* :? */
     grid-area: tooltip1;
     border-radius: 15%;
     display: flex;

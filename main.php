@@ -220,7 +220,7 @@
                         <p>Fortalece:</p>
                         <ul><li>Musculos</li><li>Articulações</li><li>Ossos</li></ul>
                         <p>Recomendado: 1 vez ao dia</p></div>
-                    <div class="item-oqe"></div>
+                    <div class="item-oqe">Manter ombros e pescoço relaxados. Manter quadril, joelhos e pés alinhados. Respirar profundamente. Iniciar a passada com o calcanhar, depois apoiar a planta do pé e por último os dedos.</div>
                     <div class="item-resultado">A caminhada durante o dia faz com que o nosso corpo tenha um pico na produção de substâncias estimulantes, como a adrenalina.</div>
                 </div>
             </div>
@@ -234,14 +234,14 @@
                 <div class="modal-content" id="">
                     <span class="close3"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                    <div class="item-simbolo"><img src="img/agachamento.png"></div>
+                    <div class="item-nome">Agachamento</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Quadríceps</li><li>Glúteo</li><li>Panturrilha</li></ul>
+                        <p>Recomendado: 3 vezes por semana</p></div>
+                    <div class="item-oqe">O agachamento é um exercício simples e que não necessita de muitos preparos para ser realizados, bastando apenas manter as pernas afastadas, esticar os braços à frente do corpo e agachar até que as coxas fiquem paralelas ao chão.</div>
+                    <div class="item-resultado">Melhora da postura. Aumento da densidade óssea. Contribui no processo de emagrecimento.</div>
                 </div>
             </div>
         </div>
