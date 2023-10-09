@@ -198,7 +198,7 @@
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> Peitoral maior</li><li>deltóide</li><li>tricepes</li></ul>
-                        <p>Recomendado: 10 flexoes por dia</p>
+                        <p>Recomendado: 10 flexões por dia</p>
                     </div>
                     <div class="item-oqe">A flexão é a ação e o efeito de dobrar o corpo ou algum dos seus membros. Trata-se de um movimento de aproximação entre partes do corpo através da ação dos músculos.</div>
                     <div class="item-resultado">Melhora a força e a resistência dos membros superiores; Melhora da capacidade de estabilização da coluna; Promove ativação dos músculos abdominais, lombares e que envolvem o quadril.</div>
@@ -374,6 +374,25 @@
             <div class="modal-main10">
                 <div class="modal-content" id="">
                 <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/"></div>
+                    <div class="item-nome"></div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <ul><li> </li><li> </li><li> </li></ul>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-exercicios11" id="">
+            <img src="img/soco_no_ar.png" alt="" width="200vh" id="myImg11">
+
+            <div class="modal-main11">
+                <div class="modal-content" id="">
+                <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/"></div>
                     <div class="item-nome"></div>
