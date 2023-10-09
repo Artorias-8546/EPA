@@ -389,7 +389,7 @@
 
         <div class="img-exercicios11" id="">
             <img src="img/soco_no_ar.png" alt="" width="200vh" id="myImg11">
-
+<!-- 10 -->
             <div class="modal-main11">
                 <div class="modal-content" id="">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
