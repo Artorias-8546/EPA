@@ -379,7 +379,7 @@
                     <div class="item-nome">Soco no ar</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li>Braço</li><li>Musculos</li></ul>
+                        <ul><li>Braço</li><li>Pernas</li></ul>
                         <p>Recomendado: 60 socos por dia</p></div>
                     <div class="item-oqe">Os movimentos ritmados do esporte torneiam membros superiores e inferiores. Os benefícios ultrapassam a estética e também favorecem a saúde dos praticantes.</div>
                     <div class="item-resultado">Além disso, desenvolvem a musculatura dos braços e das pernas, tonificam o abdômen, melhoram a flexibilidade, a coordenação motora, a agilidade e a concentração. </div>
@@ -394,14 +394,14 @@
                 <div class="modal-content" id="montanha">
                 <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/"></div>
-                    <div class="item-nome"></div>
+                <div class="item-simbolo"><img src="img/montanha_exercicio.png"></div>
+                    <div class="item-nome">Montanha</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Abdômen</li><li>Costas</li><li>Pernas</li><li>Glúteos</li></ul>
+                        <p>Recomendado: 3 vezes por semana</p></div>
+                    <div class="item-oqe">A escalada de montanha é um exercício aeróbico que também fortalece vários músculos, principalmente os da região abdominal. De fato, esse exercício de força que trabalha abdômen, costas, pernas e glúteos também eleva a frequência cardíaca.</div>
+                    <div class="item-resultado">Ajuda a definir o corpo, melhorar o equilíbrio, corrigir a postura e melhorar habilidades como agilidade, equilíbrio, força, coordenação motora e flexibilidade.</div>
                 </div>
             </div>
         </div>
