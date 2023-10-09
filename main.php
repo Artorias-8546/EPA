@@ -125,15 +125,15 @@
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button15" class="input-t">
             <label for="t-button15" class="tooltip1" id="t-label15">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/treino_de_triceps.png" alt="" width ="170vh">
+                <span class="mensagem1">Treino de tríceps</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button16" class="input-t">
             <label for="t-button16" class="tooltip1" id="t-label16">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/definir_quadril.png" alt="" width ="170vh">
+                <span class="mensagem1">Definição de quadril</span>
             </label>
             </div>
             <div class="quadrado-shadow">
