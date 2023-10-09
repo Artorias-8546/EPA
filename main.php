@@ -424,15 +424,15 @@
                 </div>
             </div>
         </div>
-
-        <div class="img-exercicios12" id="pullup">
-            <img src="img/pull_up.png" alt="" width="180vh" id="myImg12">
-            <div class="modal-main12">
+<!-- 13 -->
+        <div class="img-exercicios13" id="pullup">
+            <img src="img/pull_up.png" alt="" width="180vh" id="myImg13">
+            <div class="modal-main13">
                 <div class="modal-content" id="pullup">
-                <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
+                <span class="close13"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pull_up.png"></div>
-                    <div class="item-nome">Lunge Auternado</div>
+                <div class="item-simbolo"><img src="img/pull_up.png" width="150vh"></div>
+                    <div class="item-nome">Pull up</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li><li> </li></ul>
