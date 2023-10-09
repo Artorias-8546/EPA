@@ -137,7 +137,7 @@ hr{
 }
 
 .close-estrela:hover, .close-estrela:focus, .close-e:hover, .close-e:focus{
-    background-color: rgba(255, 0, 0, 0.961);
+    background-color: rgba(255, 0, 0, 0.829);
     border-radius: 100%;
     cursor: pointer;
 }
@@ -585,7 +585,7 @@ header #logo{
 
 .item-linha{
     position: absolute;
-    height: 150px;
+    height: 21.5vh;
     border-left: 1px solid;
     left: 35%;
     top: 48.5%;
