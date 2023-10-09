@@ -139,29 +139,29 @@
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button17" class="input-t">
             <label for="t-button17" class="tooltip1" id="t-label17">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/ombro.png" alt="" width ="135vh">
+                <span class="mensagem1">Treino de ombro</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button18" class="input-t">
             <label for="t-button18" class="tooltip1" id="t-label18">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/treino_dorsal.png" alt="" width ="170vh">
+                <span class="mensagem1">Treino de dorsal</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button19" class="input-t">
             <label for="t-button19" class="tooltip1" id="t-label19">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/treino_de_quadriceps.png" alt="" width ="135vh">
+                <span class="mensagem1">Treino de quadríceps</span>
             </label>
             </div>
             <div class="quadrado-shadow">
             <input type="checkbox" id="t-button20" class="input-t">
             <label for="t-button20" class="tooltip1" id="t-label20">
-            <img src="img/" alt="" width ="135vh">
-                <span class="mensagem1"></span>
+            <img src="img/queimar_calorias.png" alt="" width ="135vh">
+                <span class="mensagem1">Queimar calorias</span>
             </label>
             </div>
             <div class="quadrado-shadow">
@@ -408,12 +408,12 @@
 
 <!-- 12 -->
         <div class="img-exercicios12" id="lunge">
-            <img src="img/lunge-auternado.png" alt="" width="230vh" id="myImg12">
+            <img src="img/lunge-alternado.png" alt="" width="230vh" id="myImg12">
             <div class="modal-main12">
                 <div class="modal-content" id="lunge">
                 <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/lunge-auternado.png"></div>
+                <div class="item-simbolo"><img src="img/lunge-alternado.png"></div>
                     <div class="item-nome">Lunge Alternado</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -432,7 +432,7 @@
                 <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/pull_up.png"></div>
-                    <div class="item-nome">Lunge Auternado</div>
+                    <div class="item-nome">Pull upz</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li> </li><li> </li><li> </li><li> </li></ul>
