@@ -207,7 +207,7 @@ header #logo{
     padding-left: 4.5vw;
     border-width: 2px;
     border-radius: 20px;
-    border-color: rgba(0, 0, 206, 0.459);
+    border-color: rgba(0, 0, 168, 0.459);
     border-style: solid;
     /* background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1"); */
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ header #logo{
     gap: 10vw;
 }
 .container-main .esquerda{
-    background-color: rgb(91, 46, 255);
+    background-color: rgb(88, 69, 255);
     height: 400px;
     width: 500px;
     border-radius: 7px;
