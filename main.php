@@ -16,13 +16,13 @@
         </div>
         </div>
     </div>
-    <div class="hrr">
+    <div class="hrr" id = "tlabel1">
         <hr class="barrinha">
     </div>
    
     <!-- interação -->
 
-    <div class="container-inputs">
+    <div class="container-inputs" >
         <div class="quadrado-shadow">
             <!-- <div class="mensagem" for="t-button"></div> -->
             <input type="checkbox" id="t-button" class="input-t">
