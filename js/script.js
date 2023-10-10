@@ -113,6 +113,7 @@ var ec = 0;
 
 
 //funcionamento do botão
+
 tButton.addEventListener('change', function() {
   if (tButton.checked) {
     tLabel.classList.add('checked');
@@ -124,13 +125,18 @@ tButton.addEventListener('change', function() {
     ab = ab + 3.34;
     cs = cs + 3.34;
 
-    console.log(pp);
-    console.log(p);
-    console.log(cr);
-    console.log(b);
-    console.log(tx);
-    console.log(ab);
-    console.log(cs);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
+
   } else {
     tLabel.classList.remove('checked');
     pp = pp - 10;
@@ -141,13 +147,17 @@ tButton.addEventListener('change', function() {
     ab = ab - 3.34;
     cs = cs - 3.34;
 
-    console.log(pp);
-    console.log(p);
-    console.log(cr);
-    console.log(b);
-    console.log(tx);
-    console.log(pt);
-    console.log(cs);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
   }
 });
  
@@ -155,19 +165,37 @@ tButton2.addEventListener('change', function() {
     if (tButton2.checked) {
       tLabel2.classList.add('checked');
  
-      tx = tx + 3.34;
-      ab = ab + 3.34;
+      tx = tx + 5;
+      ab = ab + 5;
 
-      console.log(tx);
-      console.log(ab);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
      
     } else{
       tLabel2.classList.remove('checked');
       tx = tx - 3.34;
       ab = ab - 3.34;
       
-      console.log(tx);
-      console.log(ab);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
     }
 });
 
@@ -183,14 +211,18 @@ tButton3.addEventListener('change', function() {
       ec = ec + 3.34;
       cs = cs + 3.34;
 
-      console.log(pp);
-      console.log(p);
-      console.log(cr);
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
-      console.log(ec);
-      console.log(cs);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
     } else{
       tLabel3.classList.remove('checked');
       pp = pp - 3.34;
@@ -202,14 +234,17 @@ tButton3.addEventListener('change', function() {
       ec = ec - 3.34;
       cs = cs - 3.34;
 
-      console.log(pp);
-      console.log(p);
-      console.log(cr);
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
-      console.log(ec);
-      console.log(cs);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
     }
 });
 
@@ -220,8 +255,17 @@ if (tButton4.checked) {
     p = p + 10;
     cr = cr + 10;
    
-    console.log(p);
-    console.log(cr);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
     
 } else{
     tLabel4.classList.remove('checked');
@@ -229,8 +273,17 @@ if (tButton4.checked) {
     p = p - 10;
     cr = cr - 10;
    
-    console.log(p);
-    console.log(cr);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
 }
 });
 
@@ -240,13 +293,33 @@ if (tButton5.checked) {
 
     b = b + 5; 
 
-    console.log(b);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
   
 } else{
     tLabel5.classList.remove('checked');
     b = b - 5; 
 
-    console.log(b);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
 }
 });
 
@@ -258,10 +331,17 @@ if (tButton6.checked) {
     y = y + 5;
     ec = ec + 3.34;
 
-    console.log(pp);
-    console.log(cr);
-    console.log(y);
-    console.log(ec);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
 
 } else{
     tLabel6.classList.remove('checked');
@@ -270,10 +350,17 @@ if (tButton6.checked) {
     y = y - 5;
     ec = ec - 3.34;
 
-    console.log(pp);
-    console.log(cr);
-    console.log(y);
-    console.log(ec);
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
 }
 });
 
@@ -281,11 +368,34 @@ tButton7.addEventListener('change', function() {
 if (tButton7.checked) {
     tLabel7.classList.add('checked');
     b = b+10;
-    console.log(b);
+
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
+
 } else{
     tLabel7.classList.remove('checked');
     b = b-10;
-    console.log(b);
+
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
 }
 });
 
@@ -294,14 +404,36 @@ if (tButton8.checked) {
     tLabel8.classList.add('checked');
     ab = ab +2;
     cs = cs +5;
-    console.log(ab);
-    console.log(cs);
+    
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
+
 } else{
     tLabel8.classList.remove('checked');
     ab = ab -2;
     cs = cs -5;
-    console.log(ab);
-    console.log(cs);
+    
+    console.log("");
+    console.log("Perda peso: "+pp);
+    console.log("Perna: "+p);
+    console.log("Yoga: "+y);
+    console.log("Correr: "+cr);
+    console.log("Braço: "+b);
+    console.log("Torax: "+tx);
+    console.log("Abôme: "+ab);
+    console.log("Costas: "+cs);
+    console.log("Equilíbrio corporal: "+ec);
+    console.log("");
+
 }
 });
 
@@ -310,14 +442,36 @@ tButton9.addEventListener('change', function() {
       tLabel9.classList.add('checked');
       y = y + 10;
       ec = ec + 5;
-      console.log(y);
-      console.log(ec);
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel9.classList.remove('checked');
       y = y - 10;
       ec = ec - 5;
-      console.log(y);
-      console.log(ec);
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
@@ -332,12 +486,18 @@ tButton10.addEventListener('change', function() {
       cs = cs + 5;
       y = y + 5;
 
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
-      console.log(ec);
-      console.log(cs);
-      console.log(y);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel10.classList.remove('checked');
 
@@ -348,12 +508,17 @@ tButton10.addEventListener('change', function() {
       cs = cs - 5;
       y = y - 5;
 
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
-      console.log(ec);
-      console.log(cs);
-      console.log(y);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   }
 });
   
@@ -363,11 +528,18 @@ tButton11.addEventListener('change', function() {
       b = b + 3.34; 
       tx = tx + 10;
       ab = ab + 3.34;
-      
 
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
       
   } else{
       tLabel11.classList.remove('checked');
@@ -375,9 +547,17 @@ tButton11.addEventListener('change', function() {
       tx = tx - 10;
       ab = ab - 3.34;
       
-      console.log(b);
-      console.log(tx);
-      console.log(ab);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
      
   }
 });
@@ -388,80 +568,325 @@ tButton12.addEventListener('change', function() {
       ec = ec + 10; 
       y = y + 10;
       
-      console.log(ec);
-      console.log(y);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
 
   } else{
       tLabel12.classList.remove('checked');
-      ec = ec + 10; 
-      y = y + 10;
+      ec = ec - 10; 
+      y = y - 10;
       
-      console.log(ec);
-      console.log(y);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
 tButton13.addEventListener('change', function() {
   if (tButton13.checked) {
       tLabel13.classList.add('checked');
+  
+      p = p + 10;
+      cr = cr + 5;
+    
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+    
   } else{
       tLabel13.classList.remove('checked');
+
+      p = p - 10;
+      cr = cr - 5;
+    
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   }
 });
 
 tButton14.addEventListener('change', function() {
   if (tButton14.checked) {
       tLabel14.classList.add('checked');
+      pp = pp + 5;
+      cr = cr + 3.34; 
+      ab = ab + 3.34;
+      ec = ec + 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel14.classList.remove('checked');
+      pp = pp - 5;
+      cr = cr - 3.34; 
+      ab = ab - 3.34;
+      ec = ec - 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
 tButton15.addEventListener('change', function() {
   if (tButton15.checked) {
       tLabel15.classList.add('checked');
+      b = b + 10;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel15.classList.remove('checked');
+      b = b - 10;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
-tButton16.addEventListener('change', function() {
+tButton16.addEventListener('change', function() {   
   if (tButton16.checked) {
       tLabel16.classList.add('checked');
+      pp = pp + 2;
+      p = p + 3.34;
+      cr = cr + 3.34;
+      ec = ec + 3.34;
+      
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel16.classList.remove('checked');
+      pp = pp - 2;
+      p = p - 3.34;
+      cr = cr - 3.34;
+      ec = ec - 3.34;
+      
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
 tButton17.addEventListener('change', function() {
   if (tButton17.checked) {
       tLabel17.classList.add('checked');
+  
+      b = b + 10; 
+      cs = cs + 3.34;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
+
   } else{
       tLabel17.classList.remove('checked');
+      b = b - 10; 
+      cs = cs - 3.34;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
 tButton18.addEventListener('change', function() {
   if (tButton18.checked) {
       tLabel18.classList.add('checked');
+      b = b + 5; 
+      cs = cs + 10;
+
+      console.log(b);
+      console.log(cs);
   } else{
       tLabel18.classList.remove('checked');
+      b = b - 5; 
+      cs = cs - 10;
+
+      console.log(b);
+      console.log(cs);
   }
 });
 
 tButton19.addEventListener('change', function() {
   if (tButton19.checked) {
       tLabel19.classList.add('checked');
+      p = p + 10; 
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel19.classList.remove('checked');
+      p = p - 10; 
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   }
 });
 
 tButton20.addEventListener('change', function() {
   if (tButton20.checked) {
       tLabel20.classList.add('checked');
+      pp = pp + 5; 
+      cr = cr + 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
+
   } else{
       tLabel20.classList.remove('checked');
+      pp = pp - 5;
+      cr = cr - 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   }
 });
 
@@ -472,6 +897,23 @@ tButton21.addEventListener('change', function() {
       tLabel21.classList.remove('checked');
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//exibição dos exercicios
+
 
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
