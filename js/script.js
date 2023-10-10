@@ -1113,3 +1113,6 @@ var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
 modal_estrela.style.display = "none";}
 
+
+
+  
