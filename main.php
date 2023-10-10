@@ -417,10 +417,10 @@
                     <div class="item-nome">Lunge Alternado</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li><li> </li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Glúteo</li><li>Quadris</li><li>Isquiotibias</li></ul>
+                        <p>Recomendado: 4 vezes em 30s</p></div>
+                    <div class="item-oqe">O lunge é um movimento de dominância de joelho em base alternada, que, como em outros padrões, nos permite avaliar características estruturais do aluno para definir qual a opção ideal de base para ele.</div>
+                    <div class="item-resultado">Este exercício de fortalecimento de uma só perna trabalha os glúteos, quadríceps, isquiotibiais e gémeos. Se o teu objetivo for ativar mais fibras desses músculos a cada repetição, move-te lentamente.</div>
                 </div>
             </div>
         </div>
@@ -436,10 +436,10 @@
                     <div class="item-nome">Pull-UP</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <ul><li> </li><li> </li><li> </li><li> </li></ul>
+                        <ul><li>Costas</li><li>Abdômen</li><li>Lombar</li><li>Ombros</li></ul>
                         <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                    <div class="item-oqe">O exercício Pull-Up é popularmente conhecida também como flexão de braços na barra fixa ou puxada alta. Com as costas retas, use o centro do corpo para se puxar lentamente para cima, de modo que o queixo fique sobre a barra.</div>
+                    <div class="item-resultado">Os músculos trabalhados são especialmente os da grande dorsal e o trapézio, que carrega e move os ombros. Também recebem a maior carga e são suportados pelos braços, especialmente os bíceps.</div>
                 </div>
             </div>
 
