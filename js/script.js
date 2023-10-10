@@ -80,7 +80,7 @@ const soconoar = $('soconoar');
 const montanha = $('montanha');
 const lunge = $('lunge');
 const pullup = $('pullup');
-
+const balasana = $('balasana');
 
 // variaveis
 // pp = perda peso
@@ -918,6 +918,7 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
   if(b>=5 || ab>=5){
     flexao.classList.add('most');
+    balasana.classList.add('most');
     // 
     // 
     // 
@@ -988,6 +989,7 @@ const modal_main10 = document.querySelector(".modal-main10");
 const modal_main11 = document.querySelector(".modal-main11");
 const modal_main12 = document.querySelector(".modal-main12");
 const modal_main13 = document.querySelector(".modal-main13");
+const modal_main14 = document.querySelector(".modal-main14");
 const modal_estrela = document.querySelector(".modal-estrela");
 
 var img = document.getElementById("myImg");
@@ -1003,6 +1005,7 @@ var img10 = document.getElementById("myImg10");
 var img11 = document.getElementById("myImg11");
 var img12 = document.getElementById("myImg12");
 var img13 = document.getElementById("myImg13");
+var img14 = document.getElementById("myImg14");
 var imgEstrela = document.getElementById("myEstrela");
 
 imgEstrela.onclick = function(){
@@ -1046,6 +1049,9 @@ img12.onclick = function(){
 
 img13.onclick = function(){
   modal_main13.style.display = "block";}
+
+img14.onclick = function(){
+  modal_main1.style.display = "block";}
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
@@ -1097,9 +1103,13 @@ span.onclick = function() {
 
 var span = document.getElementsByClassName("close13")[0];
 span.onclick = function() {
-  modal_main13.style.display = "none";}
+modal_main13.style.display = "none";}
 
-  var span = document.getElementsByClassName("close-estrela")[0];
+var span = document.getElementsByClassName("close14")[0];
 span.onclick = function() {
-  modal_estrela.style.display = "none";}
+modal_main14.style.display = "none";}
+
+var span = document.getElementsByClassName("close-estrela")[0];
+span.onclick = function() {
+modal_estrela.style.display = "none";}
 

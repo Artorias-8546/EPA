@@ -443,6 +443,24 @@
                 </div>
             </div>
 
+            <div class="img-exercicios14" id="balasana">
+            <img src="img/balasana_yoga.png" alt="" width="180vh" id="myImg14">
+            <div class="modal-main14">
+                <div class="modal-content" id="balasana">
+                <span class="close14"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/pull_up.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+
+
+
 
 
     </div>
