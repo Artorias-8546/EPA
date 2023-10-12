@@ -442,92 +442,55 @@
                     <div class="item-resultado">Os músculos trabalhados são especialmente os da grande dorsal e o trapézio, que carrega e move os ombros. Também recebem a maior carga e são suportados pelos braços, especialmente os bíceps.</div>
                 </div>
             </div>
-        </div>
 
             <div class="img-exercicios14" id="balasana">
-                <img src="img/balasana_yoga.png" alt="" width="180vh" id="myImg14">
-                <div class="modal-main14">
-                    <div class="modal-content" id="balasana">
-                    <span class="close14"><i class="ph ph-x-circle close-i"></i></span>
-                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/balasana_yoga.png"></div>
-                        <div class="item-nome">Balasana</div>
-                        <div class="item-desc">
-                            <p>Fortalece:</p>
-                            <p>Recomendado: </p></div>
-                        <div class="item-oqe"></div>
-                        <div class="item-resultado"></div>
-                    </div>
+            <img src="img/balasana_yoga.png" alt="" width="180vh" id="myImg14">
+            <div class="modal-main14">
+                <div class="modal-content" id="balasana">
+                <span class="close14"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/balasana_yoga.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
                 </div>
             </div>
 
             <div class="img-exercicios15" id="balanceTable">
-                <img src="img/balanceTable_yoga.png" alt="" width="180vh" id="myImg15">
-                <div class="modal-main15">
-                    <div class="modal-content" id="balanceTable">
-                    <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
-                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
-                        <div class="item-nome">Balance Table</div>
-                        <div class="item-desc">
-                            <p>Fortalece:</p>
-                            <p>Recomendado: </p></div>
-                        <div class="item-oqe"></div>
-                        <div class="item-resultado"></div>
-                    </div>
+            <img src="img/balanceTable_yoga.png" alt="" width="180vh" id="myImg15">
+            <div class="modal-main15">
+                <div class="modal-content" id="balanceTable">
+                <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
                 </div>
             </div>
 
             <div class="img-exercicios16" id="mergulho">
-                <img src="img/mergulho_exercicio.png" alt="" width="180vh" id="myImg16">
-                <div class="modal-main16">
-                    <div class="modal-content" id="mergulho">
-                    <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
-                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
-                        <div class="item-nome">Mergulho</div>
-                        <div class="item-desc">
-                            <p>Fortalece:</p>
-                            <p>Recomendado: </p></div>
-                        <div class="item-oqe"></div>
-                        <div class="item-resultado"></div>
-                    </div>
+            <img src="img/mergulho_exercicio.png" alt="" width="180vh" id="myImg16">
+            <div class="modal-main16">
+                <div class="modal-content" id="mergulho">
+                <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
                 </div>
             </div>
-
-            <div class="img-exercicios17" id="rollUp">
-                <img src="img/roll-up_exercicio.png" alt="" width="180vh" id="myImg17">
-                <div class="modal-main17">
-                    <div class="modal-content" id="rollUp">
-                    <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
-                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
-                        <div class="item-nome">Roll Up</div>
-                        <div class="item-desc">
-                            <p>Fortalece:</p>
-                            <p>Recomendado: </p></div>
-                        <div class="item-oqe"></div>
-                        <div class="item-resultado"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="img-exercicios18" id="sideKick">
-                <img src="img/side-kick.png" alt="" width="180vh" id="myImg17">
-                <div class="modal-main18">
-                    <div class="modal-content" id="sideLick">
-                    <span class="close18"><i class="ph ph-x-circle close-i"></i></span>
-                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/side-kick.png"></div>
-                        <div class="item-nome">Side Kick</div>
-                        <div class="item-desc">
-                            <p>Fortalece:</p>
-                            <p>Recomendado: </p></div>
-                        <div class="item-oqe"></div>
-                        <div class="item-resultado"></div>
-                    </div>
-                </div>
-            </div>
+        </div>
 
     </div>
 

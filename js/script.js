@@ -186,8 +186,8 @@ tButton2.addEventListener('change', function() {
      
     } else{
       tLabel2.classList.remove('checked');
-      tx = tx - 3.34;
-      ab = ab - 3.34;
+      tx = tx - 5;
+      ab = ab - 5;
       
       console.log("");
       console.log("Perda peso: "+pp);
@@ -256,8 +256,8 @@ tButton4.addEventListener('change', function() {
 if (tButton4.checked) {
     tLabel4.classList.add('checked');
 
-    p = p + 10;
-    cr = cr + 10;
+    p = p + 5;
+    cr = cr + 6.68;
    
     console.log("");
     console.log("Perda peso: "+pp);
@@ -274,8 +274,8 @@ if (tButton4.checked) {
 } else{
     tLabel4.classList.remove('checked');
 
-    p = p - 10;
-    cr = cr - 10;
+    p = p - 5;
+    cr = cr - 6.68;
    
     console.log("");
     console.log("Perda peso: "+pp);
@@ -860,7 +860,7 @@ tButton19.addEventListener('change', function() {
 tButton20.addEventListener('change', function() {
   if (tButton20.checked) {
       tLabel20.classList.add('checked');
-      pp = pp + 5; 
+      pp = pp + 10;
       cr = cr + 5;
 
       console.log("");
@@ -877,7 +877,7 @@ tButton20.addEventListener('change', function() {
 
   } else{
       tLabel20.classList.remove('checked');
-      pp = pp - 5;
+      pp = pp - 10;
       cr = cr - 5;
 
       console.log("");
@@ -909,28 +909,14 @@ tButton21.addEventListener('change', function() {
 
 
 
-
-
-
-
-
-
-
 //exibição dos exercicios
 
 
 btncalc.addEventListener('click', function(){
-  if(pp>10 && cr>5){
-    flexao.classList.add('most');
-    balasana.classList.add('most');
-    balanceTable.classList.add('most');
 
-    rollUp.classList.add('most');
-    mergulho.classList.add('most');
-    sideKick.classList.add('most');
-    // 
-    // 
-    // 
+  if(b>=5 || ab>=5){
+    flexao.classList.add('most'); 
+  
     // 
     // 
     // 
@@ -943,35 +929,43 @@ btncalc.addEventListener('click', function(){
     
   }else{
     flexao.classList.remove('most');
-    balasana.classList.remove('most');
-    balanceTable.classList.remove('most');
-    rollUp.classList.remove('most');
-    mergulho.classList.remove('most');
-    sideKick.classList.remove('most');
-
   }  
 
-   if(cr>=5 || p >= 5 || pp >=5){
-    caminhada.classList.add('most');
-   }else{
-    caminhada.classList.remove('most');
-    agachamento.classList.remove('most');
-    yoga.classList.remove('most');
-    polichinelo.classList.remove('most');
-    pulacorda.classList.remove('most');
-    alongamento.classList.remove('most');
-    ponte.classList.remove('most');
-    abdominal.classList.remove('most');
-    soconoar.classList.remove('most');
-    montanha.classList.remove('most');
-    lunge.classList.remove('most');
-    pullup.classList.remove('most');
-    
+  if(cr>=5 || p >= 5 || pp >=5){
+  caminhada.classList.add('most');
+  }else{
+  caminhada.classList.remove('most');
   }
 
+  if(p>=10){
+  agachamento.classList.add('most');
+  }else{
+  agachamento.classList.remove('most');
+  }
+
+  if(y>=20 || ec >=15){
+  yoga.classList.add('most');
+  }else{
+  yoga.classList.remove('most');
+  }
+
+  if(pp >=10){
+  polichinelo.classList.add('most');
+  }else{
+  polichinelo.classList.remove('most');
+  }
+
+  if(pp>=20){
+    pulacorda.classList.add('most');
+  }else{
+    pulacorda.classList.remove('most');
+  }
+
+  if(ec >= 5 && y >=10){
+  alongamento.classList.add('most');
+  }
 });
-
-
+ 
 
 
 
@@ -1068,11 +1062,6 @@ img15.onclick = function(){
 img16.onclick = function(){
   modal_main16.style.display = "block";}
 
-img17.onclick = function(){
-  modal_main17.style.display = "block";}
-
-img18.onclick = function(){
-  modal_main18.style.display = "block";}
 
 
 
@@ -1142,14 +1131,7 @@ span.onclick = function() {
 modal_main16.style.display = "none";}
 
 
-var span = document.getElementsByClassName("close17")[0];
-span.onclick = function() {
-modal_main17.style.display = "none";}
 
-
-var span = document.getElementsByClassName("close18")[0];
-span.onclick = function() {
-modal_main18.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
