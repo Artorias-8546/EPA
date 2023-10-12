@@ -81,6 +81,7 @@ const montanha = $('montanha');
 const lunge = $('lunge');
 const pullup = $('pullup');
 const balasana = $('balasana');
+const balanceTable = $('balanceTable');
 
 // variaveis
 // pp = perda peso
@@ -919,6 +920,7 @@ btncalc.addEventListener('click', function(){
   if(b>=5 || ab>=5){
     flexao.classList.add('most');
     balasana.classList.add('most');
+    balanceTable.classList.add('most');
     // 
     // 
     // 
@@ -934,6 +936,8 @@ btncalc.addEventListener('click', function(){
     
   }else{
     flexao.classList.remove('most');
+    balasana.classList.remove('most');
+    balanceTable.classList.remove('most');
   }  
 
    if(cr>=5 || p >= 5 || pp >=5){
@@ -965,9 +969,12 @@ btncalc.addEventListener('click', function(){
   }else{
     pulacorda.classList.remove('most');
   }
-   if(ec >= 5 && y >=10){
-    alongamento.classList.add('most');
-   }
+
+  if(ec >= 5 && y >=10){
+    alongamento.classList.add('most'); 
+  }else{
+    alongamento.classList.remove('most');
+  }
 });
 
 
@@ -990,6 +997,7 @@ const modal_main11 = document.querySelector(".modal-main11");
 const modal_main12 = document.querySelector(".modal-main12");
 const modal_main13 = document.querySelector(".modal-main13");
 const modal_main14 = document.querySelector(".modal-main14");
+const modal_main15 = document.querySelector(".modal-main15");
 const modal_estrela = document.querySelector(".modal-estrela");
 
 var img = document.getElementById("myImg");
@@ -1006,6 +1014,7 @@ var img11 = document.getElementById("myImg11");
 var img12 = document.getElementById("myImg12");
 var img13 = document.getElementById("myImg13");
 var img14 = document.getElementById("myImg14");
+var img15 = document.getElementById("myImg15");
 var imgEstrela = document.getElementById("myEstrela");
 
 imgEstrela.onclick = function(){
@@ -1051,7 +1060,11 @@ img13.onclick = function(){
   modal_main13.style.display = "block";}
 
 img14.onclick = function(){
-  modal_main1.style.display = "block";}
+  modal_main14.style.display = "block";}
+
+img15.onclick = function(){
+  modal_main15.style.display = "block";}
+
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
@@ -1108,6 +1121,10 @@ modal_main13.style.display = "none";}
 var span = document.getElementsByClassName("close14")[0];
 span.onclick = function() {
 modal_main14.style.display = "none";}
+
+var span = document.getElementsByClassName("close15")[0];
+span.onclick = function() {
+modal_main15.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
