@@ -462,9 +462,8 @@ header #logo{
 
 
 .modal-main, .modal-main2, .modal-main3, .modal-main4, .modal-main5, .modal-main6, .modal-main7, 
-.modal-main8, .modal-main9, .modal-main10, .modal-main11, .modal-main12, .modal-main13, 
-.modal-main14, .modal-main15, .modal-main16, .modal-main17, .modal-main18, .modal-main19, 
-.modal-main20{
+.modal-main8, .modal-main9, .modal-main10, .modal-main11, .modal-main12, .modal-main13, .modal-main14, .modal-main15, 
+.modal-main16, .modal-main17, .modal-main18, .modal-main19, .modal-main20{
     display: none; 
     position: fixed;
     padding-top: 10vh;
@@ -489,11 +488,8 @@ header #logo{
     ;
     gap: 2rem;
 }
-.close, .close2, .close3, .close4, .close5, 
-.close6, .close7, .close8, .close9, .close10, 
-.close11, .close12, .close13, .close14, .close15, 
-.close16, .close17, .close18, .close19, .close20, 
-.close-i {
+.close, .close2, .close3, .close4, .close5
+, .close6, .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17, .close18, .close19, .close20, .close-i {
     position: absolute;
     top: 0.5vh;
     right: 0.5vh;
@@ -502,15 +498,10 @@ header #logo{
     transition: 0.2s;
 }
   
-.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, 
-.close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus, 
-.close6:hover, .close6:focus, .close7:hover, .close7:focus, .close8:hover, 
-.close8:focus, .close9:hover, .close9:focus, .close10:hover, .close10:focus, 
-.close11:hover, .close11:focus, .close12:hover, .close12:focus, .close13:hover, 
-.close13:focus, .close14:hover, .close14:focus, .close15:hover, .close15:focus,
-.close16:hover, .close16:focus, .close17:hover, .close17:focus, .close18:hover, 
-.close18:focus, .close19:hover, .close19:focus, .close20:hover, .close20:focus, 
-.close-i:hover, .close-i:focus{
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, 
+.close5:hover, .close5:focus, .close6:hover, .close6:focus, .close7:hover, .close7:focus, .close8:hover, .close8:focus, 
+.close9:hover, .close9:focus, .close10:hover, .close10:focus, .close11:hover, .close11:focus, .close12:hover, .close12:focus, 
+.close13:hover, .close13:focus, .close14:hover, .close14:focus, .close15:hover, .close15:focus,.close16:hover, .close16:focus, .close17:hover, .close17:focus, .close18:hover, .close19:focus, .close20:hover, .close20:focus, .close-i:hover, .close-i:focus{
     background-color: rgba(255, 0, 0, 0.961);
     border-radius: 100%;
     cursor: pointer;
