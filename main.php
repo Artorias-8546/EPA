@@ -443,6 +443,7 @@
                 </div>
             </div>
         </div>
+        <!-- 14 -->
             <div class="img-exercicios14" id="balasana">
             <img src="img/balasana_yoga.png" alt="" width="325vh" id="myImg14">
             <div class="modal-main14">
@@ -459,6 +460,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- 15 -->
             <div class="img-exercicios15" id="balanceTable">
             <img src="img/balanceTable_yoga.png" alt="" width="325vh" id="myImg15">
             <div class="modal-main15">
@@ -475,6 +478,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- 16 -->
+
             <div class="img-exercicios16" id="mergulho">
             <img src="img/mergulho_exercicio.png" alt="" width="170vh" id="myImg16">
             <div class="modal-main16">
@@ -482,6 +488,24 @@
                 <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="img-exercicios17" id="roll-up">
+            <img src="img/roll-up_exercicio.png" alt="" width="170vh" id="myImg17">
+            <div class="modal-main17">
+                <div class="modal-content" id="roll-up">
+                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
                     <div class="item-nome">Balasana</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
