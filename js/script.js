@@ -1117,10 +1117,6 @@ var span = document.getElementsByClassName("close13")[0];
 span.onclick = function() {
   modal_main13.style.display = "none";}
 
-  var span = document.getElementsByClassName("close-estrela")[0];
-span.onclick = function() {
-  modal_estrela.style.display = "none";}
-
 var span = document.getElementsByClassName("close15")[0];
 span.onclick = function() {
 modal_main15.style.display = "none";}
