@@ -442,7 +442,7 @@
                     <div class="item-resultado">Os músculos trabalhados são especialmente os da grande dorsal e o trapézio, que carrega e move os ombros. Também recebem a maior carga e são suportados pelos braços, especialmente os bíceps.</div>
                 </div>
             </div>
-
+            </div>
             <div class="img-exercicios14" id="balasana">
             <img src="img/balasana_yoga.png" alt="" width="180vh" id="myImg14">
             <div class="modal-main14">
@@ -458,7 +458,7 @@
                     <div class="item-resultado"></div>
                 </div>
             </div>
-
+        </div>
             <div class="img-exercicios15" id="balanceTable">
             <img src="img/balanceTable_yoga.png" alt="" width="180vh" id="myImg15">
             <div class="modal-main15">
@@ -474,7 +474,7 @@
                     <div class="item-resultado"></div>
                 </div>
             </div>
-
+        </div>
             <div class="img-exercicios16" id="mergulho">
             <img src="img/mergulho_exercicio.png" alt="" width="180vh" id="myImg16">
             <div class="modal-main16">

@@ -916,7 +916,7 @@ btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
     flexao.classList.add('most'); 
-  
+    balasana.classList.add('most'); 
     // 
     // 
     // 
