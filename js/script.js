@@ -80,7 +80,10 @@ const soconoar = $('soconoar');
 const montanha = $('montanha');
 const lunge = $('lunge');
 const pullup = $('pullup');
-
+const balasana = $('balasana');
+const balanceTable = $('balanceTable');
+const mergulho = $('mergulho');
+const rollUp = $('rollUp');
 
 // variaveis
 // pp = perda peso
@@ -918,22 +921,30 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
   if(pp>10 && cr>5){
     flexao.classList.add('most');
-    caminhada.classList.add('most');
-    agachamento.classList.add('most');
-    yoga.classList.add('most');
-    polichinelo.classList.add('most');
-    pulacorda.classList.add('most');
-    alongamento.classList.add('most');
-    ponte.classList.add('most');
-    abdominal.classList.add('most');
-    soconoar.classList.add('most');
-    montanha.classList.add('most');
-    lunge.classList.add('most');
-    pullup.classList.add('most');
+    balasana.classList.add('most');
+    balanceTable.classList.add('most');
+    // 
+    // 
+    // 
+    // 
+    // 
+    // 
+    // ponte.classList.add('most');
+    // abdominal.classList.add('most');
+    // soconoar.classList.add('most');
+    // montanha.classList.add('most');
+    // lunge.classList.add('most');
+    // pullup.classList.add('most');
     
-  }
-  else{
+  }else{
     flexao.classList.remove('most');
+    balasana.classList.remove('most');
+    balanceTable.classList.remove('most');
+  }  
+
+   if(cr>=5 || p >= 5 || pp >=5){
+    caminhada.classList.add('most');
+   }else{
     caminhada.classList.remove('most');
     agachamento.classList.remove('most');
     yoga.classList.remove('most');
