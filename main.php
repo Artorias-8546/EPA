@@ -499,22 +499,7 @@
         </div>
 
         <!-- 17 -->
-        <div class="img-exercicios17" id="roll-up">
-            <img src="img/roll-up_exercicio.png" alt="" width="170vh" id="myImg17">
-            <div class="modal-main17">
-                <div class="modal-content" id="roll-up">
-                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
-                    <div class="item-nome">Balasana</div>
-                    <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
 </main>

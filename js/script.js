@@ -921,7 +921,6 @@ btncalc.addEventListener('click', function(){
     mergulho.classList.add('most');
     // 
     // 
-    // 
     // ponte.classList.add('most');
     // abdominal.classList.add('most');
     // soconoar.classList.add('most');
