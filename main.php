@@ -475,6 +475,23 @@
                 </div>
             </div>
 
+            <div class="img-exercicios16" id="mergulho">
+            <img src="img/mergulho_exercicio.png" alt="" width="180vh" id="myImg16">
+            <div class="modal-main16">
+                <div class="modal-content" id="mergulho">
+                <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
+                    <div class="item-nome">Balasana</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+
+
 
 
 
