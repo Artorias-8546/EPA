@@ -916,7 +916,10 @@ btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
     flexao.classList.add('most'); 
-    balasana.classList.add('most'); 
+    balasana.classList.add('most');
+    balanceTable.classList.add('most'); 
+    mergulho.classList.add('most');
+    rollUp.classList.add('most');
     // 
     // 
     // 
