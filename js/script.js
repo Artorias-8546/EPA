@@ -84,6 +84,7 @@ const balasana = $('balasana');
 const balanceTable = $('balanceTable');
 const mergulho = $('mergulho');
 const rollUp = $('rollUp');
+const sideKick = $('sideKick');
 
 // variaveis
 // pp = perda peso
@@ -925,6 +926,7 @@ btncalc.addEventListener('click', function(){
     balanceTable.classList.add('most');
     rollUp.classList.add('most');
     mergulho.classList.add('most');
+    sideKick.classList.add('most');
     // 
     // 
     // 
@@ -944,6 +946,7 @@ btncalc.addEventListener('click', function(){
     balanceTable.classList.remove('most');
     rollUp.classList.remove('most');
     mergulho.classList.remove('most');
+    sideKick.classList.remove('most');
   }  
 
    if(cr>=5 || p >= 5 || pp >=5){
@@ -1004,6 +1007,9 @@ const modal_main12 = document.querySelector(".modal-main12");
 const modal_main13 = document.querySelector(".modal-main13");
 const modal_main14 = document.querySelector(".modal-main14");
 const modal_main15 = document.querySelector(".modal-main15");
+const modal_main16 = document.querySelector(".modal-main16");
+const modal_main17 = document.querySelector(".modal-main17");
+const modal_main18 = document.querySelector(".modal-main18");
 const modal_estrela = document.querySelector(".modal-estrela");
 
 var img = document.getElementById("myImg");
@@ -1021,6 +1027,9 @@ var img12 = document.getElementById("myImg12");
 var img13 = document.getElementById("myImg13");
 var img14 = document.getElementById("myImg14");
 var img15 = document.getElementById("myImg15");
+var img16 = document.getElementById("myImg16");
+var img17 = document.getElementById("myImg17");
+var img18 = document.getElementById("myImg18");
 var imgEstrela = document.getElementById("myEstrela");
 
 imgEstrela.onclick = function(){
@@ -1070,6 +1079,15 @@ img14.onclick = function(){
 
 img15.onclick = function(){
   modal_main15.style.display = "block";}
+
+img16.onclick = function(){
+  modal_main16.style.display = "block";}
+
+img17.onclick = function(){
+  modal_main17.style.display = "block";}
+
+img18.onclick = function(){
+  modal_main18.style.display = "block";}
 
 
 var span = document.getElementsByClassName("close")[0];
@@ -1131,6 +1149,21 @@ modal_main14.style.display = "none";}
 var span = document.getElementsByClassName("close15")[0];
 span.onclick = function() {
 modal_main15.style.display = "none";}
+
+
+var span = document.getElementsByClassName("close16")[0];
+span.onclick = function() {
+modal_main16.style.display = "none";}
+
+
+var span = document.getElementsByClassName("close17")[0];
+span.onclick = function() {
+modal_main17.style.display = "none";}
+
+
+var span = document.getElementsByClassName("close18")[0];
+span.onclick = function() {
+modal_main18.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
