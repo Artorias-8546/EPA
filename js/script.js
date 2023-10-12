@@ -82,6 +82,8 @@ const lunge = $('lunge');
 const pullup = $('pullup');
 const balasana = $('balasana');
 const balanceTable = $('balanceTable');
+const mergulho = $('mergulho');
+const rollUp = $('rollUp');
 
 // variaveis
 // pp = perda peso
@@ -921,6 +923,8 @@ btncalc.addEventListener('click', function(){
     flexao.classList.add('most');
     balasana.classList.add('most');
     balanceTable.classList.add('most');
+    rollUp.classList.add('most');
+    mergulho.classList.add('most');
     // 
     // 
     // 
@@ -938,6 +942,8 @@ btncalc.addEventListener('click', function(){
     flexao.classList.remove('most');
     balasana.classList.remove('most');
     balanceTable.classList.remove('most');
+    rollUp.classList.remove('most');
+    mergulho.classList.remove('most');
   }  
 
    if(cr>=5 || p >= 5 || pp >=5){

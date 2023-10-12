@@ -466,7 +466,7 @@
                 <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
-                    <div class="item-nome">Balasana</div>
+                    <div class="item-nome">Balance Table</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <p>Recomendado: </p></div>
@@ -482,7 +482,7 @@
                 <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
-                    <div class="item-nome">Balasana</div>
+                    <div class="item-nome">Mergulho</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <p>Recomendado: </p></div>
@@ -490,6 +490,39 @@
                     <div class="item-resultado"></div>
                 </div>
             </div>
+
+            <div class="img-exercicios17" id="rollUp">
+            <img src="img/roll-up_exercicio.png" alt="" width="180vh" id="myImg17">
+            <div class="modal-main17">
+                <div class="modal-content" id="rollUp">
+                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
+                    <div class="item-nome">Roll Up</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+
+            <div class="img-exercicios18" id="rollUp">
+            <img src="img/roll-up_exercicio.png" alt="" width="180vh" id="myImg17">
+            <div class="modal-main17">
+                <div class="modal-content" id="rollUp">
+                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
+                    <div class="item-nome">Roll Up</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+
 
 
 
