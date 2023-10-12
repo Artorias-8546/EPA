@@ -378,12 +378,12 @@ header #logo{
 
 /*botao calcular*/
 .container-calcular{
-    height: 5vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
 
