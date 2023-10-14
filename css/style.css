@@ -418,7 +418,7 @@ header #logo{
 }
 .img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
 .img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
-.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16,.img-exercicios17{
+.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16{
     display: none;
     justify-content: center;
     align-items: center;
@@ -489,7 +489,7 @@ header #logo{
     ;
     gap: 2rem;
 }
-.close, .close2, .close3, .close4, .close5
+.close, .close2, .close3, .close4, .close5,
 .close6, .close7, .close8, .close9, .close10,
 .close11, .close12, .close13, .close14, .close15, 
 .close16, .close17, .close18, .close19, .close20, .close-i {

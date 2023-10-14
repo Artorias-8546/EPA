@@ -333,7 +333,7 @@ if (tButton6.checked) {
     pp = pp + 5;
     cr = cr + 3.34;
     y = y + 5;
-    ec = ec + 3.34;
+    ec = ec + 5;
 
     console.log("");
     console.log("Perda peso: "+pp);
@@ -352,7 +352,7 @@ if (tButton6.checked) {
     pp = pp - 5;
     cr = cr - 3.34;
     y = y - 5;
-    ec = ec - 3.34;
+    ec = ec - 5;
 
     console.log("");
     console.log("Perda peso: "+pp);
@@ -648,7 +648,7 @@ tButton14.addEventListener('change', function() {
       tLabel14.classList.add('checked');
       pp = pp + 5;
       cr = cr + 3.34; 
-      ab = ab + 3.34;
+      ab = ab + 5;
       ec = ec + 5;
 
       console.log("");
@@ -667,7 +667,7 @@ tButton14.addEventListener('change', function() {
       tLabel14.classList.remove('checked');
       pp = pp - 5;
       cr = cr - 3.34; 
-      ab = ab - 3.34;
+      ab = ab - 5;
       ec = ec - 5;
 
       console.log("");
@@ -809,15 +809,33 @@ tButton18.addEventListener('change', function() {
       b = b + 5; 
       cs = cs + 10;
 
-      console.log(b);
-      console.log(cs);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   } else{
       tLabel18.classList.remove('checked');
       b = b - 5; 
       cs = cs - 10;
 
-      console.log(b);
-      console.log(cs);
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   }
 });
 
@@ -919,33 +937,33 @@ btncalc.addEventListener('click', function(){
     balasana.classList.add('most');
     balanceTable.classList.add('most'); 
     mergulho.classList.add('most');
-    roll_up.classList.add('most');
+  
     // 
     // 
-    // ponte.classList.add('most');
-    // abdominal.classList.add('most');
-    // soconoar.classList.add('most');
-    // montanha.classList.add('most');
-    // lunge.classList.add('most');
-    // pullup.classList.add('most');
+    // 
+    // 
+    // 
+    // 
+    // 
+    // 
     
   }else{
     flexao.classList.remove('most');
   }  
 
-  if(cr>=5 || p >= 5 || pp >=5){
+  if(pp >= 5 & cr >=5 & p>=5){
   caminhada.classList.add('most');
   }else{
   caminhada.classList.remove('most');
   }
 
-  if(p>=10){
+  if(p>=5){
   agachamento.classList.add('most');
   }else{
   agachamento.classList.remove('most');
   }
 
-  if(y>=20 || ec >=15){
+  if(y>=15 || ec >=15){
   yoga.classList.add('most');
   }else{
   yoga.classList.remove('most');
@@ -965,7 +983,51 @@ btncalc.addEventListener('click', function(){
 
   if(ec >= 5 && y >=10){
   alongamento.classList.add('most');
+  }else{
+    alongamento.classList.remove('most');
   }
+
+  if (ab>=5 && cs>= 5 ) {
+    ponte.classList.add('most');
+  }else{
+    ponte.classList.remove('most');
+  }
+
+  if (ab>=5) {
+    abdominal.classList.add('most');
+  }else{
+    abdominal.classList.remove('most');
+  }
+
+  if (pp>=5) {
+    soconoar.classList.add('most');
+  }else{
+    soconoar.classList.remove('most');
+  }
+
+  if (ab>=6.68 || ab>=6.68 && p>=5 ) {
+    montanha.classList.add('most');
+  }else{
+    montanha.classList.remove('most');
+  }
+
+  if (p>=10) {
+    lunge.classList.add('most');
+  }else{
+    lunge.classList.remove('most');
+  }
+
+  if (b>=20 || tx>=15 ||     b>=15 && tx>= 10) {
+    pullup.classList.add('most');
+  }else{
+    pullup.classList.remove('most');
+  }
+
+
+
+
+
+
 });
  
 
