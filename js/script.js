@@ -66,7 +66,7 @@ const tButton21 = document.getElementById('t-button21');
 const tLabel21 = document.getElementById('t-label21');
 
 const btncalc = $("btn-calc");
-
+const meme = $('meme');
 const flexao = $('flexao');
 const caminhada = $('caminhada');
 const agachamento = $('agachamento');
@@ -529,7 +529,7 @@ tButton10.addEventListener('change', function() {
 tButton11.addEventListener('change', function() {
   if (tButton11.checked) {
       tLabel11.classList.add('checked');
-      b = b + 3.34; 
+      b = b + 5; 
       tx = tx + 10;
       ab = ab + 3.34;
 
@@ -547,7 +547,7 @@ tButton11.addEventListener('change', function() {
       
   } else{
       tLabel11.classList.remove('checked');
-      b = b - 3.34; 
+      b = b - 5; 
       tx = tx - 10;
       ab = ab - 3.34;
       
@@ -934,9 +934,9 @@ btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
     flexao.classList.add('most'); 
-    balasana.classList.add('most');
-    balanceTable.classList.add('most'); 
-    mergulho.classList.add('most');
+
+
+
 
   
     // 
@@ -1024,6 +1024,24 @@ btncalc.addEventListener('click', function(){
     pullup.classList.remove('most');
   }
 
+  if (b>=10 || b>= 5 & cs >=5 ) {
+    mergulho.classList.add('most');
+  }else{
+    mergulho.classList.remove('most');
+  }
+ 
+  if (y>=5 || ec>=5) {
+    balanceTable.classList.add('most');
+  }else{
+    balanceTable.classList.remove('most');
+  }
+  
+  if (y>=5 || ec>=5) {
+    balasana.classList.add('most');
+  }else{
+    balasana.classList.remove('most');
+  }
+  
 
 
 
