@@ -937,6 +937,7 @@ btncalc.addEventListener('click', function(){
     balasana.classList.add('most');
     balanceTable.classList.add('most'); 
     mergulho.classList.add('most');
+
   
     // 
     // 
@@ -1017,7 +1018,7 @@ btncalc.addEventListener('click', function(){
     lunge.classList.remove('most');
   }
 
-  if (b>=20 || tx>=15 ||     b>=15 && tx>= 10) {
+  if (b>=20 || tx>=12 || b>=15 && tx>= 10) {
     pullup.classList.add('most');
   }else{
     pullup.classList.remove('most');
