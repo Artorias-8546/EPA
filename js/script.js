@@ -83,7 +83,7 @@ const pullup = $('pullup');
 const balasana = $('balasana');
 const balanceTable = $('balanceTable');
 const mergulho = $('mergulho');
-const roll_up = $('roll-up');
+const roll_up = $('roll_up');
 const sideKick = $('sideKick');
 
 // variaveis
@@ -919,6 +919,7 @@ btncalc.addEventListener('click', function(){
     balasana.classList.add('most');
     balanceTable.classList.add('most'); 
     mergulho.classList.add('most');
+    roll_up.classList.add('most');
     // 
     // 
     // ponte.classList.add('most');
@@ -1063,8 +1064,6 @@ img15.onclick = function(){
 img16.onclick = function(){
   modal_main16.style.display = "block";}
 
-img17.onclick = function(){
-  modal_main17.style.display = "block";}
 
 
 
@@ -1133,9 +1132,6 @@ var span = document.getElementsByClassName("close16")[0];
 span.onclick = function() {
 modal_main16.style.display = "none";}
 
-var span = document.getElementsByClassName("close17")[0];
-span.onclick = function() {
-modal_main17.style.display = "none";}
 
 
 var span = document.getElementsByClassName("close-estrela")[0];
