@@ -1145,7 +1145,8 @@ img15.onclick = function(){
 img16.onclick = function(){
   modal_main16.style.display = "block";}
 
-
+img17.onclick = function(){
+  modal_main17.style.display = "block";}
 
 
 var span = document.getElementsByClassName("close")[0];
@@ -1213,7 +1214,9 @@ var span = document.getElementsByClassName("close16")[0];
 span.onclick = function() {
 modal_main16.style.display = "none";}
 
-
+var span = document.getElementsByClassName("close16")[0];
+span.onclick = function() {
+modal_main16.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {

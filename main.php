@@ -179,12 +179,12 @@
     <div class="container-calcular">
         <div class="calc-baixo">
             <div class="button-shadow">
-                <button type="submit" id="btn-calc">Calcular meus exercícios</button>
+                <button type="submit" id="btn-calc" href = "#calcular">Calcular meus exercícios</button>
         </div>
     </div>
     </div>
 
-    <div class="container-exercicios">
+    <div class="container-exercicios" id = "calcular">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="200vh" id="myImg">
@@ -499,22 +499,7 @@
         </div>
 
         <!-- 17 -->
-        <div class="img-exercicios17" id="roll_up">
-            <img src="img/roll-up_exercicio.png" alt="" width="170vh" id="myImg17">
-            <div class="modal-main17">
-                <div class="modal-content" id="roll_up">
-                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
-                    <div class="item-nome">Balasana</div>
-                    <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
-                </div>
-            </div>
-        </div>
+        
         
 
     </div>
