@@ -500,7 +500,7 @@
 
         <!-- 17 -->
         <div class="img-exercicios17" id="roll_up">
-            <img src="img/roll-up_exercicio.png" alt="" width="170vh" id="myImg17">
+            <img src="img/roll-up_exercicio.png" alt="" width="225vh" id="myImg17">
             <div class="modal-main17">
                 <div class="modal-content" id="roll_up">
                 <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
@@ -524,6 +524,23 @@
                 <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                 <div class="item-simbolo"><img src="img/pilates.png"></div>
                     <div class="item-nome">Pilates</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-exercicios19" id="sideKick">
+            <img src="img/side-kick.png" alt="" width="170vh" id="myImg19">
+            <div class="modal-main19">
+                <div class="modal-content" id="sideKick">
+                <span class="close19"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/side-kick.png"></div>
+                    <div class="item-nome">Side kick</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <p>Recomendado: </p></div>

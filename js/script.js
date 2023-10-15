@@ -937,6 +937,7 @@ btncalc.addEventListener('click', function(){
     flexao.classList.add('most');
     roll_up.classList.add('most');
     pilates.classList.add('most');
+    sideKick.classList.add('most');
     // 
     // 
     // 
@@ -1070,6 +1071,7 @@ const modal_main15 = document.querySelector(".modal-main15");
 const modal_main16 = document.querySelector(".modal-main16");
 const modal_main17 = document.querySelector(".modal-main17");
 const modal_main18 = document.querySelector(".modal-main18");
+const modal_main19 = document.querySelector(".modal-main19");
 const modal_estrela = document.querySelector(".modal-estrela");
 
 var img = document.getElementById("myImg");
@@ -1090,6 +1092,7 @@ var img15 = document.getElementById("myImg15");
 var img16 = document.getElementById("myImg16");
 var img17 = document.getElementById("myImg17");
 var img18 = document.getElementById("myImg18");
+var img19 = document.getElementById("myImg19");
 var imgEstrela = document.getElementById("myEstrela");
 
 imgEstrela.onclick = function(){
@@ -1149,6 +1152,8 @@ img17.onclick = function(){
 img18.onclick = function(){
   modal_main18.style.display = "block";}
 
+img19.onclick = function(){
+  modal_main19.style.display = "block";}
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
@@ -1221,6 +1226,10 @@ modal_main17.style.display = "none";}
 var span = document.getElementsByClassName("close18")[0];
 span.onclick = function() {
 modal_main18.style.display = "none";}
+
+var span = document.getElementsByClassName("close19")[0];
+span.onclick = function() {
+modal_main19.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
