@@ -938,6 +938,7 @@ btncalc.addEventListener('click', function(){
 
 
 
+
   
     // 
     // 
@@ -950,6 +951,7 @@ btncalc.addEventListener('click', function(){
     
   }else{
     flexao.classList.remove('most');
+    roll_up.classList.remove('most');
   }  
 
   if(pp >= 5 & cr >=5 & p>=5){
