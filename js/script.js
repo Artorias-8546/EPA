@@ -933,8 +933,8 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
-    flexao.classList.add('most'); 
-
+    flexao.classList.add('most');
+    roll_up.classList.add('most');
 
 
 
