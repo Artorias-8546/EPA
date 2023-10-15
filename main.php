@@ -499,8 +499,39 @@
         </div>
 
         <!-- 17 -->
+        <div class="img-exercicios17" id="roll_up">
+            <img src="img/roll-up_exercicio.png" alt="" width="170vh" id="myImg17">
+            <div class="modal-main17">
+                <div class="modal-content" id="roll_up">
+                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
+                    <div class="item-nome">Roll Up</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
         
-        
+        <div class="img-exercicios18" id="pilates">
+            <img src="img/pilates.png" alt="" width="170vh" id="myImg18">
+            <div class="modal-main18">
+                <div class="modal-content" id="pilates">
+                <span class="close18"><i class="ph ph-x-circle close-i"></i></span>
+                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                <div class="item-simbolo"><img src="img/pilates.png"></div>
+                    <div class="item-nome">Pilates</div>
+                    <div class="item-desc">
+                        <p>Fortalece:</p>
+                        <p>Recomendado: </p></div>
+                    <div class="item-oqe"></div>
+                    <div class="item-resultado"></div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

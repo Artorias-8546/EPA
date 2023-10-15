@@ -937,11 +937,6 @@ btncalc.addEventListener('click', function(){
     flexao.classList.add('most');
     roll_up.classList.add('most');
     pilates.classList.add('most');
-
-
-
-
-  
     // 
     // 
     // 
@@ -953,8 +948,6 @@ btncalc.addEventListener('click', function(){
     
   }else{
     flexao.classList.remove('most');
-    roll_up.classList.remove('most');
-    pilates.classList.remove('most');
   }  
 
   if(pp >= 5 & cr >=5 & p>=5){
