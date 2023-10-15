@@ -84,6 +84,7 @@ const balasana = $('balasana');
 const balanceTable = $('balanceTable');
 const mergulho = $('mergulho');
 const roll_up = $('roll_up');
+const pilates = $('pilates');
 const sideKick = $('sideKick');
 
 // variaveis
@@ -935,6 +936,7 @@ btncalc.addEventListener('click', function(){
   if(b>=5 || ab>=5){
     flexao.classList.add('most');
     roll_up.classList.add('most');
+    pilates.classList.add('most');
 
 
 
@@ -952,6 +954,7 @@ btncalc.addEventListener('click', function(){
   }else{
     flexao.classList.remove('most');
     roll_up.classList.remove('most');
+    pilates.classList.remove('most');
   }  
 
   if(pp >= 5 & cr >=5 & p>=5){
@@ -1150,6 +1153,9 @@ img16.onclick = function(){
 img17.onclick = function(){
   modal_main17.style.display = "block";}
 
+img18.onclick = function(){
+  modal_main18.style.display = "block";}
+
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
@@ -1211,14 +1217,17 @@ var span = document.getElementsByClassName("close15")[0];
 span.onclick = function() {
 modal_main15.style.display = "none";}
 
-
 var span = document.getElementsByClassName("close16")[0];
 span.onclick = function() {
 modal_main16.style.display = "none";}
 
-var span = document.getElementsByClassName("close16")[0];
+var span = document.getElementsByClassName("close17")[0];
 span.onclick = function() {
-modal_main16.style.display = "none";}
+modal_main17.style.display = "none";}
+
+var span = document.getElementsByClassName("close18")[0];
+span.onclick = function() {
+modal_main18.style.display = "none";}
 
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
