@@ -1281,11 +1281,8 @@ async function listar(){
       lista.favoritos.forEach((favoritos) => {
           let linha = `
                       <div class="container-lista">
-                        <tr>
-                          <td class="container-lista">${favoritos.nome_exercicio}</td>
-                          <br>
-                        </tr>
-                        // <img scr="img/${favoritos.nome_exercicio}.png">
+                        <div class="container-lista">${favoritos.nome_exercicio}</div>     
+                        <!--  imagem dando errado <img scr="img/${favoritos.nome_exercicio}.png">  -->
                       </div>
                        `
                       ;
