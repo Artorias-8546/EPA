@@ -609,30 +609,26 @@ header #logo{
     top: 48.5%;
 }
 .borda-star{
-    top: 190vh;
-  left: 62vw;
-   margin-top: 2vh;
-   display:none;
-   align-items: center;
-   position: absolute;
-   border-width: 1px;
-   border-color: gray;
-   border-radius: 3px;
-   border-style: solid;
-   border-radius: 5px;
-   width: 4.5vh;
-   transition: all 0.3s;
-   
+    top: 187.5vh;
+    left: 62vw;
+    margin-top: 2vh;
+    display:none;
+    align-items: center;
+    position: absolute;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 4.5vh;
+    transition: all 0.5s;
 }
 .borda-star.most{
- 
- display: flex;
-     
- }
+    display: flex;
+}
 .borda-star:hover{
     width: 14vh;
     display: flex;
-   
 }
 .borda-star .estrela-acesa{
     display: none;
@@ -643,7 +639,7 @@ header #logo{
 .estrela-apagada.add{
     display: none;
 }
-.borda-star span{
+.fav{
     margin-left: 5px;
     display: none;
     position: absolute;
@@ -651,7 +647,7 @@ header #logo{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 19px;
 }
-.borda-star:hover span{
+.borda-star:hover .fav{
     display:inline;
-
 }
+

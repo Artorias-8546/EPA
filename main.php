@@ -187,9 +187,7 @@
             <label for="star" class="staradd" id="">
             <img src="img/star.png" width="40rem" class="estrela-apagada" id="starapagada">
             <img src="img/staradd.png" width="40rem" class="estrela-acesa" id="staracesa">
-            <span>Favoritos</span>
-           
-        
+            <span class="fav">Favoritos</span>
     </div>
     </div>
 
