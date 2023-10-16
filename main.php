@@ -443,7 +443,7 @@
                 </div>
             </div>
         </div>
-        <!-- 14 -->
+<!-- 14 -->
             <div class="img-exercicios14" id="balasana">
             <img src="img/balasana_yoga.png" alt="" width="325vh" id="myImg14">
             <div class="modal-main14">
@@ -461,7 +461,7 @@
             </div>
         </div>
 
-        <!-- 15 -->
+ <!-- 15 -->
             <div class="img-exercicios15" id="balanceTable">
             <img src="img/balanceTable_yoga.png" alt="" width="325vh" id="myImg15">
             <div class="modal-main15">
@@ -479,7 +479,7 @@
             </div>
         </div>
 
-        <!-- 16 -->
+ <!-- 16 -->
 
             <div class="img-exercicios16" id="mergulho">
             <img src="img/mergulho_exercicio.png" alt="" width="170vh" id="myImg16">
@@ -498,7 +498,7 @@
             </div>
         </div>
 
-        <!-- 17 -->
+ <!-- 17 -->
         <div class="img-exercicios17" id="roll_up">
             <img src="img/roll-up_exercicio.png" alt="" width="225vh" id="myImg17">
             <div class="modal-main17">
@@ -550,6 +550,13 @@
             </div>
         </div>
 
+    </div>
+
+    <div class="borda-star">
+        <button type="submit" class="container-star"></button>
+            <img src="star.png" width="30rem">
+            <span>Favoritos</span>
+        </div>
     </div>
 
 </main>
