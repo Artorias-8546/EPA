@@ -606,9 +606,41 @@ header #logo{
     top: 48.5%;
 }
 .borda-star{
-    background-color: gray;
-
+   margin-left: 5vw;
+   display:none;
+   border-width: 1px;
+   border-color: gray;
+   border-radius: 1px;
+   border-style: solid;
+   border-radius: 5px;
+   width: 5vh;
+   transition: all 0.5s;
+    
 }
-.borda-star.add{
+.borda-star.most{
+    display:flex;
+    
+     
+ }
+.borda-star:hover{
+    width: 14vh;
+    display: flex;
+   
+}
+.borda-star .estrela-acesa{
+    display: none;
+}
+.estrela-acesa.add{
     display: inline;
+}
+.estrela-apagada.add{
+    display: none;
+}
+.borda-star span{
+    display: none;
+    transition: 0.5s;
+}
+.borda-star:hover span{
+    display:inline;
+    transition: 0.5s;
 }

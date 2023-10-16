@@ -66,6 +66,10 @@ const tButton21 = document.getElementById('t-button21');
 const tLabel21 = document.getElementById('t-label21');
 
 const btncalc = $("btn-calc");
+const staracesa = $('staracesa');
+const star = $('star');
+const bordastar = $('bordastar');
+const starapagada = $('starapagada');
 const meme = $('meme');
 const flexao = $('flexao');
 const caminhada = $('caminhada');
@@ -1042,13 +1046,27 @@ btncalc.addEventListener('click', function(){
   }
   
 
+    bordastar.classList.add('most');
+
+
 
 
 
 
 });
  
+star.addEventListener('change', function() {
+  if(star.checked){
+    staracesa.classList.add('add');
+    starapagada.classList.add('add');
 
+  }
+     else{
+      staracesa.classList.remove('add');
+      starapagada.classList.remove('add');
+     }
+
+  });
 
 
 
