@@ -182,14 +182,20 @@
                 <button type="submit" id="btn-calc" href = "#calcular">Calcular meus exercícios</button>
         </div>
     </div>
+
+
+<!-- Estrla de Favoritos -->
     <div class="borda-star" id="bordastar">
-            <input type="checkbox" id="star" class="input-t">
-            <label for="star" class="staradd" id="">
-            <img src="img/star.png" width="40rem" class="estrela-apagada" id="starapagada">
-            <img src="img/staradd.png" width="40rem" class="estrela-acesa" id="staracesa">
-            <span class="fav">Favoritos</span>
+        <input type="checkbox" id="star" class="input-t">
+        <label for="star" class="staradd" id="">
+        <img src="img/star.png" width="40rem" class="estrela-apagada" id="starapagada">
+        <img src="img/staradd.png" width="40rem" class="estrela-acesa" id="staracesa">
+        <span class="fav">Favoritos</span>
     </div>
-    </div>
+
+
+    
+</div>
 
 
     <div class="container-exercicios" id = "calcular">

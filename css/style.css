@@ -136,7 +136,6 @@ hr{
     font-size: 50px;
     transition: 0.2s;
 }
-
 .close-estrela:hover, .close-estrela:focus, .close-e:hover, .close-e:focus{
     background-color: rgba(255, 0, 0, 0.829);
     border-radius: 100%;
@@ -147,12 +146,10 @@ hr{
     margin-left: 70%;
     width: 80vh; /*width: auto*/
     height: 60vh; /*height: auto*/
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(231, 231, 231);
     border-radius: 0.7vh;
+    cursor: auto;
 }
-
-
-
 
 
 
