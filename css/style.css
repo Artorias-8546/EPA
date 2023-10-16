@@ -609,20 +609,24 @@ header #logo{
     top: 48.5%;
 }
 .borda-star{
-   margin-left: 5vw;
+    top: 190vh;
+  left: 62vw;
+   margin-top: 2vh;
    display:none;
+   align-items: center;
+   position: absolute;
    border-width: 1px;
    border-color: gray;
-   border-radius: 1px;
+   border-radius: 3px;
    border-style: solid;
    border-radius: 5px;
-   width: 5vh;
-   transition: all 0.5s;
-    
+   width: 4.5vh;
+   transition: all 0.3s;
+   
 }
 .borda-star.most{
-    display:flex;
-    
+ 
+ display: flex;
      
  }
 .borda-star:hover{
@@ -640,10 +644,14 @@ header #logo{
     display: none;
 }
 .borda-star span{
+    margin-left: 5px;
     display: none;
-    transition: 0.5s;
+    position: absolute;
+    margin-top: 9px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
 }
 .borda-star:hover span{
     display:inline;
-    transition: 0.5s;
+   
 }
