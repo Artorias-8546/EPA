@@ -4,7 +4,15 @@
     <div class="modal-estrela">
         <div class="modal-content-estrela" id="">
             <span class="close-estrela"><i class="ph ph-x-circle close-e"></i></span>
+            <div class="lista">
+                
 
+
+
+
+
+
+            </div>
         </div>
     </div>
 </div>

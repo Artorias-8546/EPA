@@ -1253,3 +1253,28 @@ var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
 modal_estrela.style.display = "none";}
 
+
+
+
+
+
+
+
+
+
+
+
+// Banco de dados
+const adicionar = document.getElementById("calcular");
+
+
+
+async function cadastrar(dados){
+  let requisicao = await fetch("http://localhost/EPA/adicionar.php", {
+      method: "POST",
+      body: JSON.stringify(dados)
+  });
+  let resposta = await requisicao.json();
+  alert(resposta.mensagem);
+  await listar();
+}
