@@ -490,7 +490,7 @@
                     <div class="item-nome">Balance Table</div>
                     <div class="item-desc">
                         <p>Recomendado: 30 minutos por dia</p></div>
-                    <div class="item-oqe">oelhos apoiados no chão, na posição quatro apoios, levante o braço esquerdo para frente e estique a perna direita esquerda para trás, de maneira que ambos fiquem nivelados quando esticados. Concentre a força no abdômen e expire fundo algumas vezes.</div>
+                    <div class="item-oqe">joelhos apoiados no chão, na posição quatro apoios, levante o braço esquerdo para frente e estique a perna direita esquerda para trás, de maneira que ambos fiquem nivelados quando esticados. Concentre a força no abdômen e expire fundo algumas vezes.</div>
                     <div class="item-resultado">Ao ajudar na redução do estresse e da ansiedade, fortalecer a musculatura, o alongamento e a flexibilidade e melhorar a qualidade do sono.</div>
                 </div>
             </div>
