@@ -1278,15 +1278,14 @@ async function listar(){
 
   let lista = await requisicao.json();
 
-
       lista.favoritos.forEach((favoritos) => {
           let linha = `
                       <div class="container-lista">
                         <tr>
                           <td class="container-lista">${favoritos.nome_exercicio}</td>
-                          <img scr="img/${favoritos.nome_exercicio}.png">
                           <br>
                         </tr>
+                        <img scr="img/${favoritos.nome_exercicio}.png">
                       </div>
                        `
                       ;
