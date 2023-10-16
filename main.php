@@ -184,6 +184,7 @@
     </div>
     </div>
 
+    
     <div class="container-exercicios" id = "calcular">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
@@ -267,7 +268,6 @@
         </div>
 
 <!-- 5 -->
-
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
 
@@ -293,9 +293,9 @@
 
             <div class="modal-main6">
                 <div class="modal-content" id="">
-                <span class="close6"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pular_corda.png"></div>
+                    <span class="close6"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/pular_corda.png"></div>
                     <div class="item-nome">Pular corda</div>
                     <div class="item-desc">
                         <p>Fortalece: </p>
@@ -313,9 +313,9 @@
 
             <div class="modal-main7">
                 <div class="modal-content" id="">
-                <span class="close7"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/alongamentoo.png"></div>
+                    <span class="close7"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/alongamentoo.png"></div>
                     <div class="item-nome">Alongamento</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -333,9 +333,9 @@
 
             <div class="modal-main8">
                 <div class="modal-content" id="">
-                <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pontee.png"></div>
+                    <span class="close8"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/pontee.png"></div>
                     <div class="item-nome">Ponte</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -353,9 +353,9 @@
 
             <div class="modal-main9">
                 <div class="modal-content" id="">
-                <span class="close9"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/abdominal.gif"></div>
+                    <span class="close9"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/abdominal.gif"></div>
                     <div class="item-nome">Abdominal</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -373,9 +373,9 @@
 
             <div class="modal-main10">
                 <div class="modal-content" id="soconoar">
-                <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/soco_no_ar.png"></div>
+                    <span class="close10"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/soco_no_ar.png"></div>
                     <div class="item-nome">Soco no ar</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -390,11 +390,12 @@
 <!-- 11 -->
         <div class="img-exercicios11" id="montanha">
             <img src="img/montanha_exercicio.png" alt="" width="230vh" id="myImg11">
+
             <div class="modal-main11">
                 <div class="modal-content" id="monanha">
-                <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/montanha_exercicio.png"></div>
+                    <span class="close11"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/montanha_exercicio.png"></div>
                     <div class="item-nome">Montanha</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -409,11 +410,12 @@
 <!-- 12 -->
         <div class="img-exercicios12" id="lunge">
             <img src="img/lunge-alternado.png" alt="" width="230vh" id="myImg12">
+
             <div class="modal-main12">
                 <div class="modal-content" id="lunge">
-                <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/lunge-alternado.png"></div>
+                    <span class="close12"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/lunge-alternado.png"></div>
                     <div class="item-nome">Lunge Alternado</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -428,11 +430,12 @@
 <!-- 13 -->
         <div class="img-exercicios13" id="pullup">
             <img src="img/pull_up.png" alt="" width="180vh" id="myImg13">
+
             <div class="modal-main13">
                 <div class="modal-content" id="pullup">
-                <span class="close13"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pull_up.png"></div>
+                    <span class="close13"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/pull_up.png"></div>
                     <div class="item-nome">Pull-UP</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -443,14 +446,16 @@
                 </div>
             </div>
         </div>
+
 <!-- 14 -->
             <div class="img-exercicios14" id="balasana">
             <img src="img/balasana_yoga.png" alt="" width="325vh" id="myImg14">
+
             <div class="modal-main14">
                 <div class="modal-content" id="balasana">
-                <span class="close14"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/balasana_yoga.png"></div>
+                    <span class="close14"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/balasana_yoga.png"></div>
                     <div class="item-nome">Balasana</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -464,11 +469,12 @@
  <!-- 15 -->
             <div class="img-exercicios15" id="balanceTable">
             <img src="img/balanceTable_yoga.png" alt="" width="325vh" id="myImg15">
+
             <div class="modal-main15">
                 <div class="modal-content" id="balanceTable">
-                <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
+                    <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
                     <div class="item-nome">Balasana</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -480,14 +486,14 @@
         </div>
 
  <!-- 16 -->
-
             <div class="img-exercicios16" id="mergulho">
             <img src="img/mergulho_exercicio.png" alt="" width="170vh" id="myImg16">
+
             <div class="modal-main16">
-                <div class="modal-content" id="mergulho">
-                <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
+                    <div class="modal-content" id="mergulho">
+                    <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
                     <div class="item-nome">Balasana</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -501,11 +507,12 @@
  <!-- 17 -->
         <div class="img-exercicios17" id="roll_up">
             <img src="img/roll-up_exercicio.png" alt="" width="225vh" id="myImg17">
+
             <div class="modal-main17">
-                <div class="modal-content" id="roll_up">
-                <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
+                    <div class="modal-content" id="roll_up">
+                    <span class="close17"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/roll-up_exercicio.png"></div>
                     <div class="item-nome">Roll Up</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -516,13 +523,15 @@
             </div>
         </div>
         
+ <!-- 18 -->
         <div class="img-exercicios18" id="pilates">
             <img src="img/pilates.png" alt="" width="170vh" id="myImg18">
+
             <div class="modal-main18">
-                <div class="modal-content" id="pilates">
-                <span class="close18"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/pilates.png"></div>
+                    <div class="modal-content" id="pilates">
+                    <span class="close18"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/pilates.png"></div>
                     <div class="item-nome">Pilates</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -533,13 +542,15 @@
             </div>
         </div>
 
+ <!-- 19 -->
         <div class="img-exercicios19" id="sideKick">
             <img src="img/side-kick.png" alt="" width="170vh" id="myImg19">
+
             <div class="modal-main19">
-                <div class="modal-content" id="sideKick">
-                <span class="close19"><i class="ph ph-x-circle close-i"></i></span>
-                <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                <div class="item-simbolo"><img src="img/side-kick.png"></div>
+                    <div class="modal-content" id="sideKick">
+                    <span class="close19"><i class="ph ph-x-circle close-i"></i></span>
+                    <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
+                    <div class="item-simbolo"><img src="img/side-kick.png"></div>
                     <div class="item-nome">Side kick</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
