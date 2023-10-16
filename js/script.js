@@ -1284,6 +1284,7 @@ async function listar(){
                       <div class="container-lista">
                         <tr>
                           <td class="container-lista">${favoritos.nome_exercicio}</td>
+                          <img scr="img/${favoritos.nome_exercicio}.png">
                           <br>
                         </tr>
                       </div>
