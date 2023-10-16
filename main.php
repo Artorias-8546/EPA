@@ -184,6 +184,7 @@
     </div>
     </div>
 
+    
     <div class="container-exercicios" id = "calcular">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
@@ -267,7 +268,6 @@
         </div>
 
 <!-- 5 -->
-
         <div class="img-exercicios5" id="polichinelo">
             <img src="img/polichinelo.png" width="250vh" id="myImg5">
 
@@ -446,6 +446,7 @@
                 </div>
             </div>
         </div>
+
 <!-- 14 -->
             <div class="img-exercicios14" id="balasana">
             <img src="img/balasana_yoga.png" alt="" width="325vh" id="myImg14">
