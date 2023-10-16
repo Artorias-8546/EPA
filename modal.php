@@ -7,11 +7,6 @@
 
             <div id="lista">
 
-
-                        <tr>
-                          <td>${favoritos.nome_exercicio}</td>
-                       </tr>
-
             </div>  
         </div>
     </div>

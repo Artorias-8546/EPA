@@ -1280,11 +1280,15 @@ async function listar(){
 
 
       lista.favoritos.forEach((favoritos) => {
-          let linha = `<tr>
-                          <td>${favoritos.nome_exercicio}</td>
+          let linha = `
+                      <div class="container-lista">
+                        <tr>
+                          <td class="container-lista">${favoritos.nome_exercicio}</td>
                           <br>
-                       </tr>
-                      `;
+                        </tr>
+                      </div>
+                       `
+                      ;
                      
           listaa.innerHTML += linha;     
            

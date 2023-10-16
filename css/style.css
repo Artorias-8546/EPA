@@ -679,8 +679,7 @@ header #logo{
 }
 
 #lista{
-    margin-left: 20px;
-    font-size: 30px;
+
 }
 
 .modal-content-estrela{
@@ -708,8 +707,16 @@ header #logo{
 *::-webkit-scrollbar{
     width: 0px;
 }
-
-
+.container-lista{
+    color: white;
+    height: auto;
+    width: 30vh;
+    background-color: blue;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: ;
+    font-size: 30px;
+}
 
 
 
