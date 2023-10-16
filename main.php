@@ -563,11 +563,9 @@
                     <div class="item-simbolo"><img src="img/side-kick.png"></div>
                     <div class="item-nome">Side kick</div>
                     <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <ul><li>Costas</li><li>Abdômen</li><li>Lombar</li><li>Ombros</li></ul>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <p>Recomendado: 30 segundos por dia</p></div>
+                    <div class="item-oqe">O exercício consiste em: deitado de lado, movimentar a perna de cima estendida para frente e para trás, sem movimentar o tronco; alongando e fortalecendo cadeia posterior e estimulando força e controle de tronco. </div>
+                    <div class="item-resultado">Importante para o equilíbrio e coordenação.</div>
                 </div>
             </div>
         </div>
