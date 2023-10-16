@@ -480,6 +480,7 @@ header #logo{
     background-color: rgba(0,0,0,0.9);
 }
 .modal-content {
+    cursor: auto; /*tira o pointer*/
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
     display: grid;

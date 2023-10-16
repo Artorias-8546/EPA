@@ -184,7 +184,7 @@
     </div>
     </div>
 
-    
+
     <div class="container-exercicios" id = "calcular">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
@@ -440,7 +440,7 @@
                     <div class="item-desc">
                         <p>Fortalece:</p>
                         <ul><li>Costas</li><li>Abdômen</li><li>Lombar</li><li>Ombros</li></ul>
-                        <p>Recomendado: </p></div>
+                        <p>Recomendado: 30 pull up por dia</p></div>
                     <div class="item-oqe">O exercício Pull-Up é popularmente conhecida também como flexão de braços na barra fixa ou puxada alta. Com as costas retas, use o centro do corpo para se puxar lentamente para cima, de modo que o queixo fique sobre a barra.</div>
                     <div class="item-resultado">Os músculos trabalhados são especialmente os da grande dorsal e o trapézio, que carrega e move os ombros. Também recebem a maior carga e são suportados pelos braços, especialmente os bíceps.</div>
                 </div>
@@ -449,7 +449,7 @@
 
 <!-- 14 -->
             <div class="img-exercicios14" id="balasana">
-            <img src="img/balasana_yoga.png" alt="" width="325vh" id="myImg14">
+            <img src="img/balasana_yoga.png" alt="" width="350vh" id="myImg14">
 
             <div class="modal-main14">
                 <div class="modal-content" id="balasana">
@@ -458,10 +458,9 @@
                     <div class="item-simbolo"><img src="img/balasana_yoga.png"></div>
                     <div class="item-nome">Balasana</div>
                     <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <p>Recomendado: 30segundos por dia</p></div>
+                    <div class="item-oqe">Balasana significa a postura da criança e é assim chamada porque o corpo assume uma postura que recorda a posição fetal. Os joelhos e quadris estão dobrados, com as canelas tocando o chão.</div>
+                    <div class="item-resultado">A postura acalma o cérebro e ajuda a reduzir o estresse e a fadiga, tornando-a uma excelente opção para relaxar após um dia agitado.</div>
                 </div>
             </div>
         </div>
@@ -475,12 +474,11 @@
                     <span class="close15"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/balanceTable_yoga.png"></div>
-                    <div class="item-nome">Balasana</div>
+                    <div class="item-nome">Balance Table</div>
                     <div class="item-desc">
-                        <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <p>Recomendado: 30 minutos por dia</p></div>
+                    <div class="item-oqe">oelhos apoiados no chão, na posição quatro apoios, levante o braço esquerdo para frente e estique a perna direita esquerda para trás, de maneira que ambos fiquem nivelados quando esticados. Concentre a força no abdômen e expire fundo algumas vezes.</div>
+                    <div class="item-resultado">Ao ajudar na redução do estresse e da ansiedade, fortalecer a musculatura, o alongamento e a flexibilidade e melhorar a qualidade do sono.</div>
                 </div>
             </div>
         </div>
@@ -494,12 +492,13 @@
                     <span class="close16"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
                     <div class="item-simbolo"><img src="img/mergulho_exercicio.png"></div>
-                    <div class="item-nome">Balasana</div>
+                    <div class="item-nome">Mergulho</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Tríceps</li><li>Braquial</li><li>Peitoral</li></ul>
+                        <p>Recomendado: 40 vezes por dia</p></div>
+                    <div class="item-oqe">O mergulho é um exercício utilizado principalmente no treinamento dos músculos tríceps braquial e peitoral maior, embora recrute também a porção anterior do deltóide.</div>
+                    <div class="item-resultado">Ele te traz maior mobilidade de quadril, mais amplitude e recruta os glúteos.</div>
                 </div>
             </div>
         </div>
@@ -516,16 +515,17 @@
                     <div class="item-nome">Roll Up</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Abdominal</li><li>Oblíquos</li></ul>
+                        <p>Recomendado: 30 segundos por dia</p></div>
+                    <div class="item-oqe">Deite-se apoiando todo o corpo no colchonete ou no chão, estenda os braços para trás, estenda as pernas para a frente, estenda os dedos dos pés para frente e para baixo.</div>
+                    <div class="item-resultado">Seus Benefícios são: Ganho de força abdominal, flexibilidade, mobilidade da Coluna e a consciência de deitar e levantar corretamente.</div>
                 </div>
             </div>
         </div>
         
  <!-- 18 -->
         <div class="img-exercicios18" id="pilates">
-            <img src="img/pilates.png" alt="" width="170vh" id="myImg18">
+            <img src="img/pilates.png" alt="" width="200vh" id="myImg18">
 
             <div class="modal-main18">
                     <div class="modal-content" id="pilates">
@@ -535,16 +535,17 @@
                     <div class="item-nome">Pilates</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
-                        <p>Recomendado: </p></div>
-                    <div class="item-oqe"></div>
-                    <div class="item-resultado"></div>
+                        <ul><li>Glúteos</li><li>Core</li><li>Quadríceps</li></ul>
+                        <p>Recomendado: 2 vezes por semana</p></div>
+                    <div class="item-oqe">Pilates é um método de condicionamento físico e alongamento que utiliza o peso do próprio corpo na sua execução. A maioria dos exercícios são executados com a pessoa deitada.</div>
+                    <div class="item-resultado">É classificado como uma atividade de fortalecimento muscular, que pode ajudá-lo a manter um peso saudável.</div>
                 </div>
             </div>
         </div>
 
  <!-- 19 -->
         <div class="img-exercicios19" id="sideKick">
-            <img src="img/side-kick.png" alt="" width="170vh" id="myImg19">
+            <img src="img/side-kick.png" alt="" width="230vh" id="myImg19">
 
             <div class="modal-main19">
                     <div class="modal-content" id="sideKick">
@@ -554,6 +555,7 @@
                     <div class="item-nome">Side kick</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
+                        <ul><li>Costas</li><li>Abdômen</li><li>Lombar</li><li>Ombros</li></ul>
                         <p>Recomendado: </p></div>
                     <div class="item-oqe"></div>
                     <div class="item-resultado"></div>
