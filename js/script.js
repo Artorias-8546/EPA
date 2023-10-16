@@ -377,7 +377,7 @@ tButton7.addEventListener('change', function() {
 if (tButton7.checked) {
     tLabel7.classList.add('checked');
     b = b+10;
-
+  
     console.log("");
     console.log("Perda peso: "+pp);
     console.log("Perna: "+p);
