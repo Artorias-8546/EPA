@@ -308,7 +308,7 @@ header #logo{
     
 }
 .tooltip1{
- grid-area:'tooltip1' ;
+    grid-area:'tooltip1' ;
 
 }
 .tooltip2{
@@ -316,6 +316,7 @@ header #logo{
 }
 .tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
 .tooltip8,.tooltip9,.tooltip10,.tooltip11,.tooltip12,.tooltip13,.tooltip14{
+    cursor: pointer;
     margin-left: -3px;
     margin-top: -20px;
     width: 21vh;
@@ -419,6 +420,7 @@ header #logo{
 .img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
 .img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
 .img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16,.img-exercicios17,.img-exercicios18,.img-exercicios19{
+    cursor: pointer;
     display: none;
     justify-content: center;
     align-items: center;
