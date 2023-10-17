@@ -185,7 +185,7 @@
 
 
 <!-- Estrla de Favoritos -->
-    <div class="borda-star" id="bordastar">
+    <div class="borda-star" id="bordastar" name = "acao" value = "adicionar">
         <input type="checkbox" id="star" class="input-t">
         <label for="star" class="staradd" id="">
         <img src="img/star.png" width="50rem" class="estrela-apagada" id="starapagada">
@@ -207,7 +207,7 @@
                 <div class="modal-content" id="">
                     <span class="close"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/flexao.png"></div>
+                    <div class="item-simbolo"><img src="img/flexao.png" id="imagem1"></div>
                     <div class="item-nome">Flexão</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
@@ -268,7 +268,7 @@
                 <div class="modal-content" id="">
                     <span class="close4"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/yoga.gif"></div>
+                    <div class="item-simbolo"><img src="img/yoga.gif" id = ""></div>
                     <div class="item-nome">Yoga</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
