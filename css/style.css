@@ -145,7 +145,7 @@ hr{
     cursor: auto;
     border-width: 2px;
     border-style: solid;
-    border-color: var(--cor-secundaria);
+    border-color: var(--cor-quatenaria);
 }
 
 
@@ -514,6 +514,30 @@ header #logo{
 @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
+    }
+    header{
+        width: 140vh;
+        height: 30vh;
+    }
+    header #logo{
+        width: 20vh;
+        height: 20vh;
+    }
+    .modal-star{
+        left: 200%;
+    }
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-main .esquerda{
+        margin-top: 120%;
+        margin-left: 130%;
+    }
+    .container-esquerda button{
+        margin-left: 130%;
     }
 }
 

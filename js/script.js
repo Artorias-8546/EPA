@@ -91,6 +91,7 @@ const roll_up = $('roll_up');
 const pilates = $('pilates');
 const sideKick = $('sideKick');
 
+const imagem1 = $('imagem1');
 // variaveis
 // pp = perda peso
 // cr = corrida
@@ -964,7 +965,8 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
-    flexao.classList.add('most');    
+    flexao.classList.add('most');
+    imagem1.src = '';
   }else{
     flexao.classList.remove('most');
   }  

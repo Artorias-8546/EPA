@@ -2,7 +2,9 @@
     include 'cors_policy.php';
 	include 'conexao.php';
 
-    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $acao = isset($_GET['acao']) ? $_GET['acao'] : null;
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST' || $acao == 'adicionar'){
 
         $data = file_get_contents("php://input");
         $requestData = json_decode($data);
