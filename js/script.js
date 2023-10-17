@@ -920,8 +920,34 @@ tButton20.addEventListener('change', function() {
 tButton21.addEventListener('change', function() {
   if (tButton21.checked) {
       tLabel21.classList.add('checked');
+      ab = ab + 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   } else{
       tLabel21.classList.remove('checked');
+      ab = ab - 5;
+
+      console.log("");
+      console.log("Perda peso: "+pp);
+      console.log("Perna: "+p);
+      console.log("Yoga: "+y);
+      console.log("Correr: "+cr);
+      console.log("Braço: "+b);
+      console.log("Torax: "+tx);
+      console.log("Abôme: "+ab);
+      console.log("Costas: "+cs);
+      console.log("Equilíbrio corporal: "+ec);
+      console.log("");
   }
 });
 
@@ -938,45 +964,33 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
-    flexao.classList.add('most');
-    roll_up.classList.add('most');
-    pilates.classList.add('most');
-    sideKick.classList.add('most');
-    // 
-    // 
-    // 
-    // 
-    // 
-    // 
-    // 
-    // 
-    
+    flexao.classList.add('most');    
   }else{
     flexao.classList.remove('most');
   }  
 
   if(pp >= 5 & cr >=5 & p>=5){
-  caminhada.classList.add('most');
+    caminhada.classList.add('most');
   }else{
-  caminhada.classList.remove('most');
+    caminhada.classList.remove('most');
   }
 
   if(p>=5){
-  agachamento.classList.add('most');
+    agachamento.classList.add('most');
   }else{
-  agachamento.classList.remove('most');
+    agachamento.classList.remove('most');
   }
 
   if(y>=15 || ec >=15){
-  yoga.classList.add('most');
+    yoga.classList.add('most');
   }else{
-  yoga.classList.remove('most');
+    yoga.classList.remove('most');
   }
 
   if(pp >=10){
-  polichinelo.classList.add('most');
+    polichinelo.classList.add('most');
   }else{
-  polichinelo.classList.remove('most');
+    polichinelo.classList.remove('most');
   }
 
   if(pp>=20){
@@ -1045,7 +1059,23 @@ btncalc.addEventListener('click', function(){
     balasana.classList.remove('most');
   }
   
+  if (ab>=3.34) {
+    roll_up.classList.add('most');
+  }else{
+    roll_up.classList.remove('most');
+  }
 
+  if (ec>=13.34) {
+    pilates.classList.add('most');
+  }else{
+    pilates.classList.remove('most');
+  }
+
+  if (ec>=5 && cs>=10) {
+    sideKick.classList.add('most');
+  }else{
+    sideKick.classList.remove('most');
+  }
     bordastar.classList.add('most');
 
 
