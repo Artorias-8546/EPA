@@ -599,8 +599,10 @@ header #logo{
     left: 35%;
     top: 48.5%;
 }
+
+
 .borda-star{
-    top: 187.5vh;
+    top: 187vh;
     left: 62vw;
     margin-top: 2vh;
     display:none;
@@ -611,14 +613,14 @@ header #logo{
     border-radius: 3px;
     border-style: solid;
     border-radius: 5px;
-    width: 4.5vh;
+    width: 5.6vh;
     transition: all 0.5s;
 }
 .borda-star.most{
     display: flex;
 }
 .borda-star:hover{
-    width: 14vh;
+    width: 19vh;
     display: flex;
 }
 .borda-star .estrela-acesa{
@@ -631,12 +633,12 @@ header #logo{
     display: none;
 }
 .fav{
-    margin-left: 5px;
+    margin-left: 15px;
     display: none;
     position: absolute;
-    margin-top: 9px;
+    margin-top: 12px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 19px;
+    font-size: 24px;
 }
 .borda-star:hover .fav{
     display:inline;
