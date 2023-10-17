@@ -622,8 +622,9 @@ header #logo{
     border-color: gray;
     border-radius: 3px;
     border-style: solid;
-    border-radius: 5px;
-    width: 5.6vh;
+    border-radius: 10px;
+    width: 5.45vh;
+    cursor: pointer;
     transition: all 0.5s;
 }
 .borda-star.most{
@@ -650,9 +651,10 @@ header #logo{
     margin-left: 15px;
     display: none;
     position: absolute;
-    margin-top: 12px;
+    margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
+    cursor: pointer;
 }
 .borda-star:hover .fav{
     display:inline;
