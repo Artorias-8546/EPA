@@ -1059,7 +1059,7 @@ btncalc.addEventListener('click', function(){
     balasana.classList.remove('most');
   }
   
-  if (ab>=3.34) {
+  if (ab>=3.34 && ec>=3.34) {
     roll_up.classList.add('most');
   }else{
     roll_up.classList.remove('most');
