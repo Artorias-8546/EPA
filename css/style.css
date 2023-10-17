@@ -524,10 +524,6 @@ header #logo{
 
 
 
-
-
-
-
 /* conteudo do modal aberto */
 
 .item-simbolo{
@@ -596,6 +592,7 @@ header #logo{
 .item-hr, .item-hr-b{
     position: absolute;
     border-color:black;
+    border: 0.005vh solid;
     width: 96%; 
     float: left;
     left: 2%;
@@ -606,13 +603,13 @@ header #logo{
 .item-hr-b{top: 45%;}
 
 .item-linha{
+    color: rgba(156, 156, 156, 0.801);
     position: absolute;
     height: 23.5vh;
-    border-left: 1px solid;
+    border: 0.01vh solid;
     left: 35%;
-    top: 48.5%;
+    top: 48%;
 }
-
 
 .borda-star{
     top: 187vh;
@@ -621,12 +618,12 @@ header #logo{
     display:none;
     align-items: center;
     position: absolute;
-    border-width:2px;
-    border-color: rgba(0, 0, 0, 0.425);
+    border-width: 1px;
+    border-color: gray;
     border-radius: 3px;
     border-style: solid;
     border-radius: 10px;
-    width: 5.6vh;
+    width: 5.45vh;
     cursor: pointer;
     transition: all 0.5s;
 }
