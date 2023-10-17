@@ -618,12 +618,12 @@ header #logo{
     display:none;
     align-items: center;
     position: absolute;
-    border-width: 1px;
-    border-color: gray;
+    border-width:2px;
+    border-color: rgba(0, 0, 0, 0.425);
     border-radius: 3px;
     border-style: solid;
     border-radius: 10px;
-    width: 5.45vh;
+    width: 5.6vh;
     cursor: pointer;
     transition: all 0.5s;
 }
