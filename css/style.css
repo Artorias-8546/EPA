@@ -245,7 +245,7 @@ header #logo{
     padding-right: 2rem;
     border-width: 0;
     border-style: none;
-    background-color: blue;
+    background-color: rgb(66, 52, 185);
     border-radius: 15px;
     color: white;
     transition: all 0.1s ease;
@@ -262,7 +262,7 @@ header #logo{
     border-style: solid;
 }
 .container-esquerda button:hover{
-    background-color: rgba(17, 17, 185, 0.904);
+    background-color: rgba(27, 12, 107, 0.904);
 }
 .container-esquerda button:active{
     margin: 0.4rem;
@@ -524,15 +524,22 @@ header #logo{
 
 /* conteudo do modal aberto */
 
-.item-simbolo img{
+.item-simbolo{
     height: 36vh;
     width: 36vh;
-    padding: 1vh;
     background-color: blue;
+    margin-left: 1vh;
+    margin-top: 1vh;
     border-radius: 100%;
     grid-area: it1;
-    margin-left: 2.5vh;
-    margin-top: 2.5vh;
+}
+.item-simbolo img{
+    height: 33vh;
+    width: 33vh;
+    padding: 2vh;
+    margin-left: 1.5vh;
+    margin-top: 1vh;
+    grid-area: it1;
 }
 .item-nome{
     grid-area: it2;
@@ -625,6 +632,10 @@ header #logo{
 }
 .borda-star .estrela-acesa{
     display: none;
+    cursor: pointer;
+}
+.borda-star .estrela-apagada{
+    cursor: pointer;
 }
 .estrela-acesa.add{
     display: inline;
