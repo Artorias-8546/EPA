@@ -70,7 +70,7 @@ const staracesa = $('staracesa');
 const star = $('star');
 const bordastar = $('bordastar');
 const starapagada = $('starapagada');
-const meme = $('meme');
+
 const flexao = $('flexao');
 const caminhada = $('caminhada');
 const agachamento = $('agachamento');
@@ -91,7 +91,7 @@ const roll_up = $('roll_up');
 const pilates = $('pilates');
 const sideKick = $('sideKick');
 
-const imagem1 = $('imagem1');
+
 // variaveis
 // pp = perda peso
 // cr = corrida
@@ -966,7 +966,6 @@ btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
     flexao.classList.add('most');
-    imagem1.src = '';
   }else{
     flexao.classList.remove('most');
   }  
