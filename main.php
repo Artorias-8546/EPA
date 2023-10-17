@@ -198,7 +198,7 @@
 </div>
 
 
-    <div class="container-exercicios" id = "calcular">
+    <form action="" class="container-exercicios" id = "calcular">
 <!-- 1 -->
         <div class="img-exercicios" id="flexao">
             <img src="img/flexao.png" alt="" width="200vh" id="myImg">
@@ -574,7 +574,7 @@
             </div>
         </div>
 
-    </div>
+    </form>
 
     
  
