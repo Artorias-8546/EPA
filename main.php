@@ -207,7 +207,7 @@
                 <div class="modal-content" id="">
                     <span class="close"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/flexao.png" id="imagem1"></div>
+                    <div class="item-simbolo"><img src="img/flexao.png"></div>
                     <div class="item-nome">Flexão</div>
                     <div class="item-desc">
                         <p>Fortalece:</p>
