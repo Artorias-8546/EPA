@@ -125,7 +125,7 @@ hr{
 .close-estrela, .close-e {
     position: absolute;
     top: 1vh;
-    right: 1vh;
+    right: 4vh;
     color: black;
     font-size: 50px;
     transition: 0.2s;
@@ -137,12 +137,15 @@ hr{
 }
 .modal-content-estrela{
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 70%;
-    width: 80vh; /*width: auto*/
-    height: 60vh; /*height: auto*/
+    margin-left: 72%;
+    width: 50vh; /*width: auto*/
+    height: 70vh; /*height: auto*/
     background-color: rgb(231, 231, 231);
     border-radius: 0.7vh;
     cursor: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
 }
 
 
@@ -619,8 +622,8 @@ header #logo{
     border-color: gray;
     border-radius: 3px;
     border-style: solid;
-    border-radius: 5px;
-    width: 5.6vh;
+    border-radius: 10px;
+    width: 5.45vh;
     cursor: pointer;
     transition: all 0.5s;
 }
