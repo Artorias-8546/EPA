@@ -619,8 +619,8 @@ header #logo{
     border-color: gray;
     border-radius: 3px;
     border-style: solid;
-    border-radius: 5px;
-    width: 5.6vh;
+    border-radius: 10px;
+    width: 5.45vh;
     cursor: pointer;
     transition: all 0.5s;
 }
