@@ -1,6 +1,25 @@
 function $(id){
   return document.getElementById(id);
 }
+
+
+const listaSelecionado = [];
+
+async function enviarItem(item){
+  let requisicao = await fetch("endereco", {
+    method: "POST",
+    body: JSON.stringify({nome: item})
+  })
+  let dados = await requisicao.json();
+  console.log(dados);
+}
+
+function enviarLista(){
+  listaSelecionado.forEach((item)=>{
+    enviarItem(item);
+  });
+}
+
 // constantes
 const tButton = $('t-button');
 const tLabel = $('t-label');
@@ -958,6 +977,11 @@ tButton21.addEventListener('change', function() {
 
 
 
+function removerItem(nome){
+  let posicao = listaSelecionado.findIndex((item) => nome == item);
+  listaSelecionado.splice(posicao, 1);
+}
+
 
 //exibição dos exercicios
 
@@ -965,26 +989,39 @@ tButton21.addEventListener('change', function() {
 btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
+    listaSelecionado.push("flexao");
     flexao.classList.add('most');
+
   }else{
+    removerItem("flexao");
     flexao.classList.remove('most');
   }  
 
   if(pp >= 5 & cr >=5 & p>=5){
+    listaSelecionado.push("caminhada");
     caminhada.classList.add('most');
+
   }else{
+    removerItem("caminhada");
     caminhada.classList.remove('most');
   }
 
   if(p>=5){
     agachamento.classList.add('most');
+    listaSelecionado.push("agachamento");
+
   }else{
+    removerItem("agachamento");
+
     agachamento.classList.remove('most');
   }
 
   if(y>=15 || ec >=15){
     yoga.classList.add('most');
+    listaSelecionado.push("yoga");
+
   }else{
+    removerItem("yoga");
     yoga.classList.remove('most');
   }
 
@@ -1077,7 +1114,15 @@ btncalc.addEventListener('click', function(){
   }else{
     sideKick.classList.remove('most');
   }
+  
+  var a=0;
+
+
     bordastar.classList.add('most');
+ 
+  
+ 
+  
 
 
 
