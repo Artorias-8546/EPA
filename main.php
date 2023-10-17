@@ -558,13 +558,13 @@
 
  <!-- 19 -->
         <div class="img-exercicios19" id="sideKick">
-            <img src="img/side-kick.png" alt="" width="230vh" id="myImg19">
+            <img src="img/side_kick2.png" alt="" width="230vh" id="myImg19">
 
             <div class="modal-main19">
                     <div class="modal-content" id="sideKick">
                     <span class="close19"><i class="ph ph-x-circle close-i"></i></span>
                     <hr class="item-hr"><hr class="item-hr-b"><div class="item-linha"></div>
-                    <div class="item-simbolo"><img src="img/side-kick.png"></div>
+                    <div class="item-simbolo"><img src="img/side_kick2.png"></div>
                     <div class="item-nome">Side kick</div>
                     <div class="item-desc">
                         <p>Recomendado: 30 segundos por dia</p></div>
