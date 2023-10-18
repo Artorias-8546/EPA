@@ -674,3 +674,281 @@ header #logo{
     display:inline;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 576px){
+    header{
+        height: 10vh;
+        margin: auto;
+    }
+    
+    header #logo{
+       height: 7vh;
+       margin-left: 2vh;
+    }
+
+    header span{
+        margin-right: 78vw;
+        font-size: 16px;
+    }
+
+
+    .modal-star{
+       top: 2.3vh;
+    }
+    .mensagem-estrela{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        visibility: hidden;
+        margin-top: 5px;
+        background-color: #F8ED56;
+        text-shadow: #726b05 2px 2px 2px;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .modal-star img{
+        margin-left:0.65vw ;
+    }
+    
+    .modal-star:hover .mensagem-estrela{
+        visibility: visible;
+    }
+    
+    /*main mobile*/
+
+
+    .imagem-main{
+        height: 55vh;
+        width:36vw; 
+        padding-left: 4.5vw;
+        border-width: 2px;
+       
+      
+    }
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: start ;
+        align-items: center;
+        height: 80vh;
+        width: 50vw;
+        gap: 20vw;
+    }
+    .container-main .esquerda{
+       
+        height: 300px;
+        width: 300px;
+        font-size: 20px;
+        padding: 1rem;
+    }
+    
+    .container-main .direita{
+        height: 60vh;
+        width: 25vw;
+        border-width: 2px;
+        border-radius: 20px;
+    }
+    .container-main .container-esquerda{
+        gap: 15px;
+    }
+    .container-esquerda button{
+        margin: 0.5rem ;
+        padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 15px;
+
+       
+    }
+    .button-shadow{
+        margin: 2.5rem;
+        border-radius: 25px;
+        border-width: 2px;
+    }
+
+    .container-esquerda button:active{
+        margin: 0.4rem;
+    }
+    
+
+
+
+
+
+    /* botoes */
+    
+.container-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 200px;
+    width: 376px;
+    margin: auto;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+ 
+    
+}
+.tooltip1{
+    grid-area:'tooltip1' ;
+
+}
+.tooltip2{
+    grid-area:'tooltip2' ;
+}
+.tooltip1,.tooltip2,.tooltip3,.tooltip4,.tooltip5,.tooltip6,.tooltip7,
+.tooltip8,.tooltip9,.tooltip10,.tooltip11,.tooltip12,.tooltip13,.tooltip14{
+    cursor: pointer;
+    margin-left: -3px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor-primaria); /* :? */
+    grid-area: tooltip1;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.tooltip1 img{
+    border-radius: 20px;
+}
+.tooltip1 .mensagem1{
+    align-self: flex-end;
+    visibility: hidden;
+    width: 50px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+    padding: 9px 0;
+    border-radius: 14%;
+    position:absolute;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.quadrado-shadow{
+    background-color: rgba(0, 0, 255, 0.308);
+    width: 52px;
+    height: 35px;
+    border-radius: 15%;
+    padding-bottom: 30px;
+}
+
+.tooltip1:hover .mensagem1{
+    visibility: visible;
+    background-color: rgba(7, 7, 149, 0.48);
+}
+
+.input-t{
+    display: none;
+}
+.tooltip1.checked{
+    background-color: rgb(0, 0, 109);
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 55px;
+    height: 40px;
+}
+.tooltip1.checked .mensagem1{
+    background-color: rgba(0, 0, 109, 0.178);
+
+}
+
+/*botao calcular*/
+.container-calcular{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13vh;
+}
+
+
+
+
+.container-calcular button{
+    margin: 0.5rem  ;
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0;
+    border-style: none;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.1s ease;
+    font-size: 30px;
+    font-family: 'Mooli';
+}
+
+.container-calcular button:hover{
+    background-color: rgba(28, 28, 184, 0.938);
+
+}
+
+.container-exercicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
+.img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
+.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16,.img-exercicios17,.img-exercicios18,.img-exercicios19{
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+    height: 30vh;
+    width: 30vh;
+}
+
+.img1m{width: 60px;}
+.img2m{width: 40px;}
+.img3m{width: 60px;}
+.img4m{width: 60px;}
+.img5m{width: 60px;}
+.img6m{width: 60px;}
+.img7m{width: 60px;}
+.img8m{width: 60px;}
+.img9m{width: 60px;}
+.img10m{width: 60px;}
+.img11m{width: 60px;}
+.img12m{width: 60px;}
+.img13m{width: 60px;}
+.img14m{width: 60px;}
+.img15m{width: 60px;}
+.img16m{width: 60px;}
+.img17m{width: 60px;}
+.img18m{width: 60px;}
+.img19m{width: 60px;}
+.img20m{width: 60px;}
+.img21m{width: 60px;}
+}
