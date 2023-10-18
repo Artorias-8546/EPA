@@ -6,7 +6,7 @@
     <div class="bloco-central">
         <div class="text-footer-c">
              O Body Healthy é um aplicativo Web 
-            para sua saúde, somos uma impresa de
+            para sua saúde, somos uma empresa de
             tecnologia e inovação. 
             <div>Siga-nos</div>
             <div>
