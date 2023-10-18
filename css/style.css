@@ -504,6 +504,9 @@ header #logo{
     "it5 it5"
     ;
     gap: 2rem;
+    border-width: 0.3vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.76);
 }
 .close, .close2, .close3, .close4, .close5,
 .close6, .close7, .close8, .close9, .close10,
