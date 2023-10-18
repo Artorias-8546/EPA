@@ -223,7 +223,7 @@ header #logo{
     border-style: solid;
     /* background-image: url("https://saude.abril.com.br/wp-content/uploads/2018/05/exercicio-cancer.jpg?quality=85&strip=info&w=680&h=453&crop=1"); */
     background-repeat: no-repeat;
-  
+    
 }
 .container-main{
     height: 80vh;
@@ -504,6 +504,9 @@ header #logo{
     "it5 it5"
     ;
     gap: 2rem;
+    border-width: 0.3vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.76);
 }
 .close, .close2, .close3, .close4, .close5,
 .close6, .close7, .close8, .close9, .close10,
