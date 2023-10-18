@@ -749,28 +749,34 @@ header #logo{
     .container-main{
         display: flex;
         flex-direction: column;
-        justify-content: start ;
+        justify-content: start;
         align-items: center;
         height: 80vh;
         width: 50vw;
         gap: 20vw;
     }
     .container-main .esquerda{
-       
-        height: 300px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        height: 190px;
         width: 300px;
         font-size: 20px;
         padding: 1rem;
     }
     
     .container-main .direita{
-        height: 60vh;
-        width: 25vw;
+        height: 190px;
+        width: 300px;
         border-width: 2px;
         border-radius: 20px;
     }
     .container-main .container-esquerda{
         gap: 15px;
+    }
+
+    .container-esquerda{
+        margin-left: 23vw;
     }
     .container-esquerda button{
         margin: 0.5rem ;
