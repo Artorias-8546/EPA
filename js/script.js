@@ -1027,6 +1027,7 @@ btncalc.addEventListener('click', function(){
 
   if(pp >=10){
     polichinelo.classList.add('most');
+    listaSelecionado.push("polichinelo");
   }else{
     polichinelo.classList.remove('most');
   }
@@ -1115,14 +1116,14 @@ btncalc.addEventListener('click', function(){
     sideKick.classList.remove('most');
   }
   
-  var a=0;
+  bordastar.classList.add('most');
 
 
-    bordastar.classList.add('most');
- 
   
- 
   
+
+
+
 
 
 

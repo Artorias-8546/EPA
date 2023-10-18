@@ -176,17 +176,31 @@ header #logo{
     margin: auto;
 }
 
-.modal-star .mensagem-estrela{
+#estrela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-star{
+   top: 4vh;
+}
+.mensagem-estrela{
+    display: flex;
+    flex-direction: column;
     align-self: flex-start;
     visibility: hidden;
+    margin-top: 5px;
     background-color: #F8ED56;
     text-shadow: #726b05 2px 2px 2px;
     color: white;
     text-align: center;
-    padding: 0.55vw;
+    padding: 7px;
     border-radius: 5%;
     font-size: 17px;
     font-weight: bold;
+}
+.modal-star img{
+    margin-left:0.65vw ;
 }
 
 .modal-star:hover .mensagem-estrela{
