@@ -313,6 +313,7 @@ header #logo{
     "tooltip1 tooltip2 tooltip3 tooltip4 tooltip5 tooltip6 tooltip7"
     "tooltip8 tooltip9 tooltip10 tooltip11 tooltip12 tooltip13 tooltip14";
     gap: 1rem;
+    margin-left: 5.8vw;
     margin-top:10vh;
     margin-bottom: 10vh;
  
@@ -870,7 +871,7 @@ header #logo{
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
     width: 52px;
-    height: 35px;
+    height: 45px;
     border-radius: 15%;
     padding-bottom: 30px;
 }
