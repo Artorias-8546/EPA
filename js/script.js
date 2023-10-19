@@ -1167,12 +1167,14 @@ star.addEventListener('change', function() {
   if(star.checked){
     staracesa.classList.add('add');
     starapagada.classList.add('add');
+    salvarStar();
 
   } else{
     staracesa.classList.remove('add');
     starapagada.classList.remove('add');
+    excluirStar();
   }
-  salvarStar();
+  
 });
 
 async function salvarStar(){
@@ -1184,7 +1186,19 @@ async function salvarStar(){
   });
   let resposta = await requisicao.json();
   console.log(resposta.mensagem);
+  document.write.json_encode($response)
 }
+
+// async function excluirStar(){
+//   console.log(listaSelecionado);
+
+//   let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
+//       method: "POST",
+//       body: JSON.stringify(listaSelecionado)
+//   });
+//   let resposta = await requisicao.json();
+//   console.log(resposta.mensagem);
+// }
 
 
 
@@ -1384,12 +1398,3 @@ const adicionar = document.getElementById("calcular");
 
 
 
-async function cadastrar(dados){
-  let requisicao = await fetch("http://localhost/EPA/adicionar.php", {
-      method: "POST",
-      body: JSON.stringify(dados)
-  });
-  let resposta = await requisicao.json();
-  alert(resposta.mensagem);
-  await listar();
-}

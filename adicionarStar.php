@@ -14,13 +14,9 @@
         $sql = "INSERT INTO favoritos VALUES (0, '$nome_exercicio');";
     
         if ($connection->query($sql) === true) {
-            $response = [
-                'mensagem' => 'Exercício salvo com sucesso'
-            ];
+            $response = ['mensagem' => 'Exercício salvo com sucesso'];
         } else {
-            $response = [
-                'mensagem' => $connection->error
-            ];
+            $response = ['mensagem' => $connection->error];
         }
         echo json_encode($response);
     }
