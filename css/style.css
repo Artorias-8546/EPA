@@ -704,8 +704,15 @@ header #logo{
     }
 
     header span{
-        margin-right: 78vw;
+        display: flex;
+        justify-content:start;
+        
+        flex-direction: column;
+        align-items: start;
+        width: 200px;
         font-size: 16px;
+        margin-right: 290px;
+       
     }
 
 
@@ -737,27 +744,34 @@ header #logo{
     
     /*main mobile*/
 
-
     .imagem-main{
         height: 295px;
         width: 325px; 
-        padding-left: 4.5vw;
+        padding-left: 0;
         border-width: 2px;
     }
 
     .imagem-main img{
         height: 275px;
         width: 275px;
+        border-radius: 30px;
     }
     .container-main{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: start;
         align-items: center;
         height: 75vh;
         width: 50vw;
         gap: 5vw;
         margin-top: 20px;
+    }
+
+    main{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .container-main .esquerda{
         display: flex;
@@ -770,11 +784,15 @@ header #logo{
     }
     
     .container-main .direita{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 275px;
         width: 275px;
         border-width: 2px;
         border-radius: 20px;
-        margin-left: 15vw;
+        margin-left: 0;
+        margin-top: 10vw;
     }
 
     .container-main .container-esquerda{
@@ -782,7 +800,7 @@ header #logo{
     }
 
     .container-esquerda{
-        margin-left: 23vw;
+        margin-left: 0;
     }
     .container-esquerda button{
         margin: 0.5rem;
@@ -815,17 +833,15 @@ header #logo{
     /* botoes */
     
 .container-inputs{
-    display: flex;
+    gap: 25px;
+    justify-content: center;
     flex-wrap: wrap;
     width: auto;
-    height: 200px;
+    height: 250px;
     width: 376px;
-    margin: auto;
-    gap: 10px;
-    margin-left: 30px;
-    margin-top:30px;
-    margin-bottom: 30px;
- 
+    margin: 0;
+   
+  
     
 }
 .tooltip1{
@@ -840,39 +856,24 @@ header #logo{
     cursor: pointer;
     margin-left: -3px;
     margin-top: -20px;
-    width: 50px;
-    height: 50px;
-    background-color: var(--cor-primaria); /* :? */
-    grid-area: tooltip1;
-    border-radius: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    width: 72px;
+    height: 72px;
+
 }
 .tooltip1 img{
     border-radius: 20px;
 }
 .tooltip1 .mensagem1{
-    align-self: flex-end;
-    visibility: hidden;
-    width: 50px;
-    margin-bottom: 5px;
-    color: white;
-    text-align: center;
-    padding: 9px 0;
-    border-radius: 14%;
-    position:absolute;
-    font-size: 7px;
-    font-weight: bold;
+    display: none;
 }
 
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
-    width: 52px;
-    height: 35px;
+    width: 51px;
+    height: 50px;
     border-radius: 15%;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    
 }
 
 .tooltip1:hover .mensagem1{
@@ -885,10 +886,10 @@ header #logo{
 }
 .tooltip1.checked{
     background-color: rgb(0, 0, 109);
-    margin-top: 0px;
+    margin-top: -15px;
     margin-left: 0px;
-    width: 55px;
-    height: 40px;
+    width: 51px;
+    height: 50px;
 }
 .tooltip1.checked .mensagem1{
     background-color: rgba(0, 0, 109, 0.178);
@@ -935,25 +936,25 @@ header #logo{
     width: 30vh;
 }
 
-.img1m{width: 60px;}
-.img2m{width: 40px;}
-.img3m{width: 40px;}
-.img4m{width: 40px;}
-.img5m{width: 50px;}
-.img6m{width: 40px;}
-.img7m{width: 50px;}
-.img8m{width: 40px;}
-.img9m{width: 40px;}
-.img10m{width: 40px;}
-.img11m{width: 50px;}
-.img12m{width: 50px;}
-.img13m{width: 40px;}
-.img14m{width: 50px;}
-.img15m{width: 50px;}
-.img16m{width: 45px;}
-.img17m{width: 40px;}
-.img18m{width: 50px;}
-.img19m{width: 40px;}
-.img20m{width: 40px;}
-.img21m{width: 40px;}
+.img1m{width: 80px;}
+.img2m{width: 60px;}
+.img3m{width: 60px;}
+.img4m{width: 60px;}
+.img5m{width: 60px;}
+.img6m{width: 60px;}
+.img7m{width: 60px;}
+.img8m{width: 60px;}
+.img9m{width: 60px;}
+.img10m{width: 60px;}
+.img11m{width: 60px;}
+.img12m{width: 60px;}
+.img13m{width: 60px;}
+.img14m{width: 60px;}
+.img15m{width: 60px;}
+.img16m{width: 60px;}
+.img17m{width: 60px;}
+.img18m{width: 60px;}
+.img19m{width: 60px;}
+.img20m{width: 60px;}
+.img21m{width: 60px;}
 }
