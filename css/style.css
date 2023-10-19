@@ -754,7 +754,7 @@ header #logo{
         flex-direction: column-reverse;
         justify-content: start;
         align-items: center;
-        height: 80vh;
+        height: 75vh;
         width: 50vw;
         gap: 5vw;
         margin-top: 20px;
@@ -799,6 +799,12 @@ header #logo{
 
     .container-esquerda button:active{
         margin: 0.4rem;
+    }
+    
+    .hrr .barrinha{
+        width: 60%;
+        margin-right: auto;
+        margin-left: 7vw;
     }
     
 
@@ -899,28 +905,14 @@ header #logo{
     margin-bottom: 13vh;
 }
 
-
-
-
 .container-calcular button{
-    margin: 0.5rem  ;
+    margin: 0.5rem;
     padding: 0.5rem 0.5rem 0.2rem 0.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-width: 0;
-    border-style: none;
-    background-color: blue;
-    border-radius: 15px;
-    color: white;
-    transition: all 0.1s ease;
-    font-size: 30px;
-    font-family: 'Mooli';
+    font-size: 15px;
 }
 
-.container-calcular button:hover{
-    background-color: rgba(28, 28, 184, 0.938);
-
-}
 
 .container-exercicios{
     display: flex;
