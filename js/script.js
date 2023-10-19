@@ -2,6 +2,34 @@ function $(id){
   return document.getElementById(id);
 }
 
+// lista_necessidades = [
+//   {
+//     id_necessidade: 1, 
+//     nome: 'Perda de Peso', 
+//     necessidade_selecionada: true, 
+//     lista_exercicios: [
+//       {id_exercicio: 1, nome: 'polichinelo', exercicio_selecionado: true},
+//       {id_exercicio: 2, nome: 'soco no ar', exercicio_selecionado: true}
+//     ]
+//   },
+//   {
+//     id_necessidade: 2, 
+//     nome: 'Fortalecimento Abdominal', 
+//     necessidade_selecionada: false, 
+//     lista_exercicios: [
+//       {id_exercicio: 1, nome: 'flexão', exercicio_selecionado: false},
+//       {id_exercicio: 2, nome: 'soco no ar', exercicio_selecionado: false}
+//     ]
+//   },
+// ]
+
+// lista_necessidades.forEach(necessidade =>{
+//   console.log(necessidade);
+//   if (necessidade.nome == 'Perda de Peso') {
+//     necessidade.necessidade_selecionada = false;
+//   }
+// });
+
 
 const listaSelecionado = [];
 
@@ -986,10 +1014,11 @@ function removerItem(nome){
 //exibição dos exercicios
 
 
+
 btncalc.addEventListener('click', function(){
 
   if(b>=5 || ab>=5){
-    listaSelecionado.push("flexao");
+    listaSelecionado.push('flexao');
     flexao.classList.add('most');
 
   }else{
@@ -1027,7 +1056,8 @@ btncalc.addEventListener('click', function(){
 
   if(pp >=10){
     polichinelo.classList.add('most');
-    listaSelecionado.push("polichinelo");
+    const exercicio = {nome_exercicio: 'polichinelo'};
+    listaSelecionado.push(exercicio);
   }else{
     polichinelo.classList.remove('most');
   }
@@ -1116,6 +1146,7 @@ btncalc.addEventListener('click', function(){
     sideKick.classList.remove('most');
   }
   
+  console.log(listaSelecionado)
   bordastar.classList.add('most');
 
 
@@ -1137,13 +1168,23 @@ star.addEventListener('change', function() {
     staracesa.classList.add('add');
     starapagada.classList.add('add');
 
+  } else{
+    staracesa.classList.remove('add');
+    starapagada.classList.remove('add');
   }
-     else{
-      staracesa.classList.remove('add');
-      starapagada.classList.remove('add');
-     }
+  salvarStar();
+});
 
+async function salvarStar(){
+  console.log(listaSelecionado);
+
+  let requisicao = await fetch("http://localhost/EPA/adicionarStar.php", {
+      method: "POST",
+      body: JSON.stringify(listaSelecionado)
   });
+  let resposta = await requisicao.json();
+  console.log(resposta.mensagem);
+}
 
 
 
@@ -1329,9 +1370,6 @@ modal_main19.style.display = "none";}
 var span = document.getElementsByClassName("close-estrela")[0];
 span.onclick = function() {
 modal_estrela.style.display = "none";}
-
-
-
 
 
 
