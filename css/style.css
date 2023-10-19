@@ -739,21 +739,25 @@ header #logo{
 
 
     .imagem-main{
-        height: 55vh;
-        width:36vw; 
+        height: 295px;
+        width: 325px; 
         padding-left: 4.5vw;
         border-width: 2px;
-       
-      
+    }
+
+    .imagem-main img{
+        height: 275px;
+        width: 275px;
     }
     .container-main{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: start;
         align-items: center;
         height: 80vh;
         width: 50vw;
-        gap: 20vw;
+        gap: 5vw;
+        margin-top: 20px;
     }
     .container-main .esquerda{
         display: flex;
@@ -766,11 +770,13 @@ header #logo{
     }
     
     .container-main .direita{
-        height: 190px;
-        width: 300px;
+        height: 275px;
+        width: 275px;
         border-width: 2px;
         border-radius: 20px;
+        margin-left: 15vw;
     }
+
     .container-main .container-esquerda{
         gap: 15px;
     }
@@ -779,16 +785,14 @@ header #logo{
         margin-left: 23vw;
     }
     .container-esquerda button{
-        margin: 0.5rem ;
+        margin: 0.5rem;
         padding: 0.5rem 0.5rem 0.2rem 0.5rem;
         padding-left: 2rem;
         padding-right: 2rem;
         font-size: 15px;
-
-       
     }
     .button-shadow{
-        margin: 2.5rem;
+        margin: 1rem;
         border-radius: 25px;
         border-width: 2px;
     }
@@ -941,23 +945,23 @@ header #logo{
 
 .img1m{width: 60px;}
 .img2m{width: 40px;}
-.img3m{width: 60px;}
-.img4m{width: 60px;}
-.img5m{width: 60px;}
-.img6m{width: 60px;}
-.img7m{width: 60px;}
-.img8m{width: 60px;}
-.img9m{width: 60px;}
-.img10m{width: 60px;}
-.img11m{width: 60px;}
-.img12m{width: 60px;}
-.img13m{width: 60px;}
-.img14m{width: 60px;}
-.img15m{width: 60px;}
-.img16m{width: 60px;}
-.img17m{width: 60px;}
-.img18m{width: 60px;}
-.img19m{width: 60px;}
-.img20m{width: 60px;}
-.img21m{width: 60px;}
+.img3m{width: 40px;}
+.img4m{width: 40px;}
+.img5m{width: 50px;}
+.img6m{width: 40px;}
+.img7m{width: 50px;}
+.img8m{width: 40px;}
+.img9m{width: 40px;}
+.img10m{width: 40px;}
+.img11m{width: 50px;}
+.img12m{width: 50px;}
+.img13m{width: 40px;}
+.img14m{width: 50px;}
+.img15m{width: 50px;}
+.img16m{width: 45px;}
+.img17m{width: 40px;}
+.img18m{width: 50px;}
+.img19m{width: 40px;}
+.img20m{width: 40px;}
+.img21m{width: 40px;}
 }
