@@ -705,7 +705,17 @@ header #logo{
     height: 9px;
 }
 
+*::-webkit-scrollbar{
+    width: 6px;
+}
+*::-webkit-scrollbar-thumb{
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 20px solid var(--cor-primaria01);  /* creates padding around scroll thumb */
+}
 
+*::-webkit-scrollbar-track-piece{
+    background-color: rgb(184, 184, 184);
+}
 
 
 
