@@ -5,13 +5,15 @@
         <div class="modal-content-estrela" id="">
             <span class="close-estrela"><i class="ph ph-x-circle close-e"></i></span>
 
-            <div class="lista">
+            <div id="lista">
 
 
-            
+                        <tr>
+                          <td>${favoritos.nome_exercicio}</td>
+                       </tr>
 
 
-            </div>
+            </div>  
         </div>
     </div>
 </div>

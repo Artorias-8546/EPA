@@ -1016,136 +1016,201 @@ function removerItem(nome){
 
 
 btncalc.addEventListener('click', function(){
-
+  //
   if(b>=5 || ab>=5){
-    listaSelecionado.push('flexao');
+    const exercicio = {nome_exercicio: 'flexao'};
+    listaSelecionado.push(exercicio);
     flexao.classList.add('most');
 
   }else{
-    removerItem("flexao");
+
     flexao.classList.remove('most');
   }  
 
+  //
   if(pp >= 5 & cr >=5 & p>=5){
-    listaSelecionado.push("caminhada");
+    const exercicio = {nome_exercicio: 'caminhada'};
+    listaSelecionado.push(exercicio);
     caminhada.classList.add('most');
 
   }else{
-    removerItem("caminhada");
+
     caminhada.classList.remove('most');
   }
 
+  //
   if(p>=5){
     agachamento.classList.add('most');
-    listaSelecionado.push("agachamento");
+    const exercicio = {nome_exercicio: 'agachamento'};
+    listaSelecionado.push(exercicio);
 
   }else{
-    removerItem("agachamento");
 
     agachamento.classList.remove('most');
   }
 
+  //
   if(y>=15 || ec >=15){
     yoga.classList.add('most');
-    listaSelecionado.push("yoga");
+    const exercicio = {nome_exercicio: 'yoga'};
+    listaSelecionado.push(exercicio);
 
   }else{
-    removerItem("yoga");
+
     yoga.classList.remove('most');
   }
 
+  //
   if(pp >=10){
     polichinelo.classList.add('most');
     const exercicio = {nome_exercicio: 'polichinelo'};
     listaSelecionado.push(exercicio);
   }else{
+   
+
     polichinelo.classList.remove('most');
   }
 
+  //
   if(pp>=20){
     pulacorda.classList.add('most');
+    const exercicio = {nome_exercicio: 'pulacorda'};
+    listaSelecionado.push(exercicio);
   }else{
+
     pulacorda.classList.remove('most');
   }
 
+  //
   if(ec >= 5 && y >=10){
-  alongamento.classList.add('most');
+    alongamento.classList.add('most');
+    const exercicio = {nome_exercicio: 'alongamento'};
+    listaSelecionado.push(exercicio);
   }else{
+
     alongamento.classList.remove('most');
   }
 
+  //
   if (ab>=5 && cs>= 5 ) {
     ponte.classList.add('most');
+    const exercicio = {nome_exercicio: 'ponte'};
+    listaSelecionado.push(exercicio);
   }else{
+
     ponte.classList.remove('most');
   }
 
+  //
   if (ab>=5) {
     abdominal.classList.add('most');
+    const exercicio = {nome_exercicio: 'abdominal'};
+    listaSelecionado.push(exercicio);
   }else{
+
     abdominal.classList.remove('most');
   }
 
+  //
   if (pp>=5) {
     soconoar.classList.add('most');
+    const exercicio = {nome_exercicio: 'soconoar'};
+    listaSelecionado.push(exercicio);
   }else{
+
     soconoar.classList.remove('most');
   }
 
+  //
   if (ab>=6.68 || ab>=6.68 && p>=5 ) {
     montanha.classList.add('most');
+    const exercicio = {nome_exercicio: 'montanha'};
+    listaSelecionado.push(exercicio);
   }else{
+
     montanha.classList.remove('most');
   }
 
+  //
   if (p>=10) {
     lunge.classList.add('most');
+    const exercicio = {nome_exercicio: 'lunge'};
+    listaSelecionado.push(exercicio);
   }else{
+
     lunge.classList.remove('most');
   }
 
+  //
   if (b>=20 || tx>=12 || b>=15 && tx>= 10) {
     pullup.classList.add('most');
+    const exercicio = {nome_exercicio: 'pullup'};
+    listaSelecionado.push(exercicio);
   }else{
+
     pullup.classList.remove('most');
   }
 
+  //
   if (b>=10 || b>= 5 & cs >=5 ) {
     mergulho.classList.add('most');
+    const exercicio = {nome_exercicio: 'mergulho'};
+    listaSelecionado.push(exercicio);
   }else{
+
     mergulho.classList.remove('most');
   }
  
+  //
   if (y>=5 || ec>=5) {
     balanceTable.classList.add('most');
+    const exercicio = {nome_exercicio: 'balanceTable'};
+    listaSelecionado.push(exercicio);
   }else{
     balanceTable.classList.remove('most');
   }
   
+  //
   if (y>=5 || ec>=5) {
     balasana.classList.add('most');
+    const exercicio = {nome_exercicio: 'balasana'};
+    listaSelecionado.push(exercicio);
   }else{
+
     balasana.classList.remove('most');
   }
   
+  //
   if (ab>=3.34 && ec>=3.34) {
     roll_up.classList.add('most');
+    const exercicio = {nome_exercicio: 'roll_up'};
+    listaSelecionado.push(exercicio);
   }else{
+ 
     roll_up.classList.remove('most');
   }
 
+  //
   if (ec>=13.34) {
     pilates.classList.add('most');
+    const exercicio = {nome_exercicio: 'pilates'};
+    listaSelecionado.push(exercicio);
   }else{
+    
     pilates.classList.remove('most');
   }
 
+  //
   if (ec>=5 && cs>=10) {
     sideKick.classList.add('most');
+    const exercicio = {nome_exercicio: 'sideKick'};
+    listaSelecionado.push(exercicio);
   }else{
+  
     sideKick.classList.remove('most');
   }
   
+
   console.log(listaSelecionado)
   bordastar.classList.add('most');
 
@@ -1187,6 +1252,49 @@ async function salvarStar(){
   console.log(resposta);
   // document.write.json_encode($response)
 }
+
+
+
+
+
+
+
+
+const calcular= document.getElementById('calcular');
+const listaa= document.getElementById('lista');
+
+async function listar(){
+  listaa.innerHTML = "";
+  let requisicao = await fetch("http://localhost/EPA/listar_exercicios.php", {
+      method: "GET"
+  });
+
+  let lista = await requisicao.json();
+
+
+      lista.favoritos.forEach((favoritos) => {
+          let linha = `<tr>
+                          <td class="xd">${favoritos.nome_exercicio}</td>
+                          <br>
+                       </tr>
+                      `;
+                     
+          listaa.innerHTML += linha;     
+           
+      });
+}
+
+
+calcular.addEventListener("submit", function(evento){
+    evento.preventDefault();
+    let valores = new FormData(calcular);
+    let dados = {
+        Nome: valores.get("nome")
+    }
+    salvarStar(dados);
+});
+
+listar();
 
 // async function excluirStar(){
 //   console.log(listaSelecionado);
