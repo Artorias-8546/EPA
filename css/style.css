@@ -988,4 +988,30 @@ header #logo{
     background-color: #1e3479;
 }
 
+.img-exercicios,.img-exercicios2,.img-exercicios3,.img-exercicios4,.img-exercicios5,.img-exercicios6,
+.img-exercicios7,.img-exercicios8,.img-exercicios9,.img-exercicios10,.img-exercicios11,
+.img-exercicios12,.img-exercicios13,.img-exercicios14,.img-exercicios15,.img-exercicios16,.img-exercicios17,.img-exercicios18,.img-exercicios19{
+    height: 15vh;
+    width: 15vh;
+}
+
+#myImg{width: 90px;}
+#myImg2{width: 90px;}
+#myImg3{width: 90px;}
+#myImg4{width: 90px;}
+#myImg5{width: 90px;}
+#myImg6{width: 90px;}
+#myImg7{width: 90px;}
+#myImg8{width: 90px;}
+#myImg9{width: 90px;}
+#myImg10{width: 90px;}
+#myImg11{width: 90px;}
+#myImg12{width: 90px;}
+#myImg13{width: 90px;}
+#myImg14{width: 90px;}
+#myImg15{width: 90px;}
+#myImg16{width: 90px;}
+#myImg17{width: 90px;}
+#myImg18{width: 90px;}
+#myImg19{width: 90px;}
 }

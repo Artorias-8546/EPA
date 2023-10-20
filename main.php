@@ -185,7 +185,7 @@
 
 
 <!-- Estrla de Favoritos -->
-    <div class="borda-star" id="bordastar" name = "acao" value = "adicionar">
+    <div class="borda-star" id="bordastar">
         <input type="checkbox" id="star" class="input-t">
         <label for="star" class="staradd" id="">
         <img src="img/star.png" width="50rem" class="estrela-apagada" id="starapagada">
