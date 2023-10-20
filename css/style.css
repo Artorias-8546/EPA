@@ -680,6 +680,7 @@ header #logo{
 
 #lista{
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .modal-content-estrela{
@@ -699,6 +700,10 @@ header #logo{
     background-color: rgb(184, 184, 184);
 }
 
+.modal-content-estrela::-webkit-scrollbar-button{
+    background-color: rgb(54, 54, 54);
+    height: 9px;
+}
 
 
 
