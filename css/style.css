@@ -682,6 +682,10 @@ header #logo{
     margin-left: 20px;
 }
 
+.modal-content-estrela{
+    overflow-y: scroll;
+}
+
 
 
 
