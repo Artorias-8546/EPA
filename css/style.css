@@ -960,7 +960,7 @@ header #logo{
 .container-footer{
     margin-top: 7vh;
     height: 375px;
-    width: 100%;
+    width: 576px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -995,23 +995,73 @@ header #logo{
     width: 15vh;
 }
 
-#myImg{width: 90px;}
+#myImg{width: 100px;}
 #myImg2{width: 90px;}
-#myImg3{width: 90px;}
+#myImg3{width: 140px;}
 #myImg4{width: 90px;}
-#myImg5{width: 90px;}
+#myImg5{width: 140px;}
 #myImg6{width: 90px;}
-#myImg7{width: 90px;}
+#myImg7{width: 80px;}
 #myImg8{width: 90px;}
-#myImg9{width: 90px;}
-#myImg10{width: 90px;}
-#myImg11{width: 90px;}
+#myImg9{width: 120px;}
+#myImg10{width: 70px;}
+#myImg11{width: 110px;}
 #myImg12{width: 90px;}
 #myImg13{width: 90px;}
-#myImg14{width: 90px;}
-#myImg15{width: 90px;}
-#myImg16{width: 90px;}
-#myImg17{width: 90px;}
+#myImg14{width: 195px;}
+#myImg15{width: 175px;}
+#myImg16{width: 70px;}
+#myImg17{width: 110px;}
 #myImg18{width: 90px;}
 #myImg19{width: 90px;}
+
+
+.container-footer hr{
+    display: none;
+}
+
+.borda-star{
+    top: 130vh;
+    left: 45vw;
+    margin-top: 2vh;
+    display:none;
+    align-items: center;
+    position: absolute;
+    width: 9vw;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.borda-star.most{
+    display: flex;
+}
+.borda-star:hover{
+    width: 19vh;
+    display: flex;
+}
+.borda-star .estrela-acesa{
+    display: none;
+    cursor: pointer;
+}
+.borda-star .estrela-apagada{
+    cursor: pointer;
+}
+.estrela-acesa.add{
+    display: inline;
+}
+.estrela-apagada.add{
+    display: none;
+}
+.fav{
+    margin-left: 7px;
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+.borda-star:hover .fav{
+    display:inline;
+}
+
 }
