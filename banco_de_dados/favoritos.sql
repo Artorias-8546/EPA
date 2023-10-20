@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20-Out-2023 às 18:22
+-- Tempo de geração: 20-Out-2023 às 18:28
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `favoritos`
 --
+CREATE DATABASE IF NOT EXISTS `favoritos` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `favoritos`;
 
 -- --------------------------------------------------------
 
@@ -27,7 +29,6 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `favoritos`
 --
 
-DROP TABLE IF EXISTS `favoritos`;
 CREATE TABLE `favoritos` (
   `id` int(11) NOT NULL,
   `nome_exercicio` varchar(100) NOT NULL
