@@ -1101,4 +1101,11 @@ header #logo{
     display:inline;
 }
 
+.modal-content-estrela{
+    margin-left: 23vw;
+}
+
+.modal-content-estrela i{
+    margin-right: 35vw;
+}
 }
