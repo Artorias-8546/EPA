@@ -678,10 +678,13 @@ header #logo{
     display:inline;
 }
 
+#lista{
+    margin-left: 20px;
+}
+
 .modal-content-estrela{
     
 }
-
 
 
 
