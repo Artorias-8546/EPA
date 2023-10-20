@@ -1275,7 +1275,7 @@ async function listar(){
 
       lista.favoritos.forEach((favoritos) => {
           let linha = `<tr>
-                          <td class="xd">${favoritos.nome_exercicio}</td>
+                          <td>${favoritos.nome_exercicio}</td>
                           <br>
                        </tr>
                       `;
