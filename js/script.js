@@ -1215,8 +1215,8 @@ btncalc.addEventListener('click', function(){
   bordastar.classList.add('most');
 
 
-  
-  
+
+
 
 
 
