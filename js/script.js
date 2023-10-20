@@ -1185,8 +1185,8 @@ async function salvarStar(){
       body: JSON.stringify(listaSelecionado)
   });
   let resposta = await requisicao.json();
-  console.log(resposta.mensagem);
-  document.write.json_encode($response)
+  console.log(resposta);
+  // document.write.json_encode($response)
 }
 
 // async function excluirStar(){
