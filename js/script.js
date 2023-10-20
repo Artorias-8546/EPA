@@ -1172,7 +1172,6 @@ star.addEventListener('change', function() {
   } else{
     staracesa.classList.remove('add');
     starapagada.classList.remove('add');
-    excluirStar();
   }
   
 });
