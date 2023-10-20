@@ -8,16 +8,25 @@
         // Decodifica o JSON para um objeto PHP
         $requestData = json_decode($data);
         // Agora você pode acessar os dados usando $requestData
-        $nome_exercicio = $requestData->nome_exercicio;
-    
-        // CodFun é o nome da coluna que está sendo enviado pelo cliente
-        $sql = "INSERT INTO favoritos VALUES (0, '$nome_exercicio');";
-    
-        if ($connection->query($sql) === true) {
-            $response = ['mensagem' => 'Exercício salvo com sucesso'];
-        } else {
-            $response = ['mensagem' => $connection->error];
+        $exercicios = $requestData;
+
+ 
+
+        foreach ($requestData as $index => $exercicio) {
+            // CodFun é o nome da coluna que está sendo enviado pelo cliente
+            $sql = "INSERT INTO favoritos VALUES (0, '$exercicio->nome_exercicio');";
+            $connection->query($sql);
+          
         }
+
+        $response = ['mensagem' => 'Exercício salvo com sucesso'];
+        
+    
+        // if ($connection->query($sql) === true) {
+        //     $response = ['mensagem' => 'Exercício salvo com sucesso'];
+        // } else {
+        //     $response = ['mensagem' => $connection->error];
+        // }
         echo json_encode($response);
     }
 ?>
