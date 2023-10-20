@@ -18,7 +18,6 @@
             $connection->query($sql);
           
         }
-
         $response = ['mensagem' => 'Exercício salvo com sucesso'];
         
     
