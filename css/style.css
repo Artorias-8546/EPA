@@ -731,7 +731,7 @@ header #logo{
     flex-direction: column;
     color: white;
     height: auto;
-    width: 34vh;    
+    width: 38vh;    
     background-color: blue;
     margin-top: 7px;
     border-radius: 10px;
@@ -757,7 +757,8 @@ header #logo{
    
 }
 .container-lista-item a img{
-    margin-left: 10px;
+    margin-left: 30px;
+        
    
 }
 .container-lista img{
