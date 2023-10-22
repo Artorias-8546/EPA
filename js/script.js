@@ -1258,20 +1258,19 @@ async function salvarStar(){
 
 // Excluir
 
-// const excluir = document.getElementById("botao_excluir");
-// excluir.addEventListener('click', function(){
-//   excluirStar()
-// });
 
-// async function excluirStar(){
+async function excluirStar(id){
+  console.log(id);
 
-//   let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
-//       method: "DELETE",
-//       body: JSON.stringify(listaSelecionado)
-//   });
-//   let resposta = await requisicao.json();
-//   console.log(resposta);
-// }
+  let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
+      method: "DELETE",
+      body: JSON.stringify({id})
+  });
+  let respost = await requisicao.json();
+  console.log(respost.mensagem);
+  await listar();     
+  // document.write.json_encode($response)
+}
 
 
 
@@ -1290,8 +1289,10 @@ async function listar(){
       lista.favoritos.forEach((favoritos) => {
           let linha = `
                       <div class="container-lista">
+                      <div class="container-lista-item">${favoritos.id}</div>     
                         <div class="container-lista-item">${favoritos.nome_exercicio}</div>     
-                        <!--  !!imagem dando errado!! <img scr="img/${favoritos.nome_exercicio}.png">  -->
+                        <a href="javascript:excluirStar(${favoritos.id})">Excluir</a>
+                       
                       </div>
                       `
                       ;
