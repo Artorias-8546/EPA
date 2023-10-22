@@ -143,8 +143,8 @@ hr{
 }
 .modal-content-estrela{
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 77%;
-    width: 40vh; /*width: auto*/
+    margin-left: 75%;
+    width: 50vh; /*width: auto*/
     height: 70vh; /*height: auto*/
     background-color: white;
     border-radius: 0.7vh;
@@ -727,30 +727,34 @@ header #logo{
     width: 0px;
 }
 .container-lista{
+    display: flex;
+    flex-direction: column;
     color: white;
     height: auto;
-    width: 24vh;
+    width: 28vh;    
     background-color: blue;
     margin-top: 7px;
     border-radius: 10px;
     font-size: 30px;
 }
-.container-lista a{
+.container-lista img{
     color: white;
-    text-decoration: none;
-}
-.container-lista a:hover{
-    color: rgb(101, 101, 101);
     
 }
+
 .container-lista a i{
     color: white;
     text-decoration: none;
 }
 .container-lista-item{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left: 5px;
+    margin-right:40px ;
+   
 }
 .container-lista img{
     height: 40px;
@@ -1146,7 +1150,7 @@ header #logo{
 }
 
 .modal-content-estrela{
-    margin-left: 23vw;
+    margin-left: 10vw;
 }
 
 .modal-content-estrela i{

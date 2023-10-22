@@ -1288,9 +1288,12 @@ async function listar(){
 
       lista.favoritos.forEach((favoritos) => {
           let linha = `
-                      <div class="container-lista">  
-                        <div class="container-lista-item">${favoritos.nome_exercicio}</div>     
-                        <a href="javascript:excluirStar(${favoritos.id})"><i class="ph ph-trash"></a>
+                      <div class="container-lista"> 
+                        <div class="container-lista-item">${favoritos.nome_exercicio}
+                        <a href="javascript:excluirStar(${favoritos.id})"><img src="img/trash.png"  ></a>
+                        </div>     
+                       
+                       
                       </div>
                       `
                       ;
