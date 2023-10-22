@@ -1254,10 +1254,16 @@ async function salvarStar(){
   // document.write.json_encode($response)
 }
 
+async function excluirStar(){
+  console.log(listaSelecionado);
 
-
-
-
+  let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
+      method: "DELETE",
+      body: JSON.stringify(listaSelecionado)
+  });
+  let resposta = await requisicao.json();
+  console.log(resposta.mensagem);
+}
 
 
 
@@ -1297,16 +1303,6 @@ calcular.addEventListener("submit", function(evento){
 
 listar();
 
-// async function excluirStar(){
-//   console.log(listaSelecionado);
-
-//   let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
-//       method: "POST",
-//       body: JSON.stringify(listaSelecionado)
-//   });
-//   let resposta = await requisicao.json();
-//   console.log(resposta.mensagem);
-// }
 
 
 
