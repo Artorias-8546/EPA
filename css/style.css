@@ -87,8 +87,8 @@ header span{
     width: 100px;
 }
 .logo-footer{
-    height: 100px;
-    width: 100px;
+    height: 10vh;
+    width: 10vh;
     border-radius: 100%;
 }
 .final-footer{
