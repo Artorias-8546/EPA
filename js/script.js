@@ -1291,7 +1291,7 @@ async function listar(){
                       <div class="container-lista">
                       <div class="container-lista-item">${favoritos.id}</div>     
                         <div class="container-lista-item">${favoritos.nome_exercicio}</div>     
-                        <a href="javascript:excluirStar(${favoritos.id})">Excluir</a>
+                        <a href="javascript:excluirStar(${favoritos.id})"><i class="ph ph-trash"></a>
                        
                       </div>
                       `

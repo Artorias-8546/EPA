@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "DELETE") {
     foreach ($requestData as $id) {
         $sql = "DELETE FROM favoritos WHERE id = $id";
         if ($connection->query($sql) === true) {
-            $mensagem = 'Categoria(s) removida(s) com sucesso!';
+            $mensagem = 'Exercicio removido com sucesso!';
         }
     }
 
