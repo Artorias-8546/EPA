@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20-Out-2023 às 18:28
--- Versão do servidor: 10.4.25-MariaDB
--- versão do PHP: 8.1.10
+-- Tempo de geração: 23/10/2023 às 22:35
+-- Versão do servidor: 10.4.28-MariaDB
+-- Versão do PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,49 +20,56 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `favoritos`
 --
-CREATE DATABASE IF NOT EXISTS `favoritos` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `favoritos`;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `favoritos`
+-- Estrutura para tabela `favoritos`
 --
 
+DROP TABLE IF EXISTS `favoritos`;
 CREATE TABLE `favoritos` (
   `id` int(11) NOT NULL,
   `nome_exercicio` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Extraindo dados da tabela `favoritos`
+-- Despejando dados para a tabela `favoritos`
 --
 
 INSERT INTO `favoritos` (`id`, `nome_exercicio`) VALUES
-(1, ''),
-(2, ''),
-(3, ''),
-(4, '');
+(5, 'flexao'),
+(6, 'caminhada'),
+(7, 'agachamento'),
+(8, 'yoga'),
+(9, 'polichinelo'),
+(10, 'pulacorda'),
+(11, 'alongamento'),
+(12, 'ponte'),
+(13, 'abdominal'),
+(14, 'soconoar'),
+(15, 'montanha'),
+(40, 'mergulho');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `favoritos`
+-- Índices de tabela `favoritos`
 --
 ALTER TABLE `favoritos`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT para tabelas despejadas
 --
 
 --
 -- AUTO_INCREMENT de tabela `favoritos`
 --
 ALTER TABLE `favoritos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

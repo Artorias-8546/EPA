@@ -217,8 +217,8 @@ header #logo{
 
 /*        MAIN         */
 .imagem-main{
-    height: 55vh;
-    width:36vw; 
+    height: 52vh;
+    width:33vw; 
     padding-left: 4.5vw;
     border-width: 2px;
     border-radius: 20px;
@@ -249,8 +249,8 @@ header #logo{
 }
 
 .container-main .direita{
-    height: 60vh;
-    width: 25vw;
+    height: 55vh;
+    width: 23vw;
     border-width: 2px;
     border-radius: 20px;
     border-color: blue;
@@ -407,16 +407,21 @@ header #logo{
 .botao_excluir{
     position: absolute;
     margin-left: 173vh;
-    top: 3.8vh;
+    top: 4vh;
     height: auto;
     width: auto;
     background-color: white;
     border-radius: 100%;
     border: 0.3vh black solid;
     cursor: pointer;
+    
+}
+.botao_excluir:active{
+
+    background-color: rgb(221, 221, 221);
 }
 .botao_excluir i{
-    font-size: 5.5vh;
+    font-size: 5vh;
     color: black;
 }
 .container-calcular button{
@@ -436,7 +441,6 @@ header #logo{
 
 .container-calcular button:hover{
     background-color: rgba(12, 12, 102, 0.849)
-
 }
 
 .container-exercicios{
@@ -656,9 +660,9 @@ header #logo{
     border-width: 1px;
     border-color: gray;
     border-radius: 3px;
-    border-style: solid;
+    border-style: solid; 
     border-radius: 10px;
-    width: 5.45vh;
+    width: 5.1vh;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -936,7 +940,6 @@ header #logo{
 
 .quadrado-shadow{
     background-color: rgba(0, 0, 255, 0.308);
-
     width: 51px;
     height: 50px;
     border-radius: 15%;

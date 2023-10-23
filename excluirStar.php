@@ -8,11 +8,11 @@
         // Decodifica o JSON para um objeto PHP
         $requestData = json_decode($data);
         // Agora você pode acessar os dados usando $requestData
-        $exercicios = $requestData;
+        $nome = $requestData->nome_exercicio;
 
         foreach ($requestData as $index => $exercicio) {
             // CodFun é o nome da coluna que está sendo enviado pelo cliente
-            $sql = "DELETE FROM favoritos WHERE (0, '$exercicio->nome_exercicio');";
+            $sql = "DELETE FROM favoritos WHERE nome_exercicio='$nome'";
             $connection->query($sql);
         }
         $response = ['mensagem' => 'Exercício deletado com sucesso'];

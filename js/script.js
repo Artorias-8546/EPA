@@ -1242,6 +1242,7 @@ star.addEventListener('change', function() {
   
 });
 
+// Salvar
 async function salvarStar(){
   console.log(listaSelecionado);
 
@@ -1254,22 +1255,30 @@ async function salvarStar(){
   // document.write.json_encode($response)
 }
 
-async function excluirStar(){
-  console.log(listaSelecionado);
 
-  let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
-      method: "DELETE",
-      body: JSON.stringify(listaSelecionado)
-  });
-  let resposta = await requisicao.json();
-  console.log(resposta.mensagem);
-}
+// Excluir
+
+// const excluir = document.getElementById("botao_excluir");
+// excluir.addEventListener('click', function(){
+//   excluirStar()
+// });
+
+// async function excluirStar(){
+
+//   let requisicao = await fetch("http://localhost/EPA/excluirStar.php", {
+//       method: "DELETE",
+//       body: JSON.stringify(listaSelecionado)
+//   });
+//   let resposta = await requisicao.json();
+//   console.log(resposta);
+// }
 
 
 
 const calcular= document.getElementById('calcular');
 const listaa= document.getElementById('lista');
 
+// Listar
 async function listar(){
   listaa.innerHTML = "";
   let requisicao = await fetch("http://localhost/EPA/listar_exercicios.php", {
@@ -1291,6 +1300,8 @@ async function listar(){
 }
 
 
+
+
 calcular.addEventListener("submit", function(evento){
     evento.preventDefault();
     let valores = new FormData(calcular);
@@ -1302,9 +1313,7 @@ calcular.addEventListener("submit", function(evento){
 
 listar();
 
-// botão excluir
-// const botao_excluir = document.querySelector(".botao_excluir");
-// botao_excluir.onclick = function(){excluirStar()}
+
 
 
 // modal
