@@ -7,11 +7,8 @@
 
             <div id="lista">
 
-                        <div class="container-lista">
-                        <div class="container-lista-item">${favoritos.nome_exercicio}</div>     
-                        <a href="#">Excluir</a>
-                        <!--  !!imagem dando errado!! <img scr="img/${favoritos.nome_exercicio}.png">  -->
-                      </div>
+
+                   
                       
             </div>  
         </div>

@@ -730,12 +730,20 @@ header #logo{
     color: white;
     height: auto;
     width: 24vh;
-    background-color: rgb(128, 255, 0);
+    background-color: blue;
     margin-top: 7px;
     border-radius: 10px;
     font-size: 30px;
 }
 .container-lista a{
+    color: white;
+    text-decoration: none;
+}
+.container-lista a:hover{
+    color: rgb(101, 101, 101);
+    
+}
+.container-lista a i{
     color: white;
     text-decoration: none;
 }
