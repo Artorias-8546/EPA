@@ -12,12 +12,11 @@
 
         foreach ($requestData as $index => $exercicio) {
             // CodFun é o nome da coluna que está sendo enviado pelo cliente
-            $sql = "DELETE FROM favoritos WHERE '$exercicio->nome_exercicio'";
+            $sql = "DELETE FROM favoritos WHERE (0, '$exercicio->nome_exercicio');";
             $connection->query($sql);
-          
         }
         $response = ['mensagem' => 'Exercício deletado com sucesso'];
         
-        echo json_encode($response);
+        echo json_encode($response = ['excluir' => $excluir]);
     }
 ?>

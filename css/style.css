@@ -24,14 +24,14 @@ header span{
     bottom:0;
     left:0;
     margin-top: 12vh;
-    height: 375px;
+    height: 37.5vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-secundaria);
 }
 .bloco-primario{
-    height: 20vh;
+    height: 21vh;
     background-color: var(--cor-primaria01);
     width: 100%;
     display: flex;
@@ -40,12 +40,12 @@ header span{
     justify-content: center;
 }
 .text-footer-a{
-    font-size: 3.5vh;
+    font-size: 3.9vh;
     color: #ffff;
     font-family: 'Josefin Sans', sans-serif;
 }
 .text-footer-b{
-    font-size: 1.7vh;
+    font-size: 2vh;
     color: rgb(211, 211, 211);
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -57,9 +57,9 @@ header span{
     flex-direction: row;
     justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
-    padding-left: 350px;
-    padding-right: 350px;
-    padding-top: 20px;
+    padding-left: 35vh;
+    padding-right: 35vh;
+    padding-top: 2vh;
 }
 .bloco-central i:hover{
     color: rgb(185, 0, 0);
@@ -67,8 +67,8 @@ header span{
 
 .text-footer-c{
     font-size: 1.8vh;
-    height: 100px;
-    width: 300px;
+    height: 10vh;
+    width: 30vh;
     text-align: center;
 }
 .text-footer-c div{
@@ -79,12 +79,13 @@ header span{
     width: 5vh;
 }
 .text-footer-d{
-    height: 100px;
-    width: 80px;
+    height: 10vh;
+    font-size: 1.7vh;
+    width: 8vh;
 }
 .text-footer-d-a{
     font-size: 3vh;
-    width: 100px;
+    width: 10vh;
 }
 .logo-footer{
     height: 10vh;
@@ -411,7 +412,7 @@ header #logo{
     padding-right: 2rem;
     border-width: 0;
     border-style: none;
-    background-color: blue;
+    background-color: rgb(71, 42, 201);
     border-radius: 15px;
     color: white;
     transition: all 0.1s ease;
@@ -420,7 +421,7 @@ header #logo{
 }
 
 .container-calcular button:hover{
-    background-color: rgba(28, 28, 184, 0.938);
+    background-color: rgba(12, 12, 102, 0.849)
 
 }
 
