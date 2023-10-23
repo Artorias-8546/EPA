@@ -1303,8 +1303,8 @@ calcular.addEventListener("submit", function(evento){
 listar();
 
 // botão excluir
-const botao_excluir = document.querySelector(".botao_excluir");
-botao_excluir.onclick = function(){excluirStar()}
+// const botao_excluir = document.querySelector(".botao_excluir");
+// botao_excluir.onclick = function(){excluirStar()}
 
 
 // modal

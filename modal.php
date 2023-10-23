@@ -5,32 +5,7 @@
         <div class="modal-content-estrela" id="">
             <span class="close-estrela"><i class="ph ph-x-circle close-e"></i></span>
 
-            <div id="lista">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            </div>  
+            <div id="lista"></div>  
         </div>
     </div>
 </div>
