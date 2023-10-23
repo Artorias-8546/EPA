@@ -17,6 +17,6 @@
         }
         $response = ['mensagem' => 'Exercício deletado com sucesso'];
         
-        echo json_encode($response = ['excluir' => $excluir]);
+        echo json_encode($response);
     }
 ?>

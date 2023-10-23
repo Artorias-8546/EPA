@@ -404,7 +404,21 @@ header #logo{
 
 
 
-
+.botao_excluir{
+    position: absolute;
+    margin-left: 173vh;
+    top: 3.8vh;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 100%;
+    border: 0.3vh black solid;
+    cursor: pointer;
+}
+.botao_excluir i{
+    font-size: 5.5vh;
+    color: black;
+}
 .container-calcular button{
     margin: 0.5rem  ;
     padding: 0.5rem 0.5rem 0.2rem 0.5rem;
