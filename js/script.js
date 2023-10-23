@@ -1284,11 +1284,9 @@ async function listar(){
                         <div class="container-lista">${favoritos.nome_exercicio}</div>     
                         <!--  imagem dando errado <img scr="img/${favoritos.nome_exercicio}.png">  -->
                       </div>
-                       `
-                      ;
-                     
+                      `
+                      ;    
           listaa.innerHTML += linha;     
-           
       });
 }
 
