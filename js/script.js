@@ -1018,7 +1018,7 @@ function removerItem(nome){
 btncalc.addEventListener('click', function(){
   //
   if(b>=5 || ab>=5){
-    const exercicio = {nome_exercicio: 'flexao'};
+    const exercicio = {nome_exercicio: 'Flexao'};
     listaSelecionado.push(exercicio);
     flexao.classList.add('most');
 
@@ -1029,7 +1029,7 @@ btncalc.addEventListener('click', function(){
 
   //
   if(pp >= 5 & cr >=5 & p>=5){
-    const exercicio = {nome_exercicio: 'caminhada'};
+    const exercicio = {nome_exercicio: 'Caminhada'};
     listaSelecionado.push(exercicio);
     caminhada.classList.add('most');
 
@@ -1041,7 +1041,7 @@ btncalc.addEventListener('click', function(){
   //
   if(p>=5){
     agachamento.classList.add('most');
-    const exercicio = {nome_exercicio: 'agachamento'};
+    const exercicio = {nome_exercicio: 'Agachamento'};
     listaSelecionado.push(exercicio);
 
   }else{
@@ -1052,7 +1052,7 @@ btncalc.addEventListener('click', function(){
   //
   if(y>=15 || ec >=15){
     yoga.classList.add('most');
-    const exercicio = {nome_exercicio: 'yoga'};
+    const exercicio = {nome_exercicio: 'Yoga'};
     listaSelecionado.push(exercicio);
 
   }else{
@@ -1063,7 +1063,7 @@ btncalc.addEventListener('click', function(){
   //
   if(pp >=10){
     polichinelo.classList.add('most');
-    const exercicio = {nome_exercicio: 'polichinelo'};
+    const exercicio = {nome_exercicio: 'Polichinelo'};
     listaSelecionado.push(exercicio);
   }else{
    
@@ -1074,7 +1074,7 @@ btncalc.addEventListener('click', function(){
   //
   if(pp>=20){
     pulacorda.classList.add('most');
-    const exercicio = {nome_exercicio: 'pulacorda'};
+    const exercicio = {nome_exercicio: 'Pulacorda'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1084,7 +1084,7 @@ btncalc.addEventListener('click', function(){
   //
   if(ec >= 5 && y >=10){
     alongamento.classList.add('most');
-    const exercicio = {nome_exercicio: 'alongamento'};
+    const exercicio = {nome_exercicio: 'Alongamento'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1094,7 +1094,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ab>=5 && cs>= 5 ) {
     ponte.classList.add('most');
-    const exercicio = {nome_exercicio: 'ponte'};
+    const exercicio = {nome_exercicio: 'Ponte'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1104,7 +1104,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ab>=5) {
     abdominal.classList.add('most');
-    const exercicio = {nome_exercicio: 'abdominal'};
+    const exercicio = {nome_exercicio: 'Abdominal'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1114,7 +1114,7 @@ btncalc.addEventListener('click', function(){
   //
   if (pp>=5) {
     soconoar.classList.add('most');
-    const exercicio = {nome_exercicio: 'soconoar'};
+    const exercicio = {nome_exercicio: 'Soconoar'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1124,7 +1124,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ab>=6.68 || ab>=6.68 && p>=5 ) {
     montanha.classList.add('most');
-    const exercicio = {nome_exercicio: 'montanha'};
+    const exercicio = {nome_exercicio: 'Montanha'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1134,7 +1134,7 @@ btncalc.addEventListener('click', function(){
   //
   if (p>=10) {
     lunge.classList.add('most');
-    const exercicio = {nome_exercicio: 'lunge'};
+    const exercicio = {nome_exercicio: 'Lunge'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1144,7 +1144,7 @@ btncalc.addEventListener('click', function(){
   //
   if (b>=20 || tx>=12 || b>=15 && tx>= 10) {
     pullup.classList.add('most');
-    const exercicio = {nome_exercicio: 'pullup'};
+    const exercicio = {nome_exercicio: 'Pullup'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1154,7 +1154,7 @@ btncalc.addEventListener('click', function(){
   //
   if (b>=10 || b>= 5 & cs >=5 ) {
     mergulho.classList.add('most');
-    const exercicio = {nome_exercicio: 'mergulho'};
+    const exercicio = {nome_exercicio: 'Mergulho'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1164,7 +1164,7 @@ btncalc.addEventListener('click', function(){
   //
   if (y>=5 || ec>=5) {
     balanceTable.classList.add('most');
-    const exercicio = {nome_exercicio: 'balanceTable'};
+    const exercicio = {nome_exercicio: 'BalanceTable'};
     listaSelecionado.push(exercicio);
   }else{
     balanceTable.classList.remove('most');
@@ -1173,7 +1173,7 @@ btncalc.addEventListener('click', function(){
   //
   if (y>=5 || ec>=5) {
     balasana.classList.add('most');
-    const exercicio = {nome_exercicio: 'balasana'};
+    const exercicio = {nome_exercicio: 'Balasana'};
     listaSelecionado.push(exercicio);
   }else{
 
@@ -1183,7 +1183,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ab>=3.34 && ec>=3.34) {
     roll_up.classList.add('most');
-    const exercicio = {nome_exercicio: 'roll_up'};
+    const exercicio = {nome_exercicio: 'Roll_up'};
     listaSelecionado.push(exercicio);
   }else{
  
@@ -1193,7 +1193,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ec>=13.34) {
     pilates.classList.add('most');
-    const exercicio = {nome_exercicio: 'pilates'};
+    const exercicio = {nome_exercicio: 'Pilates'};
     listaSelecionado.push(exercicio);
   }else{
     
@@ -1203,7 +1203,7 @@ btncalc.addEventListener('click', function(){
   //
   if (ec>=5 && cs>=10) {
     sideKick.classList.add('most');
-    const exercicio = {nome_exercicio: 'sideKick'};
+    const exercicio = {nome_exercicio: 'SideKick'};
     listaSelecionado.push(exercicio);
   }else{
   

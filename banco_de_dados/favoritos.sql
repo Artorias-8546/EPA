@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 23/10/2023 às 22:35
+-- Tempo de geração: 24/10/2023 às 18:45
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `favoritos`
 --
+CREATE DATABASE IF NOT EXISTS `favoritos` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `favoritos`;
 
 -- --------------------------------------------------------
 
@@ -27,10 +29,9 @@ SET time_zone = "+00:00";
 -- Estrutura para tabela `favoritos`
 --
 
-DROP TABLE IF EXISTS `favoritos`;
 CREATE TABLE `favoritos` (
   `id` int(11) NOT NULL,
-  `nome_exercicio` varchar(100) NOT NULL
+  `nome_exercicio` varchar(99) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -38,18 +39,10 @@ CREATE TABLE `favoritos` (
 --
 
 INSERT INTO `favoritos` (`id`, `nome_exercicio`) VALUES
-(5, 'flexao'),
-(6, 'caminhada'),
-(7, 'agachamento'),
-(8, 'yoga'),
-(9, 'polichinelo'),
-(10, 'pulacorda'),
-(11, 'alongamento'),
-(12, 'ponte'),
-(13, 'abdominal'),
-(14, 'soconoar'),
-(15, 'montanha'),
-(40, 'mergulho');
+(4, 'lunge'),
+(6, 'balanceTable'),
+(7, 'balasana'),
+(8, 'sideKick');
 
 --
 -- Índices para tabelas despejadas
@@ -69,7 +62,7 @@ ALTER TABLE `favoritos`
 -- AUTO_INCREMENT de tabela `favoritos`
 --
 ALTER TABLE `favoritos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
